@@ -1,0 +1,1331 @@
+{
+  "visible": true,
+  "description": null,
+  "accountName": "",
+  "accountType": "",
+  "applicationType": "timeSeries",
+  "componentType": "",
+  "confidenceLevel": 0,
+  "controlsRelianceStrategy": "relying",
+  "forcedVariables": [],
+  "id": "36e99099-7e53-4061-9903-b199b9430c03",
+  "inherentRisk": "significant",
+  "numberOfObservations": 12,
+  "observationsFrom": 1,
+  "observationsTo": 36,
+  "performanceMateriality": 1250,
+  "periodsPerYear": 12,
+  "predictingVariables": [
+    {
+      "analysisParametersId": "36e99099-7e53-4061-9903-b199b9430c03",
+      "value": "COS"
+    }
+  ],
+  "recordedBalance": 0,
+  "runDateTime": "2017-03-08T10:31:45.0299557-06:00",
+  "seasonalAdjustment": false,
+  "testVariable": "Sales",
+  "trend": false,
+  "typeOfProjection": "audit",
+  "calculation": {
+    "status": "ReportContainsOutput",
+    "reportContents": "U1RBUjogU3RhdGlzdGljYWwgVGVjaG5pcXVlcyBmb3IgQW5hbHl0aWNhbCBSZXZpZXcgKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBWZXJzaW9uIDQuMC4yDQoNClNwZWNpZmljYXRpb25zIGZvciBNb2RlbA0KDQpWYXJpYWJsZXMgU3BlY2lmaWVkOiAgIA0KWSAgICBTYWxlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVEVTVA0KWDEgICBDT1MgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KDQpPYnNlcnZhdGlvbnMgVXNlZDoNCkJhc2UsIDEgLSAyNCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjQNClByb2plY3Rpb24sIDI1IC0gMzYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0NClRvdGFsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzYNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT09PT0NCg0KRGF0YSBQcm9maWxlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUSU1FIFNFUklFUw0KUGVyaW9kcyBwZXIgWWVhciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMg0KDQpUeXBlIG9mIFRlc3QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFVRElUDQpQZXJmb3JtYW5jZSBNYXRlcmlhbGl0eSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMSwyNTAuMDAwDQpUZXN0aW5nIFN0cmF0ZWd5OiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTaWduaWZpY2FudCBSaXNrLCBSZWx5aW5nIG9uIENvbnRyb2xzDQpBcHBsaWNhYmxlIFJpc2sgTGV2ZWw6ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNpZ25pZmljYW50DQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpTdGVwd2lzZSBNdWx0aXBsZSBSZWdyZXNzaW9uIE1vZGVsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIElucHV0IERhdGEgICAgICAgICAgICAgICBSZWdyZXNzaW9uIEZ1bmN0aW9uDQogICAgICAgICAgICAgICAgICAgICAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RhbmRhcmQgICAgIENvbnN0YW50IG9yICAgICBTdGFuZGFyZA0KICAgICAgRGVzY3JpcHRpb24gICAgICAgICAgTWVhbiAgICAgICAgIERldmlhdGlvbiAgICAgQ29lZmZpY2llbnQgICAgICAgRXJyb3INCi0tLS0tLS0tLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLQ0KQ29uc3RhbnQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzMyLjU1ODMzDQoNClByZWRpY3RpbmcgVmFyaWFibGVzDQpYMSAgIENPUyAgICAgICAgICAgICAgICAgMSwxNDEuNjI1MDAgICAgMSwxODUuODQzNjMgICAgICAgICA3LjcyNDQgICAgICAgICAwLjM4NDYNCg0KVGVzdCBWYXJpYWJsZQ0KWSAgICBTYWxlcyAgICAgICAgICAgICAgIDksMTUwLjkxNjY3ICAgIDksNDA2LjQwNDUyDQpZJyAgIEV4cGVjdGF0aW9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOSwxNTAuOTE2NjcgICAgIDIsMTg3LjMwODcNCg0KQ29lZmZpY2llbnQgb2YgQ29ycmVsYXRpb24gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5Ny40JQ0KDQoNCkV4cGVjdGF0aW9uIFtZJyh0KV0gZm9yIG9ic2VydmF0aW9uIHQgOg0KWScodCkgPSAzMzIuNTU4MzMgKyA3LjcyNDQqWDEodCkNCg0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNClBsb3Qgb2YgUmVzaWR1YWxzDQoNCk9icyAgICBSZWNvcmRlZCAgICAgIFJlZ3Jlc3Npb24gICAgICBSZXNpZHVhbCAgICAgUmVzaWR1YWxzIFBsb3R0ZWQgaW4gVW5pdHMNCiBObyAgICAgQW1vdW50ICAgICAgICBFc3RpbWF0ZSAgICAgKERpZmZlcmVuY2UpICAgICBvZiBPbmUgU3RhbmRhcmQgRXJyb3INCi0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAtNCAtMyAtMiAtMSAgMCAgMSAgMiAgMyAgNA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC18LS0rLS0rLS0rLS18LS0rLS0rLS0rLS18LQ0KICAxICAgICAxNyw3ODkuMDAwICAgICAxNCw3MTUuMzc1ICAgICAgMywwNzMuNjI1IC18ICAgICAgICAgICB8ICAgKiAgICAgICB8LQ0KICAyICAgICAxOSw0MTcuMDAwICAgICAyMywxNzMuNTg0ICAgICAtMyw3NTYuNTg0IC18ICAgICAgKiAgICB8ICAgICAgICAgICB8LQ0KICAzICAgICAyMiw4MDIuMDAwICAgICAyMCw3OTQuNDcxICAgICAgMiwwMDcuNTI5IC18ICAgICAgICAgICB8ICAqICAgICAgICB8LQ0KICA0ICAgICAxNyw4MjUuMDAwICAgICAxNSw3NTAuNDQ0ICAgICAgMiwwNzQuNTU2IC18ICAgICAgICAgICB8ICAqICAgICAgICB8LQ0KICA1ICAgICAxNyw4MTYuMDAwICAgICAxOSw0MjcuMjU0ICAgICAtMSw2MTEuMjU0IC18ICAgICAgICAgKiB8ICAgICAgICAgICB8LQ0KICA2ICAgICAxNSw5NDguMDAwICAgICAxNyw5NDQuMTcxICAgICAtMSw5OTYuMTcxIC18ICAgICAgICAqICB8ICAgICAgICAgICB8LQ0KICA3ICAgICAxOCwyOTcuMDAwICAgICAxNCw5MDguNDg1ICAgICAgMywzODguNTE1IC18ICAgICAgICAgICB8ICAgICogICAgICB8LQ0KICA4ICAgICAxNCw1ODYuMDAwICAgICAyMCw2MDkuMDg2ICAgICAtNiwwMjMuMDg2IC18ICAgKiAgICAgICB8ICAgICAgICAgICB8LQ0KICA5ICAgICAxOCw2MTcuMDAwICAgICAxOCw0NTMuOTgxICAgICAgICAxNjMuMDE5IC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDEwICAgICAyMSwwMDEuMDAwICAgICAxNyw0MTEuMTg4ICAgICAgMyw1ODkuODEyIC18ICAgICAgICAgICB8ICAgICogICAgICB8LQ0KIDExICAgICAxOCw2MTkuMDAwICAgICAxNyw3NTEuMDYxICAgICAgICA4NjcuOTM5IC18ICAgICAgICAgICB8KiAgICAgICAgICB8LQ0KIDEyICAgICAxNiwxMjUuMDAwICAgICAxNCwwODkuNjk5ICAgICAgMiwwMzUuMzAxIC18ICAgICAgICAgICB8ICAqICAgICAgICB8LQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC18LS0rLS0rLS0rLS18LS0rLS0rLS0rLS18LQ0KIDEzICAgICAgICAgMTAuMDAwICAgICAgICAzNDAuMjgzICAgICAgIC0zMzAuMjgzIC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDE0ICAgICAgICAgMjAuMDAwICAgICAgICAzNDguMDA3ICAgICAgIC0zMjguMDA3IC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDE1ICAgICAgICAgMzAuMDAwICAgICAgICAzNTUuNzMyICAgICAgIC0zMjUuNzMyIC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDE2ICAgICAgICAgNDAuMDAwICAgICAgICAzNjMuNDU2ICAgICAgIC0zMjMuNDU2IC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDE3ICAgICAgICAgNTAuMDAwICAgICAgICAzNzEuMTgwICAgICAgIC0zMjEuMTgwIC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDE4ICAgICAgICAgNjAuMDAwICAgICAgICAzNzguOTA1ICAgICAgIC0zMTguOTA1IC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDE5ICAgICAgICAgNzAuMDAwICAgICAgICAzODYuNjI5ICAgICAgIC0zMTYuNjI5IC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDIwICAgICAgICAgODAuMDAwICAgICAgICAzOTQuMzUzICAgICAgIC0zMTQuMzUzIC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDIxICAgICAgICAgOTAuMDAwICAgICAgICA0MDIuMDc4ICAgICAgIC0zMTIuMDc4IC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDIyICAgICAgICAxMDAuMDAwICAgICAgICA0MDkuODAyICAgICAgIC0zMDkuODAyIC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDIzICAgICAgICAxMTAuMDAwICAgICAgICA0MTcuNTI3ICAgICAgIC0zMDcuNTI3IC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDI0ICAgICAgICAxMjAuMDAwICAgICAgICA0MjUuMjUxICAgICAgIC0zMDUuMjUxIC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC18LS0rLS0rLS0rLS18LS0rLS0rLS0rLS18LQ0KIDI1ICAgICAxOSwyMTQuODc3ICAgICAxNiwzNDcuODE3ICAgICAgMiw4NjcuMDYwIC18ICAgICAgICAgICB8ICAgKiAgICAgICB8LQ0KIDI2ICAgICAxOCwwMTAuOTE0ICAgICAxNCw4NzQuMzgyICAgICAgMywxMzYuNTMyIC18ICAgICAgICAgICB8ICAgKiAgICAgICB8LQ0KIDI3ICAgICAyMSw3NzcuNzI1ICAgICAxOCwzNTUuNzk2ICAgICAgMyw0MjEuOTI5IC18ICAgICAgICAgICB8ICAgICogICAgICB8LQ0KIDI4ICAgICAxOCw1MTIuOTY4ICAgICAxNiw5MDQuMjEzICAgICAgMSw2MDguNzU1IC18ICAgICAgICAgICB8ICogICAgICAgICB8LQ0KIDI5ICAgICAxNyw1MjQuMjMwICAgICAxNSw5NDQuNzgyICAgICAgMSw1NzkuNDQ4IC18ICAgICAgICAgICB8ICogICAgICAgICB8LQ0KIDMwICAgICAyMSw0MjkuMjcwICAgICAyMSwzODYuMTM2ICAgICAgICAgNDMuMTM0IC18ICAgICAgICAgICAqICAgICAgICAgICB8LQ0KIDMxICAgICAxOCw5NjYuMjY4ICAgICAxOCwwODMuNzM1ICAgICAgICA4ODIuNTMzIC18ICAgICAgICAgICB8KiAgICAgICAgICB8LQ0KIDMyICAgICAxNSw4MTkuOTc3ICAgICAxNywxNjYuNTk1ICAgICAtMSwzNDYuNjE4IC18ICAgICAgICAgKiB8ICAgICAgICAgICB8LQ0KIDMzICAgICAyMyw4ODAuMzU2ICAgICAxOCw4NDUuMTUxICAgICAgNSwwMzUuMjA1IC18ICAgICAgICAgICB8ICAgICAgKiAgICB8LQ0KIDM0ICAgICAyMiwwODAuODg1ICAgICAxOCwyNTEuNjU2ICAgICAgMyw4MjkuMjI5IC18ICAgICAgICAgICB8ICAgICogICAgICB8LQ0KIDM1ICAgICAyMiwxMDYuODIxICAgICAxNSw4ODMuMjQ5ICAgICAgNiwyMjMuNTcyIC18ICAgICAgICAgICB8ICAgICAgICAqICB8LQ0KIDM2ICAgICAxOCw1MzcuNzQ2ICAgICAxNiwzODQuODU2ICAgICAgMiwxNTIuODkwIC18ICAgICAgICAgICB8ICAqICAgICAgICB8LQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC18LS0rLS0rLS0rLS18LS0rLS0rLS0rLS18LQ0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KDQpUSEVSRSBJUyBBTiBJTkRJQ0FUSU9OIE9GIEhFVEVST1NDRURBU1RJQ0lUWSBJTiBUSEUgQkFTRSBQUk9GSUxFLiAgV2VpZ2h0ZWQNCmxlYXN0IHNxdWFyZXMgcmVncmVzc2lvbiB3aWxsIGJlIHVzZWQgdG8gY29ycmVjdCBmb3IgdGhlIGNvbmRpdGlvbi4NCkhldGVyb3NjZWRhc3RpY2l0eSBpcyBldmlkZW5jZWQgYnkgc2lnbmlmaWNhbnQgY29ycmVsYXRpb24gYmV0d2VlbiB0aGUgc2l6ZQ0Kb2YgdGhlIHJlc2lkdWFscyBhbmQgb25lIG9mIHRoZSBwcmVkaWN0aW5nIHZhcmlhYmxlcywgaW4gdGhpcyBjYXNlIFgxLg0KVGhlIG1vZGVsIG1heSBiZSBpbXByb3ZlZCBieSBpZGVudGlmeWluZyB0aGUgY2F1c2Ugb2YgdGhlIGhldGVyb3NjZWRhc3RpY2l0eQ0KYW5kIGludHJvZHVjaW5nIGFwcHJvcHJpYXRlIHByZWRpY3RpbmcgdmFyaWFibGVzLiAgVGhpcyBtYXkgYWxzbyByZWR1Y2UgdGhlDQpkaWZmZXJlbmNlcyB0byBiZSBhdWRpdGVkLg0KDQoNCldlaWdodGVkIEV4cGVjdGF0aW9uIFtZJyh0KV0gZm9yIG9ic2VydmF0aW9uIHQgOg0KWScodCkgPSAyLjQ1OTUyICsgOC43NTg4KlgxKHQpDQoNClN0YW5kYXJkIEVycm9yICh0KSAgICAgICAgICAgICAgICA9IDEuMjE5Nyp8WDEodCl8DQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpQbG90IG9mIFJlc2lkdWFscy0tQ29ycmVjdGVkIGZvciBIZXRlcm9zY2VkYXN0aWNpdHkNCg0KT2JzICAgIFJlY29yZGVkICAgICAgUmVncmVzc2lvbiAgICAgIFJlc2lkdWFsICAgICBSZXNpZHVhbHMgUGxvdHRlZCBpbiBVbml0cw0KIE5vICAgICBBbW91bnQgICAgICAgIEVzdGltYXRlICAgICAoRGlmZmVyZW5jZSkgICAgIG9mIE9uZSBTdGFuZGFyZCBFcnJvcg0KLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC00IC0zIC0yIC0xICAwICAxICAyICAzICA0DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogIDEgICAgIDE3LDc4OS4wMDAgICAgIDE2LDMxMS40MTUgICAgICAxLDQ3Ny41ODUgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogIDIgICAgIDE5LDQxNy4wMDAgICAgIDI1LDkwMi4zNDIgICAgIC02LDQ4NS4zNDIgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogIDMgICAgIDIyLDgwMi4wMDAgICAgIDIzLDIwNC42MjAgICAgICAgLTQwMi42MjAgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDQgICAgIDE3LDgyNS4wMDAgICAgIDE3LDQ4NS4wOTkgICAgICAgIDMzOS45MDEgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDUgICAgIDE3LDgxNi4wMDAgICAgIDIxLDY1NC4zMDYgICAgIC0zLDgzOC4zMDYgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogIDYgICAgIDE1LDk0OC4wMDAgICAgIDE5LDk3Mi42MDkgICAgIC00LDAyNC42MDkgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogIDcgICAgIDE4LDI5Ny4wMDAgICAgIDE2LDUzMC4zODYgICAgICAxLDc2Ni42MTQgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogIDggICAgIDE0LDU4Ni4wMDAgICAgIDIyLDk5NC40MDggICAgIC04LDQwOC40MDggLXwgICAqICAgICAgIHwgICAgICAgICAgIHwtDQogIDkgICAgIDE4LDYxNy4wMDAgICAgIDIwLDU1MC42OTIgICAgIC0xLDkzMy42OTIgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMTAgICAgIDIxLDAwMS4wMDAgICAgIDE5LDM2OC4yNDkgICAgICAxLDYzMi43NTEgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTEgICAgIDE4LDYxOS4wMDAgICAgIDE5LDc1My42MzggICAgIC0xLDEzNC42MzggLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogMTIgICAgIDE2LDEyNS4wMDAgICAgIDE1LDYwMS45NDkgICAgICAgIDUyMy4wNTEgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMTMgICAgICAgICAxMC4wMDAgICAgICAgICAxMS4yMTggICAgICAgICAtMS4yMTggLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMTQgICAgICAgICAyMC4wMDAgICAgICAgICAxOS45NzcgICAgICAgICAgMC4wMjMgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMTUgICAgICAgICAzMC4wMDAgICAgICAgICAyOC43MzYgICAgICAgICAgMS4yNjQgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMTYgICAgICAgICA0MC4wMDAgICAgICAgICAzNy40OTUgICAgICAgICAgMi41MDUgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTcgICAgICAgICA1MC4wMDAgICAgICAgICA0Ni4yNTQgICAgICAgICAgMy43NDYgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTggICAgICAgICA2MC4wMDAgICAgICAgICA1NS4wMTMgICAgICAgICAgNC45ODcgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTkgICAgICAgICA3MC4wMDAgICAgICAgICA2My43NzEgICAgICAgICAgNi4yMjkgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMjAgICAgICAgICA4MC4wMDAgICAgICAgICA3Mi41MzAgICAgICAgICAgNy40NzAgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMjEgICAgICAgICA5MC4wMDAgICAgICAgICA4MS4yODkgICAgICAgICAgOC43MTEgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMjIgICAgICAgIDEwMC4wMDAgICAgICAgICA5MC4wNDggICAgICAgICAgOS45NTIgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMjMgICAgICAgIDExMC4wMDAgICAgICAgICA5OC44MDcgICAgICAgICAxMS4xOTMgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogMjQgICAgICAgIDEyMC4wMDAgICAgICAgIDEwNy41NjYgICAgICAgICAxMi40MzQgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMjUgICAgIDE5LDIxNC44NzcgICAgIDE4LDE2Mi40NzMgICAgICAxLDA1Mi40MDQgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMjYgICAgIDE4LDAxMC45MTQgICAgIDE2LDQ5MS43MTYgICAgICAxLDUxOS4xOTggLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMjcgICAgIDIxLDc3Ny43MjUgICAgIDIwLDQzOS4zNTkgICAgICAxLDMzOC4zNjYgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMjggICAgIDE4LDUxMi45NjggICAgIDE4LDc5My4zODAgICAgICAgLTI4MC40MTIgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMjkgICAgIDE3LDUyNC4yMzAgICAgIDE3LDcwNS40NjMgICAgICAgLTE4MS4yMzMgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMzAgICAgIDIxLDQyOS4yNzAgICAgIDIzLDg3NS41MjEgICAgIC0yLDQ0Ni4yNTEgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMzEgICAgIDE4LDk2Ni4yNjggICAgIDIwLDEzMC44NjQgICAgIC0xLDE2NC41OTYgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogMzIgICAgIDE1LDgxOS45NzcgICAgIDE5LDA5MC45MDEgICAgIC0zLDI3MC45MjQgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogMzMgICAgIDIzLDg4MC4zNTYgICAgIDIwLDk5NC4yNDkgICAgICAyLDg4Ni4xMDcgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogMzQgICAgIDIyLDA4MC44ODUgICAgIDIwLDMyMS4yNzIgICAgICAxLDc1OS42MTMgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMzUgICAgIDIyLDEwNi44MjEgICAgIDE3LDYzNS42OTAgICAgICA0LDQ3MS4xMzEgLXwgICAgICAgICAgIHwgICAgKiAgICAgIHwtDQogMzYgICAgIDE4LDUzNy43NDYgICAgIDE4LDIwNC40NzEgICAgICAgIDMzMy4yNzUgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpBVURJVCB0ZXN0IHdpdGg6IFBlcmZvcm1hbmNlIE1hdGVyaWFsaXR5ID0gIDEsMjUwLjAwMA0KICAgICAgICAgICAgICAgICBUZXN0aW5nIFN0cmF0ZWd5OiBTaWduaWZpY2FudCBSaXNrLCBSZWx5aW5nIG9uIENvbnRyb2xzDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCk9icyAgICBSZWNvcmRlZCAgICAgIFJlZ3Jlc3Npb24gICAgICBSZXNpZHVhbCAgICAtLS0tLS0tLS0gVGhyZXNob2xkIC0tLS0tLS0tLSAtLS0tLS0tLS0tLSBFeGNlc3MgLS0tLS0tLS0tLQ0KIE5vICAgICBBbW91bnQgICAgICAgIEVzdGltYXRlICAgICAoRGlmZmVyZW5jZSkgIFVuZGVyc3RhdGVtZW50ICBPdmVyc3RhdGVtZW50IFVuZGVyc3RhdGVtZW50ICBPdmVyc3RhdGVtZW50DQotLS0gLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0NCiAyNSAgICAgMTksMjE0Ljg3NyAgICAgMTgsMTYyLjQ3MyAgICAgIDEsMDUyLjQwNCAgICAgICAtMzYzLjAxNyAgICAgICAgMzYzLjAxNyAgICAgICAgICAgICAgICAgICAgICAgNjg5LjM4OA0KIDI2ICAgICAxOCwwMTAuOTE0ICAgICAxNiw0OTEuNzE2ICAgICAgMSw1MTkuMTk4ICAgICAgIC00NDQuNjI1ICAgICAgICA0NDQuNjI1ICAgICAgICAgICAgICAgICAgICAgMSwwNzQuNTczDQogMjcgICAgIDIxLDc3Ny43MjUgICAgIDIwLDQzOS4zNTkgICAgICAxLDMzOC4zNjYgICAgICAgLTI1MS44MDIgICAgICAgIDI1MS44MDIgICAgICAgICAgICAgICAgICAgICAxLDA4Ni41NjQNCiAyOCAgICAgMTgsNTEyLjk2OCAgICAgMTgsNzkzLjM4MCAgICAgICAtMjgwLjQxMiAgICAgICAtMzMyLjIwMCAgICAgICAgMzMyLjIwMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIDI5ICAgICAxNyw1MjQuMjMwICAgICAxNyw3MDUuNDYzICAgICAgIC0xODEuMjMzICAgICAgIC0zODUuMzQwICAgICAgICAzODUuMzQwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogMzAgICAgIDIxLDQyOS4yNzAgICAgIDIzLDg3NS41MjEgICAgIC0yLDQ0Ni4yNTEgICAgICAgIC04My45NjIgICAgICAgICA4My45NjIgICAgIC0yLDM2Mi4yODggICAgICAgICAgICAgICANCiAzMSAgICAgMTgsOTY2LjI2OCAgICAgMjAsMTMwLjg2NCAgICAgLTEsMTY0LjU5NiAgICAgICAtMjY2Ljg3MSAgICAgICAgMjY2Ljg3MSAgICAgICAtODk3LjcyNSAgICAgICAgICAgICAgIA0KIDMyICAgICAxNSw4MTkuOTc3ICAgICAxOSwwOTAuOTAxICAgICAtMywyNzAuOTI0ICAgICAgIC0zMTcuNjY4ICAgICAgICAzMTcuNjY4ICAgICAtMiw5NTMuMjU2ICAgICAgICAgICAgICAgDQogMzMgICAgIDIzLDg4MC4zNTYgICAgIDIwLDk5NC4yNDkgICAgICAyLDg4Ni4xMDcgICAgICAgLTIyNC42OTggICAgICAgIDIyNC42OTggICAgICAgICAgICAgICAgICAgICAyLDY2MS40MDkNCiAzNCAgICAgMjIsMDgwLjg4NSAgICAgMjAsMzIxLjI3MiAgICAgIDEsNzU5LjYxMyAgICAgICAtMjU3LjU3MCAgICAgICAgMjU3LjU3MCAgICAgICAgICAgICAgICAgICAgIDEsNTAyLjA0Mw0KIDM1ICAgICAyMiwxMDYuODIxICAgICAxNyw2MzUuNjkwICAgICAgNCw0NzEuMTMxICAgICAgIC0zODguNzQ4ICAgICAgICAzODguNzQ4ICAgICAgICAgICAgICAgICAgICAgNCwwODIuMzg0DQogMzYgICAgIDE4LDUzNy43NDYgICAgIDE4LDIwNC40NzEgICAgICAgIDMzMy4yNzUgICAgICAgLTM2MC45NjUgICAgICAgIDM2MC45NjUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLQ0KICAgICAgIDIzNyw4NjIuMDM3ICAgIDIzMSw4NDUuMzU5ICAgICAgNiwwMTYuNjc4DQogICAgPT09PT09PT09PT09PT0gPT09PT09PT09PT09PT0gPT09PT09PT09PT09PT0NCg0KVGhlIGFuYWx5dGljYWwgcHJvY2VkdXJlIGlkZW50aWZpZWQgdGhlIGZvbGxvd2luZyBFeGNlc3NlcyB0byBiZSBpbnZlc3RpZ2F0ZWQ6DQogICAgMyBpbmRpY2F0aW5nIHBvdGVudGlhbCB1bmRlcnN0YXRlbWVudA0KICAgIDYgaW5kaWNhdGluZyBwb3RlbnRpYWwgb3ZlcnN0YXRlbWVudA0KDQpGb3IgZWFjaCBzdWNoIEV4Y2VzcywgaW52ZXN0aWdhdGUgdGhlIHJlbGF0ZWQgUmVzaWR1YWwgYnk6DQogLSAgSW5xdWlyaW5nIG9mIG1hbmFnZW1lbnQgYW5kIG9idGFpbmluZyBhcHByb3ByaWF0ZSBhdWRpdCBldmlkZW5jZSByZWxldmFudCB0byBtYW5hZ2VtZW50knMgcmVzcG9uc2UsIGFuZA0KIC0gIFBlcmZvcm1pbmcgb3RoZXIgYXVkaXQgcHJvY2VkdXJlcyBhcyBuZWNlc3NhcnkgaW4gdGhlIGNpcmN1bXN0YW5jZXMuDQpJZiBzdWNoIGludmVzdGlnYXRpb24gZG9lcyBub3QgcmVzdWx0IGluIGEgc2F0aXNmYWN0b3J5IGV4cGxhbmF0aW9uLCB0aGVuIHRoZSBFeGNlc3MgaXMgYSBTQVAgTWlzc3RhdGVtZW50Lg0KDQpDb25zaWRlciB3aGV0aGVyIHRoZXJlIGFyZSB1bnVzdWFsIHBhdHRlcm5zIGluIHRoZSByZXNpZHVhbHMgdGhhdCBzaG91bGQgYmUgaW52ZXN0aWdhdGVkIChlLmcuLCByZXNpZHVhbHMgDQp0ZW5kIHN0cm9uZ2x5IGluIG9uZSBkaXJlY3Rpb24gYW5kIGFyZSBjbG9zZSB0byB0aGUgaW5kaXZpZHVhbCB0aHJlc2hvbGRzLCBhbmQgdGhlaXIgc3VtIGlzIG11bHRpcGxlcyBvZg0KcGVyZm9ybWFuY2UgbWF0ZXJpYWxpdHkpLg0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KVmFyaWFibGVzIFVzZWQgKCspLCBOb3QgVXNlZCAoLSkNCg0KT2JzIyAgICAgICAgICAgIFkrICAgICAgICAgIFgxKw0KLS0tLSAtLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLQ0KICAgMSAgICAxNyw3ODkuMDAwICAgIDEsODYyLjAwMA0KICAgMiAgICAxOSw0MTcuMDAwICAgIDIsOTU3LjAwMA0KICAgMyAgICAyMiw4MDIuMDAwICAgIDIsNjQ5LjAwMA0KICAgNCAgICAxNyw4MjUuMDAwICAgIDEsOTk2LjAwMA0KICAgNSAgICAxNyw4MTYuMDAwICAgIDIsNDcyLjAwMA0KICAgNiAgICAxNSw5NDguMDAwICAgIDIsMjgwLjAwMA0KICAgNyAgICAxOCwyOTcuMDAwICAgIDEsODg3LjAwMA0KICAgOCAgICAxNCw1ODYuMDAwICAgIDIsNjI1LjAwMA0KICAgOSAgICAxOCw2MTcuMDAwICAgIDIsMzQ2LjAwMA0KICAxMCAgICAyMSwwMDEuMDAwICAgIDIsMjExLjAwMA0KICAxMSAgICAxOCw2MTkuMDAwICAgIDIsMjU1LjAwMA0KICAxMiAgICAxNiwxMjUuMDAwICAgIDEsNzgxLjAwMA0KICAxMyAgICAgICAgMTAuMDAwICAgICAgICAxLjAwMA0KICAxNCAgICAgICAgMjAuMDAwICAgICAgICAyLjAwMA0KICAxNSAgICAgICAgMzAuMDAwICAgICAgICAzLjAwMA0KICAxNiAgICAgICAgNDAuMDAwICAgICAgICA0LjAwMA0KICAxNyAgICAgICAgNTAuMDAwICAgICAgICA1LjAwMA0KICAxOCAgICAgICAgNjAuMDAwICAgICAgICA2LjAwMA0KICAxOSAgICAgICAgNzAuMDAwICAgICAgICA3LjAwMA0KICAyMCAgICAgICAgODAuMDAwICAgICAgICA4LjAwMA0KICAyMSAgICAgICAgOTAuMDAwICAgICAgICA5LjAwMA0KICAyMiAgICAgICAxMDAuMDAwICAgICAgIDEwLjAwMA0KICAyMyAgICAgICAxMTAuMDAwICAgICAgIDExLjAwMA0KICAyNCAgICAgICAxMjAuMDAwICAgICAgIDEyLjAwMA0KICAyNSAgICAxOSwyMTQuODc3ICAgIDIsMDczLjMzNg0KICAyNiAgICAxOCwwMTAuOTE0ICAgIDEsODgyLjU4NQ0KICAyNyAgICAyMSw3NzcuNzI1ICAgIDIsMzMzLjI4OQ0KICAyOCAgICAxOCw1MTIuOTY4ICAgIDIsMTQ1LjM2Nw0KICAyOSAgICAxNyw1MjQuMjMwICAgIDIsMDIxLjE1OQ0KICAzMCAgICAyMSw0MjkuMjcwICAgIDIsNzI1LjU5Nw0KICAzMSAgICAxOCw5NjYuMjY4ICAgIDIsMjk4LjA2OA0KICAzMiAgICAxNSw4MTkuOTc3ICAgIDIsMTc5LjMzNQ0KICAzMyAgICAyMyw4ODAuMzU2ICAgIDIsMzk2LjY0MQ0KICAzNCAgICAyMiwwODAuODg1ICAgIDIsMzE5LjgwNw0KICAzNSAgICAyMiwxMDYuODIxICAgIDIsMDEzLjE5Mw0KICAzNiAgICAxOCw1MzcuNzQ2ICAgIDIsMDc4LjEzMQ0KICAgICAtLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLQ0KICAgICAgIDQ1Nyw0ODQuMDM3ICAgNTMsODY1LjUwOA0KICAgICA9PT09PT09PT09PT09ID09PT09PT09PT09PQ0K",
+    "warnings": [
+      {
+        "code": 11,
+        "name": "Heteroscedasticity",
+        "title": "HETEROSCEDSTICITIY",
+        "body": "Reveal completed the procedure using the weighted-least squares method of regression."
+      }
+    ],
+    "regressionModel": {
+      "constant": 332.6,
+      "constantFormatted": "332.6",
+      "coefficientOfCorrelation": 97.4,
+      "coefficientOfCorrelationFormatted": "97.4",
+      "testVariable": {
+        "name": "Sales",
+        "mean": 9151,
+        "meanFormatted": "9,151",
+        "standardDeviation": 9406,
+        "standardDeviationFormatted": "9,406"
+      },
+      "expectation": {
+        "constantOrCoefficient": 9151,
+        "constantOrCoefficientFormatted": "9,151",
+        "standardError": 2187,
+        "standardErrorFormatted": "2,187"
+      },
+      "predictingVariables": [
+        {
+          "name": "COS",
+          "mean": 1142,
+          "meanFormatted": "1,142",
+          "standardDeviation": 1186,
+          "standardDeviationFormatted": "1,186",
+          "constantOrCoefficient": 7.724,
+          "constantOrCoefficientFormatted": "7.724",
+          "standardError": 0.3846,
+          "standardErrorFormatted": "0.3846"
+        }
+      ],
+      "expectationFormula": {
+        "value": "2.45952 + 8.7588*X1(t)",
+        "testVariableName": "Sales",
+        "constant": 2.46,
+        "constantFormatted": "2.46",
+        "period": "t",
+        "variables": [
+          {
+            "name": "COS",
+            "value": 8.759,
+            "valueFormatted": "8.759",
+            "symbol": "X1",
+            "period": "t",
+            "operator": "+"
+          }
+        ]
+      }
+    },
+    "residualsIsCorrected": true,
+    "residualsCorrectedHeading": "Corrected for Heteroscedasticity",
+    "residuals": [
+      {
+        "observationNumber": 1,
+        "recordedAmount": 17790,
+        "recordedAmountFormatted": "17,790",
+        "regressionEstimate": 16310,
+        "regressionEstimateFormatted": "16,310",
+        "residualDifference": 1478,
+        "residualDifferenceFormatted": "1,478",
+        "plotPosition": 1.952
+      },
+      {
+        "observationNumber": 2,
+        "recordedAmount": 19420,
+        "recordedAmountFormatted": "19,420",
+        "regressionEstimate": 25900,
+        "regressionEstimateFormatted": "25,900",
+        "residualDifference": -6485,
+        "residualDifferenceFormatted": "-6,485",
+        "plotPosition": -5.395
+      },
+      {
+        "observationNumber": 3,
+        "recordedAmount": 22800,
+        "recordedAmountFormatted": "22,800",
+        "regressionEstimate": 23200,
+        "regressionEstimateFormatted": "23,200",
+        "residualDifference": -402.6,
+        "residualDifferenceFormatted": "-402.6",
+        "plotPosition": -0.374
+      },
+      {
+        "observationNumber": 4,
+        "recordedAmount": 17830,
+        "recordedAmountFormatted": "17,830",
+        "regressionEstimate": 17490,
+        "regressionEstimateFormatted": "17,490",
+        "residualDifference": 339.9,
+        "residualDifferenceFormatted": "339.9",
+        "plotPosition": 0.419
+      },
+      {
+        "observationNumber": 5,
+        "recordedAmount": 17820,
+        "recordedAmountFormatted": "17,820",
+        "regressionEstimate": 21650,
+        "regressionEstimateFormatted": "21,650",
+        "residualDifference": -3838,
+        "residualDifferenceFormatted": "-3,838",
+        "plotPosition": -3.819
+      },
+      {
+        "observationNumber": 6,
+        "recordedAmount": 15950,
+        "recordedAmountFormatted": "15,950",
+        "regressionEstimate": 19970,
+        "regressionEstimateFormatted": "19,970",
+        "residualDifference": -4025,
+        "residualDifferenceFormatted": "-4,025",
+        "plotPosition": -4.342
+      },
+      {
+        "observationNumber": 7,
+        "recordedAmount": 18300,
+        "recordedAmountFormatted": "18,300",
+        "regressionEstimate": 16530,
+        "regressionEstimateFormatted": "16,530",
+        "residualDifference": 1767,
+        "residualDifferenceFormatted": "1,767",
+        "plotPosition": 2.303
+      },
+      {
+        "observationNumber": 8,
+        "recordedAmount": 14590,
+        "recordedAmountFormatted": "14,590",
+        "regressionEstimate": 22990,
+        "regressionEstimateFormatted": "22,990",
+        "residualDifference": -8408,
+        "residualDifferenceFormatted": "-8,408",
+        "plotPosition": -7.879
+      },
+      {
+        "observationNumber": 9,
+        "recordedAmount": 18620,
+        "recordedAmountFormatted": "18,620",
+        "regressionEstimate": 20550,
+        "regressionEstimateFormatted": "20,550",
+        "residualDifference": -1934,
+        "residualDifferenceFormatted": "-1,934",
+        "plotPosition": -2.027
+      },
+      {
+        "observationNumber": 10,
+        "recordedAmount": 21000,
+        "recordedAmountFormatted": "21,000",
+        "regressionEstimate": 19370,
+        "regressionEstimateFormatted": "19,370",
+        "residualDifference": 1633,
+        "residualDifferenceFormatted": "1,633",
+        "plotPosition": 1.816
+      },
+      {
+        "observationNumber": 11,
+        "recordedAmount": 18620,
+        "recordedAmountFormatted": "18,620",
+        "regressionEstimate": 19750,
+        "regressionEstimateFormatted": "19,750",
+        "residualDifference": -1135,
+        "residualDifferenceFormatted": "-1,135",
+        "plotPosition": -1.238
+      },
+      {
+        "observationNumber": 12,
+        "recordedAmount": 16130,
+        "recordedAmountFormatted": "16,130",
+        "regressionEstimate": 15600,
+        "regressionEstimateFormatted": "15,600",
+        "residualDifference": 523.1,
+        "residualDifferenceFormatted": "523.1",
+        "plotPosition": 0.722
+      },
+      {
+        "observationNumber": 13,
+        "recordedAmount": 10,
+        "recordedAmountFormatted": "10",
+        "regressionEstimate": 11.22,
+        "regressionEstimateFormatted": "11.22",
+        "residualDifference": -1.218,
+        "residualDifferenceFormatted": "-1.218",
+        "plotPosition": -2.997
+      },
+      {
+        "observationNumber": 14,
+        "recordedAmount": 20,
+        "recordedAmountFormatted": "20",
+        "regressionEstimate": 19.98,
+        "regressionEstimateFormatted": "19.98",
+        "residualDifference": 0.023,
+        "residualDifferenceFormatted": "0.023",
+        "plotPosition": 0.028
+      },
+      {
+        "observationNumber": 15,
+        "recordedAmount": 30,
+        "recordedAmountFormatted": "30",
+        "regressionEstimate": 28.74,
+        "regressionEstimateFormatted": "28.74",
+        "residualDifference": 1.264,
+        "residualDifferenceFormatted": "1.264",
+        "plotPosition": 1.036
+      },
+      {
+        "observationNumber": 16,
+        "recordedAmount": 40,
+        "recordedAmountFormatted": "40",
+        "regressionEstimate": 37.49,
+        "regressionEstimateFormatted": "37.49",
+        "residualDifference": 2.505,
+        "residualDifferenceFormatted": "2.505",
+        "plotPosition": 1.54
+      },
+      {
+        "observationNumber": 17,
+        "recordedAmount": 50,
+        "recordedAmountFormatted": "50",
+        "regressionEstimate": 46.25,
+        "regressionEstimateFormatted": "46.25",
+        "residualDifference": 3.746,
+        "residualDifferenceFormatted": "3.746",
+        "plotPosition": 1.843
+      },
+      {
+        "observationNumber": 18,
+        "recordedAmount": 60,
+        "recordedAmountFormatted": "60",
+        "regressionEstimate": 55.01,
+        "regressionEstimateFormatted": "55.01",
+        "residualDifference": 4.987,
+        "residualDifferenceFormatted": "4.987",
+        "plotPosition": 2.045
+      },
+      {
+        "observationNumber": 19,
+        "recordedAmount": 70,
+        "recordedAmountFormatted": "70",
+        "regressionEstimate": 63.77,
+        "regressionEstimateFormatted": "63.77",
+        "residualDifference": 6.229,
+        "residualDifferenceFormatted": "6.229",
+        "plotPosition": 2.189
+      },
+      {
+        "observationNumber": 20,
+        "recordedAmount": 80,
+        "recordedAmountFormatted": "80",
+        "regressionEstimate": 72.53,
+        "regressionEstimateFormatted": "72.53",
+        "residualDifference": 7.47,
+        "residualDifferenceFormatted": "7.47",
+        "plotPosition": 2.297
+      },
+      {
+        "observationNumber": 21,
+        "recordedAmount": 90,
+        "recordedAmountFormatted": "90",
+        "regressionEstimate": 81.29,
+        "regressionEstimateFormatted": "81.29",
+        "residualDifference": 8.711,
+        "residualDifferenceFormatted": "8.711",
+        "plotPosition": 2.381
+      },
+      {
+        "observationNumber": 22,
+        "recordedAmount": 100,
+        "recordedAmountFormatted": "100",
+        "regressionEstimate": 90.05,
+        "regressionEstimateFormatted": "90.05",
+        "residualDifference": 9.952,
+        "residualDifferenceFormatted": "9.952",
+        "plotPosition": 2.448
+      },
+      {
+        "observationNumber": 23,
+        "recordedAmount": 110,
+        "recordedAmountFormatted": "110",
+        "regressionEstimate": 98.81,
+        "regressionEstimateFormatted": "98.81",
+        "residualDifference": 11.19,
+        "residualDifferenceFormatted": "11.19",
+        "plotPosition": 2.503
+      },
+      {
+        "observationNumber": 24,
+        "recordedAmount": 120,
+        "recordedAmountFormatted": "120",
+        "regressionEstimate": 107.6,
+        "regressionEstimateFormatted": "107.6",
+        "residualDifference": 12.43,
+        "residualDifferenceFormatted": "12.43",
+        "plotPosition": 2.549
+      },
+      {
+        "observationNumber": 25,
+        "recordedAmount": 19210,
+        "recordedAmountFormatted": "19,210",
+        "regressionEstimate": 18160,
+        "regressionEstimateFormatted": "18,160",
+        "residualDifference": 1052,
+        "residualDifferenceFormatted": "1,052",
+        "plotPosition": 1.249
+      },
+      {
+        "observationNumber": 26,
+        "recordedAmount": 18010,
+        "recordedAmountFormatted": "18,010",
+        "regressionEstimate": 16490,
+        "regressionEstimateFormatted": "16,490",
+        "residualDifference": 1519,
+        "residualDifferenceFormatted": "1,519",
+        "plotPosition": 1.985
+      },
+      {
+        "observationNumber": 27,
+        "recordedAmount": 21780,
+        "recordedAmountFormatted": "21,780",
+        "regressionEstimate": 20440,
+        "regressionEstimateFormatted": "20,440",
+        "residualDifference": 1338,
+        "residualDifferenceFormatted": "1,338",
+        "plotPosition": 1.411
+      },
+      {
+        "observationNumber": 28,
+        "recordedAmount": 18510,
+        "recordedAmountFormatted": "18,510",
+        "regressionEstimate": 18790,
+        "regressionEstimateFormatted": "18,790",
+        "residualDifference": -280.4,
+        "residualDifferenceFormatted": "-280.4",
+        "plotPosition": -0.321
+      },
+      {
+        "observationNumber": 29,
+        "recordedAmount": 17520,
+        "recordedAmountFormatted": "17,520",
+        "regressionEstimate": 17710,
+        "regressionEstimateFormatted": "17,710",
+        "residualDifference": -181.2,
+        "residualDifferenceFormatted": "-181.2",
+        "plotPosition": -0.221
+      },
+      {
+        "observationNumber": 30,
+        "recordedAmount": 21430,
+        "recordedAmountFormatted": "21,430",
+        "regressionEstimate": 23880,
+        "regressionEstimateFormatted": "23,880",
+        "residualDifference": -2446,
+        "residualDifferenceFormatted": "-2,446",
+        "plotPosition": -2.208
+      },
+      {
+        "observationNumber": 31,
+        "recordedAmount": 18970,
+        "recordedAmountFormatted": "18,970",
+        "regressionEstimate": 20130,
+        "regressionEstimateFormatted": "20,130",
+        "residualDifference": -1165,
+        "residualDifferenceFormatted": "-1,165",
+        "plotPosition": -1.247
+      },
+      {
+        "observationNumber": 32,
+        "recordedAmount": 15820,
+        "recordedAmountFormatted": "15,820",
+        "regressionEstimate": 19090,
+        "regressionEstimateFormatted": "19,090",
+        "residualDifference": -3271,
+        "residualDifferenceFormatted": "-3,271",
+        "plotPosition": -3.692
+      },
+      {
+        "observationNumber": 33,
+        "recordedAmount": 23880,
+        "recordedAmountFormatted": "23,880",
+        "regressionEstimate": 20990,
+        "regressionEstimateFormatted": "20,990",
+        "residualDifference": 2886,
+        "residualDifferenceFormatted": "2,886",
+        "plotPosition": 2.962
+      },
+      {
+        "observationNumber": 34,
+        "recordedAmount": 22080,
+        "recordedAmountFormatted": "22,080",
+        "regressionEstimate": 20320,
+        "regressionEstimateFormatted": "20,320",
+        "residualDifference": 1760,
+        "residualDifferenceFormatted": "1,760",
+        "plotPosition": 1.866
+      },
+      {
+        "observationNumber": 35,
+        "recordedAmount": 22110,
+        "recordedAmountFormatted": "22,110",
+        "regressionEstimate": 17640,
+        "regressionEstimateFormatted": "17,640",
+        "residualDifference": 4471,
+        "residualDifferenceFormatted": "4,471",
+        "plotPosition": 5.463
+      },
+      {
+        "observationNumber": 36,
+        "recordedAmount": 18540,
+        "recordedAmountFormatted": "18,540",
+        "regressionEstimate": 18200,
+        "regressionEstimateFormatted": "18,200",
+        "residualDifference": 333.3,
+        "residualDifferenceFormatted": "333.3",
+        "plotPosition": 0.394
+      }
+    ],
+    "variableUsageModel": {
+      "variables": [
+        {
+          "name": "Sales",
+          "isUsed": true,
+          "total": 457500,
+          "totalFormatted": "457,500",
+          "min": 10,
+          "minFormatted": "10",
+          "max": 23880,
+          "maxFormatted": "23,880",
+          "scatterMatrix": [
+            0.745,
+            0.813,
+            0.955,
+            0.747,
+            0.746,
+            0.668,
+            0.766,
+            0.611,
+            0.78,
+            0.879,
+            0.78,
+            0.675,
+            0,
+            0,
+            0.001,
+            0.001,
+            0.002,
+            0.002,
+            0.003,
+            0.003,
+            0.003,
+            0.004,
+            0.004,
+            0.005,
+            0.804,
+            0.754,
+            0.912,
+            0.775,
+            0.734,
+            0.897,
+            0.794,
+            0.662,
+            1,
+            0.925,
+            0.926,
+            0.776
+          ]
+        },
+        {
+          "name": "COS",
+          "isUsed": true,
+          "total": 53870,
+          "totalFormatted": "53,870",
+          "min": 1,
+          "minFormatted": "1",
+          "max": 2957,
+          "maxFormatted": "2,957",
+          "scatterMatrix": [
+            0.63,
+            1,
+            0.896,
+            0.675,
+            0.836,
+            0.771,
+            0.638,
+            0.888,
+            0.793,
+            0.748,
+            0.763,
+            0.602,
+            0,
+            0,
+            0.001,
+            0.001,
+            0.001,
+            0.002,
+            0.002,
+            0.002,
+            0.003,
+            0.003,
+            0.003,
+            0.004,
+            0.701,
+            0.637,
+            0.789,
+            0.725,
+            0.683,
+            0.922,
+            0.777,
+            0.737,
+            0.811,
+            0.785,
+            0.681,
+            0.703
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "observationNumber": 1,
+          "values": [
+            {
+              "valueDouble": 17790,
+              "valueFormatted": "17,790"
+            },
+            {
+              "valueDouble": 1862,
+              "valueFormatted": "1,862"
+            }
+          ]
+        },
+        {
+          "observationNumber": 2,
+          "values": [
+            {
+              "valueDouble": 19420,
+              "valueFormatted": "19,420"
+            },
+            {
+              "valueDouble": 2957,
+              "valueFormatted": "2,957"
+            }
+          ]
+        },
+        {
+          "observationNumber": 3,
+          "values": [
+            {
+              "valueDouble": 22800,
+              "valueFormatted": "22,800"
+            },
+            {
+              "valueDouble": 2649,
+              "valueFormatted": "2,649"
+            }
+          ]
+        },
+        {
+          "observationNumber": 4,
+          "values": [
+            {
+              "valueDouble": 17830,
+              "valueFormatted": "17,830"
+            },
+            {
+              "valueDouble": 1996,
+              "valueFormatted": "1,996"
+            }
+          ]
+        },
+        {
+          "observationNumber": 5,
+          "values": [
+            {
+              "valueDouble": 17820,
+              "valueFormatted": "17,820"
+            },
+            {
+              "valueDouble": 2472,
+              "valueFormatted": "2,472"
+            }
+          ]
+        },
+        {
+          "observationNumber": 6,
+          "values": [
+            {
+              "valueDouble": 15950,
+              "valueFormatted": "15,950"
+            },
+            {
+              "valueDouble": 2280,
+              "valueFormatted": "2,280"
+            }
+          ]
+        },
+        {
+          "observationNumber": 7,
+          "values": [
+            {
+              "valueDouble": 18300,
+              "valueFormatted": "18,300"
+            },
+            {
+              "valueDouble": 1887,
+              "valueFormatted": "1,887"
+            }
+          ]
+        },
+        {
+          "observationNumber": 8,
+          "values": [
+            {
+              "valueDouble": 14590,
+              "valueFormatted": "14,590"
+            },
+            {
+              "valueDouble": 2625,
+              "valueFormatted": "2,625"
+            }
+          ]
+        },
+        {
+          "observationNumber": 9,
+          "values": [
+            {
+              "valueDouble": 18620,
+              "valueFormatted": "18,620"
+            },
+            {
+              "valueDouble": 2346,
+              "valueFormatted": "2,346"
+            }
+          ]
+        },
+        {
+          "observationNumber": 10,
+          "values": [
+            {
+              "valueDouble": 21000,
+              "valueFormatted": "21,000"
+            },
+            {
+              "valueDouble": 2211,
+              "valueFormatted": "2,211"
+            }
+          ]
+        },
+        {
+          "observationNumber": 11,
+          "values": [
+            {
+              "valueDouble": 18620,
+              "valueFormatted": "18,620"
+            },
+            {
+              "valueDouble": 2255,
+              "valueFormatted": "2,255"
+            }
+          ]
+        },
+        {
+          "observationNumber": 12,
+          "values": [
+            {
+              "valueDouble": 16130,
+              "valueFormatted": "16,130"
+            },
+            {
+              "valueDouble": 1781,
+              "valueFormatted": "1,781"
+            }
+          ]
+        },
+        {
+          "observationNumber": 13,
+          "values": [
+            {
+              "valueDouble": 10,
+              "valueFormatted": "10"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 14,
+          "values": [
+            {
+              "valueDouble": 20,
+              "valueFormatted": "20"
+            },
+            {
+              "valueDouble": 2,
+              "valueFormatted": "2"
+            }
+          ]
+        },
+        {
+          "observationNumber": 15,
+          "values": [
+            {
+              "valueDouble": 30,
+              "valueFormatted": "30"
+            },
+            {
+              "valueDouble": 3,
+              "valueFormatted": "3"
+            }
+          ]
+        },
+        {
+          "observationNumber": 16,
+          "values": [
+            {
+              "valueDouble": 40,
+              "valueFormatted": "40"
+            },
+            {
+              "valueDouble": 4,
+              "valueFormatted": "4"
+            }
+          ]
+        },
+        {
+          "observationNumber": 17,
+          "values": [
+            {
+              "valueDouble": 50,
+              "valueFormatted": "50"
+            },
+            {
+              "valueDouble": 5,
+              "valueFormatted": "5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 18,
+          "values": [
+            {
+              "valueDouble": 60,
+              "valueFormatted": "60"
+            },
+            {
+              "valueDouble": 6,
+              "valueFormatted": "6"
+            }
+          ]
+        },
+        {
+          "observationNumber": 19,
+          "values": [
+            {
+              "valueDouble": 70,
+              "valueFormatted": "70"
+            },
+            {
+              "valueDouble": 7,
+              "valueFormatted": "7"
+            }
+          ]
+        },
+        {
+          "observationNumber": 20,
+          "values": [
+            {
+              "valueDouble": 80,
+              "valueFormatted": "80"
+            },
+            {
+              "valueDouble": 8,
+              "valueFormatted": "8"
+            }
+          ]
+        },
+        {
+          "observationNumber": 21,
+          "values": [
+            {
+              "valueDouble": 90,
+              "valueFormatted": "90"
+            },
+            {
+              "valueDouble": 9,
+              "valueFormatted": "9"
+            }
+          ]
+        },
+        {
+          "observationNumber": 22,
+          "values": [
+            {
+              "valueDouble": 100,
+              "valueFormatted": "100"
+            },
+            {
+              "valueDouble": 10,
+              "valueFormatted": "10"
+            }
+          ]
+        },
+        {
+          "observationNumber": 23,
+          "values": [
+            {
+              "valueDouble": 110,
+              "valueFormatted": "110"
+            },
+            {
+              "valueDouble": 11,
+              "valueFormatted": "11"
+            }
+          ]
+        },
+        {
+          "observationNumber": 24,
+          "values": [
+            {
+              "valueDouble": 120,
+              "valueFormatted": "120"
+            },
+            {
+              "valueDouble": 12,
+              "valueFormatted": "12"
+            }
+          ]
+        },
+        {
+          "observationNumber": 25,
+          "values": [
+            {
+              "valueDouble": 19210,
+              "valueFormatted": "19,210"
+            },
+            {
+              "valueDouble": 2073,
+              "valueFormatted": "2,073"
+            }
+          ]
+        },
+        {
+          "observationNumber": 26,
+          "values": [
+            {
+              "valueDouble": 18010,
+              "valueFormatted": "18,010"
+            },
+            {
+              "valueDouble": 1883,
+              "valueFormatted": "1,883"
+            }
+          ]
+        },
+        {
+          "observationNumber": 27,
+          "values": [
+            {
+              "valueDouble": 21780,
+              "valueFormatted": "21,780"
+            },
+            {
+              "valueDouble": 2333,
+              "valueFormatted": "2,333"
+            }
+          ]
+        },
+        {
+          "observationNumber": 28,
+          "values": [
+            {
+              "valueDouble": 18510,
+              "valueFormatted": "18,510"
+            },
+            {
+              "valueDouble": 2145,
+              "valueFormatted": "2,145"
+            }
+          ]
+        },
+        {
+          "observationNumber": 29,
+          "values": [
+            {
+              "valueDouble": 17520,
+              "valueFormatted": "17,520"
+            },
+            {
+              "valueDouble": 2021,
+              "valueFormatted": "2,021"
+            }
+          ]
+        },
+        {
+          "observationNumber": 30,
+          "values": [
+            {
+              "valueDouble": 21430,
+              "valueFormatted": "21,430"
+            },
+            {
+              "valueDouble": 2726,
+              "valueFormatted": "2,726"
+            }
+          ]
+        },
+        {
+          "observationNumber": 31,
+          "values": [
+            {
+              "valueDouble": 18970,
+              "valueFormatted": "18,970"
+            },
+            {
+              "valueDouble": 2298,
+              "valueFormatted": "2,298"
+            }
+          ]
+        },
+        {
+          "observationNumber": 32,
+          "values": [
+            {
+              "valueDouble": 15820,
+              "valueFormatted": "15,820"
+            },
+            {
+              "valueDouble": 2179,
+              "valueFormatted": "2,179"
+            }
+          ]
+        },
+        {
+          "observationNumber": 33,
+          "values": [
+            {
+              "valueDouble": 23880,
+              "valueFormatted": "23,880"
+            },
+            {
+              "valueDouble": 2397,
+              "valueFormatted": "2,397"
+            }
+          ]
+        },
+        {
+          "observationNumber": 34,
+          "values": [
+            {
+              "valueDouble": 22080,
+              "valueFormatted": "22,080"
+            },
+            {
+              "valueDouble": 2320,
+              "valueFormatted": "2,320"
+            }
+          ]
+        },
+        {
+          "observationNumber": 35,
+          "values": [
+            {
+              "valueDouble": 22110,
+              "valueFormatted": "22,110"
+            },
+            {
+              "valueDouble": 2013,
+              "valueFormatted": "2,013"
+            }
+          ]
+        },
+        {
+          "observationNumber": 36,
+          "values": [
+            {
+              "valueDouble": 18540,
+              "valueFormatted": "18,540"
+            },
+            {
+              "valueDouble": 2078,
+              "valueFormatted": "2,078"
+            }
+          ]
+        }
+      ]
+    },
+    "auditTestModel": {
+      "observations": [
+        {
+          "observationNumber": 25,
+          "recordedAmount": 19210,
+          "recordedAmountFormatted": "19,210",
+          "regressionEstimate": 18160,
+          "regressionEstimateFormatted": "18,160",
+          "residualDifference": 1052,
+          "residualDifferenceFormatted": "1,052",
+          "thresholdUnderstatement": -363,
+          "thresholdUnderstatementFormatted": "-363",
+          "thresholdOverstatement": 363,
+          "thresholdOverstatementFormatted": "363",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 689.4,
+          "excessOverstatementFormatted": "689.4",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": true,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 26,
+          "recordedAmount": 18010,
+          "recordedAmountFormatted": "18,010",
+          "regressionEstimate": 16490,
+          "regressionEstimateFormatted": "16,490",
+          "residualDifference": 1519,
+          "residualDifferenceFormatted": "1,519",
+          "thresholdUnderstatement": -444.6,
+          "thresholdUnderstatementFormatted": "-444.6",
+          "thresholdOverstatement": 444.6,
+          "thresholdOverstatementFormatted": "444.6",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 1075,
+          "excessOverstatementFormatted": "1,075",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": true,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 27,
+          "recordedAmount": 21780,
+          "recordedAmountFormatted": "21,780",
+          "regressionEstimate": 20440,
+          "regressionEstimateFormatted": "20,440",
+          "residualDifference": 1338,
+          "residualDifferenceFormatted": "1,338",
+          "thresholdUnderstatement": -251.8,
+          "thresholdUnderstatementFormatted": "-251.8",
+          "thresholdOverstatement": 251.8,
+          "thresholdOverstatementFormatted": "251.8",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 1087,
+          "excessOverstatementFormatted": "1,087",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": true,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 28,
+          "recordedAmount": 18510,
+          "recordedAmountFormatted": "18,510",
+          "regressionEstimate": 18790,
+          "regressionEstimateFormatted": "18,790",
+          "residualDifference": -280.4,
+          "residualDifferenceFormatted": "-280.4",
+          "thresholdUnderstatement": -332.2,
+          "thresholdUnderstatementFormatted": "-332.2",
+          "thresholdOverstatement": 332.2,
+          "thresholdOverstatementFormatted": "332.2",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 29,
+          "recordedAmount": 17520,
+          "recordedAmountFormatted": "17,520",
+          "regressionEstimate": 17710,
+          "regressionEstimateFormatted": "17,710",
+          "residualDifference": -181.2,
+          "residualDifferenceFormatted": "-181.2",
+          "thresholdUnderstatement": -385.3,
+          "thresholdUnderstatementFormatted": "-385.3",
+          "thresholdOverstatement": 385.3,
+          "thresholdOverstatementFormatted": "385.3",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 30,
+          "recordedAmount": 21430,
+          "recordedAmountFormatted": "21,430",
+          "regressionEstimate": 23880,
+          "regressionEstimateFormatted": "23,880",
+          "residualDifference": -2446,
+          "residualDifferenceFormatted": "-2,446",
+          "thresholdUnderstatement": -83.96,
+          "thresholdUnderstatementFormatted": "-83.96",
+          "thresholdOverstatement": 83.96,
+          "thresholdOverstatementFormatted": "83.96",
+          "excessUnderstatement": -2362,
+          "excessUnderstatementFormatted": "-2,362",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": true,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 31,
+          "recordedAmount": 18970,
+          "recordedAmountFormatted": "18,970",
+          "regressionEstimate": 20130,
+          "regressionEstimateFormatted": "20,130",
+          "residualDifference": -1165,
+          "residualDifferenceFormatted": "-1,165",
+          "thresholdUnderstatement": -266.9,
+          "thresholdUnderstatementFormatted": "-266.9",
+          "thresholdOverstatement": 266.9,
+          "thresholdOverstatementFormatted": "266.9",
+          "excessUnderstatement": -897.7,
+          "excessUnderstatementFormatted": "-897.7",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": true,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 32,
+          "recordedAmount": 15820,
+          "recordedAmountFormatted": "15,820",
+          "regressionEstimate": 19090,
+          "regressionEstimateFormatted": "19,090",
+          "residualDifference": -3271,
+          "residualDifferenceFormatted": "-3,271",
+          "thresholdUnderstatement": -317.7,
+          "thresholdUnderstatementFormatted": "-317.7",
+          "thresholdOverstatement": 317.7,
+          "thresholdOverstatementFormatted": "317.7",
+          "excessUnderstatement": -2953,
+          "excessUnderstatementFormatted": "-2,953",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": true,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 33,
+          "recordedAmount": 23880,
+          "recordedAmountFormatted": "23,880",
+          "regressionEstimate": 20990,
+          "regressionEstimateFormatted": "20,990",
+          "residualDifference": 2886,
+          "residualDifferenceFormatted": "2,886",
+          "thresholdUnderstatement": -224.7,
+          "thresholdUnderstatementFormatted": "-224.7",
+          "thresholdOverstatement": 224.7,
+          "thresholdOverstatementFormatted": "224.7",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 2661,
+          "excessOverstatementFormatted": "2,661",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": true,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 34,
+          "recordedAmount": 22080,
+          "recordedAmountFormatted": "22,080",
+          "regressionEstimate": 20320,
+          "regressionEstimateFormatted": "20,320",
+          "residualDifference": 1760,
+          "residualDifferenceFormatted": "1,760",
+          "thresholdUnderstatement": -257.6,
+          "thresholdUnderstatementFormatted": "-257.6",
+          "thresholdOverstatement": 257.6,
+          "thresholdOverstatementFormatted": "257.6",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 1502,
+          "excessOverstatementFormatted": "1,502",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": true,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 35,
+          "recordedAmount": 22110,
+          "recordedAmountFormatted": "22,110",
+          "regressionEstimate": 17640,
+          "regressionEstimateFormatted": "17,640",
+          "residualDifference": 4471,
+          "residualDifferenceFormatted": "4,471",
+          "thresholdUnderstatement": -388.7,
+          "thresholdUnderstatementFormatted": "-388.7",
+          "thresholdOverstatement": 388.7,
+          "thresholdOverstatementFormatted": "388.7",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 4082,
+          "excessOverstatementFormatted": "4,082",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": true,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 36,
+          "recordedAmount": 18540,
+          "recordedAmountFormatted": "18,540",
+          "regressionEstimate": 18200,
+          "regressionEstimateFormatted": "18,200",
+          "residualDifference": 333.3,
+          "residualDifferenceFormatted": "333.3",
+          "thresholdUnderstatement": -361,
+          "thresholdUnderstatementFormatted": "-361",
+          "thresholdOverstatement": 361,
+          "thresholdOverstatementFormatted": "361",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        }
+      ],
+      "recordedAmountTotal": 237900,
+      "recordedAmountTotalFormatted": "237,900",
+      "regressionEstimate": 231800,
+      "regressionEstimateFormatted": "231,800",
+      "residualTotal": 6017,
+      "residualTotalFormatted": "6,017",
+      "totalExcessUnderstatement": 3,
+      "totalExcessOverstatement": 6,
+      "hasExcesses": true,
+      "excessTitle": "The following excesses were identified:",
+      "understatementHeading": "3 indicating potential excess under threshold",
+      "overstatementHeading": "6 indicating potential excess over threshold",
+      "excessMessage": "If the sum of the residuals exceeds performance materiality, consider any of the other excesses that have been identified in the application. Reduce the cumulative residual by the amount of excesses that have been quantified and corroborated in step 1 below. If the remaining cumulative residual exceeds performance materiality, then seek additional explanations from management and quantify and corroborate the factors identified. If no specific items are identified, treat the remaining cumulative residual as a substantive analytical procedure misstatement.\r\n\r\nNext Steps:\r\nFor each Excess, investigate the residual by:\r\n|Inquiring of management and obtaining appropriate audit evidence relevant to management's response\r\nIf such investigation does not result in a satisfactory explanation, then the Excess is a substantive analytical procedure misstatement.\r\n|Consider whether there are unusual patterns in the residuals that should be investigated (e.g., residuals tending strongly in one direction close to the individual thresholds, with a total that is multiples of performance materiality).\r\n|Consider disaggregating the data, introducing one or more additional variables (real or dummy), or removing one or more variables that is causing the variability.\r\n|For more information see examples provided in the Performing Substantive Analytical Procedures Guide section x.x Identification of Significant Differences. \r\n|To discuss further alternatives please submit an online support request <a href=\"https://servicedesk.deloittenet.deloitte.com/CAisd/pdmweb.exe?OP=SHOW_DETAIL+PERSID=KD:448925+HTMPL=kt_document_view.htmpl+open_mode=2\" target=\"_blank\">online support request</a>.",
+      "auditMessage": null
+    },
+    "endingBalanceTestModel": {
+      "recordedCollections": 0,
+      "recordedCollectionsFormatted": "0",
+      "estimatedCollections": 0,
+      "estimatedCollectionsFormatted": "0",
+      "residualComponentTotal": 0,
+      "residualComponentTotalFormatted": "0",
+      "recordedBalance": 0,
+      "recordedBalanceFormatted": "0",
+      "estimatedBalance": 0,
+      "estimatedBalanceFormatted": "0",
+      "residualBalance": 0,
+      "residualBalanceFormatted": "0",
+      "thresholdUnderstatement": 0,
+      "thresholdUnderstatementFormatted": "0",
+      "thresholdOverstatement": 0,
+      "thresholdOverstatementFormatted": "0",
+      "excessUnderstatement": 0,
+      "excessUnderstatementFormatted": "None",
+      "excessOverstatement": 0,
+      "excessOverstatementFormatted": "None",
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "regressionTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": null,
+      "regressionEstimateTotal": 0,
+      "regressionEstimateTotalFormatted": null,
+      "residualTotal": 0,
+      "residualTotalFormatted": "0.0",
+      "precision": 0,
+      "precisionFormatted": "0.0",
+      "hasExcesses": false,
+      "totalExcesses": 0,
+      "totalExcessesFormatted": "0"
+    }
+  },
+  "workpaperDataId": "699bfb53-d16f-48e2-8f85-7b56c5f8db7e",
+  "results": null,
+  "fileName": "Heteroscedasticity.xlsx",
+  "userId": "3addd359-63fc-4329-bd70-b824a18c4701",
+  "alias": null,
+  "engagementId": "MAT-E152675-16"
+}

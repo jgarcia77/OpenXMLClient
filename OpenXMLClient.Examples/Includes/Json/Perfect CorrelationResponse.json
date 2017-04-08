@@ -1,0 +1,708 @@
+{
+  "visible": true,
+  "description": null,
+  "accountName": "",
+  "accountType": "",
+  "applicationType": "timeSeries",
+  "componentType": "",
+  "confidenceLevel": 0,
+  "controlsRelianceStrategy": "relying",
+  "forcedVariables": [],
+  "id": "fb7e6d8b-3342-431c-a42b-e25b3f0a5b87",
+  "inherentRisk": "significant",
+  "numberOfObservations": 12,
+  "observationsFrom": 1,
+  "observationsTo": 36,
+  "performanceMateriality": 3,
+  "periodsPerYear": 12,
+  "predictingVariables": [
+    {
+      "analysisParametersId": "fb7e6d8b-3342-431c-a42b-e25b3f0a5b87",
+      "value": "COS"
+    }
+  ],
+  "recordedBalance": 0,
+  "runDateTime": "2017-03-08T10:07:18.6171485-06:00",
+  "seasonalAdjustment": false,
+  "testVariable": "Sales",
+  "trend": false,
+  "typeOfProjection": "audit",
+  "calculation": {
+    "status": "ReportContainsOutput",
+    "reportContents": "U1RBUjogU3RhdGlzdGljYWwgVGVjaG5pcXVlcyBmb3IgQW5hbHl0aWNhbCBSZXZpZXcgKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBWZXJzaW9uIDQuMC4yDQoNClNwZWNpZmljYXRpb25zIGZvciBNb2RlbA0KDQpWYXJpYWJsZXMgU3BlY2lmaWVkOiAgIA0KWSAgICBTYWxlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVEVTVA0KWDEgICBDT1MgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KDQpPYnNlcnZhdGlvbnMgVXNlZDoNCkJhc2UsIDEgLSAyNCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjQNClByb2plY3Rpb24sIDI1IC0gMzYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0NClRvdGFsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzYNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT09PT0NCg0KRGF0YSBQcm9maWxlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUSU1FIFNFUklFUw0KUGVyaW9kcyBwZXIgWWVhciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMg0KDQpUeXBlIG9mIFRlc3QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFVRElUDQpQZXJmb3JtYW5jZSBNYXRlcmlhbGl0eSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAzDQpUZXN0aW5nIFN0cmF0ZWd5OiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTaWduaWZpY2FudCBSaXNrLCBSZWx5aW5nIG9uIENvbnRyb2xzDQpBcHBsaWNhYmxlIFJpc2sgTGV2ZWw6ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNpZ25pZmljYW50DQoNClBlcmZlY3QgY29ycmVsYXRpb24uIENhbm5vdCB1c2UuDQoNClZhcmlhYmxlcyBVc2VkICgrKSwgTm90IFVzZWQgKC0pDQoNCk9icyMgICAgICBZKyAgICAgWDErDQotLS0tIC0tLS0tLS0gLS0tLS0tLQ0KICAgMSAgICAgICAyICAgICAwLjUNCiAgIDIgICAgICAgNCAgICAgMS4wDQogICAzICAgICAgIDYgICAgIDEuNQ0KICAgNCAgICAgICA4ICAgICAyLjANCiAgIDUgICAgICAxMCAgICAgMi41DQogICA2ICAgICAgMTIgICAgIDMuMA0KICAgNyAgICAgIDE0ICAgICAzLjUNCiAgIDggICAgICAxNiAgICAgNC4wDQogICA5ICAgICAgMTggICAgIDQuNQ0KICAxMCAgICAgIDIwICAgICA1LjANCiAgMTEgICAgICAyMiAgICAgNS41DQogIDEyICAgICAgMjQgICAgIDYuMA0KICAxMyAgICAgIDI2ICAgICA2LjUNCiAgMTQgICAgICAyOCAgICAgNy4wDQogIDE1ICAgICAgMzAgICAgIDcuNQ0KICAxNiAgICAgIDMyICAgICA4LjANCiAgMTcgICAgICAzNCAgICAgOC41DQogIDE4ICAgICAgMzYgICAgIDkuMA0KICAxOSAgICAgIDM4ICAgICA5LjUNCiAgMjAgICAgICA0MCAgICAxMC4wDQogIDIxICAgICAgNDIgICAgMTAuNQ0KICAyMiAgICAgIDQ0ICAgIDExLjANCiAgMjMgICAgICA0NiAgICAxMS41DQogIDI0ICAgICAgNDggICAgMTIuMA0KICAyNSAgICAgIDUwICAgIDEyLjUNCiAgMjYgICAgICA1MiAgICAxMy4wDQogIDI3ICAgICAgNTQgICAgMTMuNQ0KICAyOCAgICAgIDU2ICAgIDE0LjANCiAgMjkgICAgICA1OCAgICAxNC41DQogIDMwICAgICAgNjAgICAgMTUuMA0KICAzMSAgICAgIDYyICAgIDE1LjUNCiAgMzIgICAgICA2NCAgICAxNi4wDQogIDMzICAgICAgNjYgICAgMTYuNQ0KICAzNCAgICAgIDY4ICAgIDE3LjANCiAgMzUgICAgICA3MCAgICAxNy41DQogIDM2ICAgICAgNzIgICAgMTguMA0KICAgICAtLS0tLS0tIC0tLS0tLS0NCiAgICAgICAxLDMzMiAgIDMzMy4wDQogICAgID09PT09PT0gPT09PT09PQ0K",
+    "warnings": [
+      {
+        "code": 3,
+        "name": "Perfect correlation",
+        "title": "PERFECT CORRELATION",
+        "body": "The procedure could not be completed because the predicting and test variables are perfectly (100 percent) correlated. A regression model cannot be developed for audit purposes using these variables. Perfect correlation may occur because the test variable is a direct function of the predicting variable(s). \r\n\r\nNext Steps:\r\n|Select a different predicting variable and reperform the procedure.\r\n|For more information see examples provided in the Performing Substantive Analytical Procedures Guide section x.x Reveal Statistical Tests and Warning Messages. \r\n|To discuss further alternatives please submit an online support request <a href=\"https://servicedesk.deloittenet.deloitte.com/CAisd/pdmweb.exe?OP=SHOW_DETAIL+PERSID=KD:448925+HTMPL=kt_document_view.htmpl+open_mode=2\" target=\"_blank\">online support request</a>."
+      }
+    ],
+    "regressionModel": {
+      "constant": 0,
+      "constantFormatted": "0",
+      "coefficientOfCorrelation": 0,
+      "coefficientOfCorrelationFormatted": "0",
+      "testVariable": {
+        "name": "",
+        "mean": 0,
+        "meanFormatted": "0",
+        "standardDeviation": 0,
+        "standardDeviationFormatted": "0"
+      },
+      "expectation": {
+        "constantOrCoefficient": 0,
+        "constantOrCoefficientFormatted": "0",
+        "standardError": 0,
+        "standardErrorFormatted": "0"
+      },
+      "predictingVariables": [],
+      "expectationFormula": {
+        "value": "",
+        "testVariableName": "",
+        "constant": 0,
+        "constantFormatted": "0",
+        "period": "",
+        "variables": []
+      }
+    },
+    "residualsIsCorrected": false,
+    "residualsCorrectedHeading": null,
+    "residuals": [],
+    "variableUsageModel": {
+      "variables": [
+        {
+          "name": "Sales",
+          "isUsed": true,
+          "total": 1332,
+          "totalFormatted": "1,332",
+          "min": 2,
+          "minFormatted": "2",
+          "max": 72,
+          "maxFormatted": "72",
+          "scatterMatrix": [
+            0,
+            0.029,
+            0.057,
+            0.086,
+            0.114,
+            0.143,
+            0.171,
+            0.2,
+            0.229,
+            0.257,
+            0.286,
+            0.314,
+            0.343,
+            0.371,
+            0.4,
+            0.429,
+            0.457,
+            0.486,
+            0.514,
+            0.543,
+            0.571,
+            0.6,
+            0.629,
+            0.657,
+            0.686,
+            0.714,
+            0.743,
+            0.771,
+            0.8,
+            0.829,
+            0.857,
+            0.886,
+            0.914,
+            0.943,
+            0.971,
+            1
+          ]
+        },
+        {
+          "name": "COS",
+          "isUsed": true,
+          "total": 333,
+          "totalFormatted": "333",
+          "min": 0.5,
+          "minFormatted": "0.5",
+          "max": 18,
+          "maxFormatted": "18",
+          "scatterMatrix": [
+            0,
+            0.029,
+            0.057,
+            0.086,
+            0.114,
+            0.143,
+            0.171,
+            0.2,
+            0.229,
+            0.257,
+            0.286,
+            0.314,
+            0.343,
+            0.371,
+            0.4,
+            0.429,
+            0.457,
+            0.486,
+            0.514,
+            0.543,
+            0.571,
+            0.6,
+            0.629,
+            0.657,
+            0.686,
+            0.714,
+            0.743,
+            0.771,
+            0.8,
+            0.829,
+            0.857,
+            0.886,
+            0.914,
+            0.943,
+            0.971,
+            1
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "observationNumber": 1,
+          "values": [
+            {
+              "valueDouble": 2,
+              "valueFormatted": "2"
+            },
+            {
+              "valueDouble": 0.5,
+              "valueFormatted": "0.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 2,
+          "values": [
+            {
+              "valueDouble": 4,
+              "valueFormatted": "4"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 3,
+          "values": [
+            {
+              "valueDouble": 6,
+              "valueFormatted": "6"
+            },
+            {
+              "valueDouble": 1.5,
+              "valueFormatted": "1.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 4,
+          "values": [
+            {
+              "valueDouble": 8,
+              "valueFormatted": "8"
+            },
+            {
+              "valueDouble": 2,
+              "valueFormatted": "2"
+            }
+          ]
+        },
+        {
+          "observationNumber": 5,
+          "values": [
+            {
+              "valueDouble": 10,
+              "valueFormatted": "10"
+            },
+            {
+              "valueDouble": 2.5,
+              "valueFormatted": "2.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 6,
+          "values": [
+            {
+              "valueDouble": 12,
+              "valueFormatted": "12"
+            },
+            {
+              "valueDouble": 3,
+              "valueFormatted": "3"
+            }
+          ]
+        },
+        {
+          "observationNumber": 7,
+          "values": [
+            {
+              "valueDouble": 14,
+              "valueFormatted": "14"
+            },
+            {
+              "valueDouble": 3.5,
+              "valueFormatted": "3.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 8,
+          "values": [
+            {
+              "valueDouble": 16,
+              "valueFormatted": "16"
+            },
+            {
+              "valueDouble": 4,
+              "valueFormatted": "4"
+            }
+          ]
+        },
+        {
+          "observationNumber": 9,
+          "values": [
+            {
+              "valueDouble": 18,
+              "valueFormatted": "18"
+            },
+            {
+              "valueDouble": 4.5,
+              "valueFormatted": "4.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 10,
+          "values": [
+            {
+              "valueDouble": 20,
+              "valueFormatted": "20"
+            },
+            {
+              "valueDouble": 5,
+              "valueFormatted": "5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 11,
+          "values": [
+            {
+              "valueDouble": 22,
+              "valueFormatted": "22"
+            },
+            {
+              "valueDouble": 5.5,
+              "valueFormatted": "5.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 12,
+          "values": [
+            {
+              "valueDouble": 24,
+              "valueFormatted": "24"
+            },
+            {
+              "valueDouble": 6,
+              "valueFormatted": "6"
+            }
+          ]
+        },
+        {
+          "observationNumber": 13,
+          "values": [
+            {
+              "valueDouble": 26,
+              "valueFormatted": "26"
+            },
+            {
+              "valueDouble": 6.5,
+              "valueFormatted": "6.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 14,
+          "values": [
+            {
+              "valueDouble": 28,
+              "valueFormatted": "28"
+            },
+            {
+              "valueDouble": 7,
+              "valueFormatted": "7"
+            }
+          ]
+        },
+        {
+          "observationNumber": 15,
+          "values": [
+            {
+              "valueDouble": 30,
+              "valueFormatted": "30"
+            },
+            {
+              "valueDouble": 7.5,
+              "valueFormatted": "7.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 16,
+          "values": [
+            {
+              "valueDouble": 32,
+              "valueFormatted": "32"
+            },
+            {
+              "valueDouble": 8,
+              "valueFormatted": "8"
+            }
+          ]
+        },
+        {
+          "observationNumber": 17,
+          "values": [
+            {
+              "valueDouble": 34,
+              "valueFormatted": "34"
+            },
+            {
+              "valueDouble": 8.5,
+              "valueFormatted": "8.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 18,
+          "values": [
+            {
+              "valueDouble": 36,
+              "valueFormatted": "36"
+            },
+            {
+              "valueDouble": 9,
+              "valueFormatted": "9"
+            }
+          ]
+        },
+        {
+          "observationNumber": 19,
+          "values": [
+            {
+              "valueDouble": 38,
+              "valueFormatted": "38"
+            },
+            {
+              "valueDouble": 9.5,
+              "valueFormatted": "9.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 20,
+          "values": [
+            {
+              "valueDouble": 40,
+              "valueFormatted": "40"
+            },
+            {
+              "valueDouble": 10,
+              "valueFormatted": "10"
+            }
+          ]
+        },
+        {
+          "observationNumber": 21,
+          "values": [
+            {
+              "valueDouble": 42,
+              "valueFormatted": "42"
+            },
+            {
+              "valueDouble": 10.5,
+              "valueFormatted": "10.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 22,
+          "values": [
+            {
+              "valueDouble": 44,
+              "valueFormatted": "44"
+            },
+            {
+              "valueDouble": 11,
+              "valueFormatted": "11"
+            }
+          ]
+        },
+        {
+          "observationNumber": 23,
+          "values": [
+            {
+              "valueDouble": 46,
+              "valueFormatted": "46"
+            },
+            {
+              "valueDouble": 11.5,
+              "valueFormatted": "11.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 24,
+          "values": [
+            {
+              "valueDouble": 48,
+              "valueFormatted": "48"
+            },
+            {
+              "valueDouble": 12,
+              "valueFormatted": "12"
+            }
+          ]
+        },
+        {
+          "observationNumber": 25,
+          "values": [
+            {
+              "valueDouble": 50,
+              "valueFormatted": "50"
+            },
+            {
+              "valueDouble": 12.5,
+              "valueFormatted": "12.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 26,
+          "values": [
+            {
+              "valueDouble": 52,
+              "valueFormatted": "52"
+            },
+            {
+              "valueDouble": 13,
+              "valueFormatted": "13"
+            }
+          ]
+        },
+        {
+          "observationNumber": 27,
+          "values": [
+            {
+              "valueDouble": 54,
+              "valueFormatted": "54"
+            },
+            {
+              "valueDouble": 13.5,
+              "valueFormatted": "13.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 28,
+          "values": [
+            {
+              "valueDouble": 56,
+              "valueFormatted": "56"
+            },
+            {
+              "valueDouble": 14,
+              "valueFormatted": "14"
+            }
+          ]
+        },
+        {
+          "observationNumber": 29,
+          "values": [
+            {
+              "valueDouble": 58,
+              "valueFormatted": "58"
+            },
+            {
+              "valueDouble": 14.5,
+              "valueFormatted": "14.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 30,
+          "values": [
+            {
+              "valueDouble": 60,
+              "valueFormatted": "60"
+            },
+            {
+              "valueDouble": 15,
+              "valueFormatted": "15"
+            }
+          ]
+        },
+        {
+          "observationNumber": 31,
+          "values": [
+            {
+              "valueDouble": 62,
+              "valueFormatted": "62"
+            },
+            {
+              "valueDouble": 15.5,
+              "valueFormatted": "15.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 32,
+          "values": [
+            {
+              "valueDouble": 64,
+              "valueFormatted": "64"
+            },
+            {
+              "valueDouble": 16,
+              "valueFormatted": "16"
+            }
+          ]
+        },
+        {
+          "observationNumber": 33,
+          "values": [
+            {
+              "valueDouble": 66,
+              "valueFormatted": "66"
+            },
+            {
+              "valueDouble": 16.5,
+              "valueFormatted": "16.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 34,
+          "values": [
+            {
+              "valueDouble": 68,
+              "valueFormatted": "68"
+            },
+            {
+              "valueDouble": 17,
+              "valueFormatted": "17"
+            }
+          ]
+        },
+        {
+          "observationNumber": 35,
+          "values": [
+            {
+              "valueDouble": 70,
+              "valueFormatted": "70"
+            },
+            {
+              "valueDouble": 17.5,
+              "valueFormatted": "17.5"
+            }
+          ]
+        },
+        {
+          "observationNumber": 36,
+          "values": [
+            {
+              "valueDouble": 72,
+              "valueFormatted": "72"
+            },
+            {
+              "valueDouble": 18,
+              "valueFormatted": "18"
+            }
+          ]
+        }
+      ]
+    },
+    "auditTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": "0",
+      "regressionEstimate": 0,
+      "regressionEstimateFormatted": "0",
+      "residualTotal": 0,
+      "residualTotalFormatted": "0",
+      "totalExcessUnderstatement": 0,
+      "totalExcessOverstatement": 0,
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "endingBalanceTestModel": {
+      "recordedCollections": 0,
+      "recordedCollectionsFormatted": "0",
+      "estimatedCollections": 0,
+      "estimatedCollectionsFormatted": "0",
+      "residualComponentTotal": 0,
+      "residualComponentTotalFormatted": "0",
+      "recordedBalance": 0,
+      "recordedBalanceFormatted": "0",
+      "estimatedBalance": 0,
+      "estimatedBalanceFormatted": "0",
+      "residualBalance": 0,
+      "residualBalanceFormatted": "0",
+      "thresholdUnderstatement": 0,
+      "thresholdUnderstatementFormatted": "0",
+      "thresholdOverstatement": 0,
+      "thresholdOverstatementFormatted": "0",
+      "excessUnderstatement": 0,
+      "excessUnderstatementFormatted": "None",
+      "excessOverstatement": 0,
+      "excessOverstatementFormatted": "None",
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "regressionTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": null,
+      "regressionEstimateTotal": 0,
+      "regressionEstimateTotalFormatted": null,
+      "residualTotal": 0,
+      "residualTotalFormatted": "0.0",
+      "precision": 0,
+      "precisionFormatted": "0.0",
+      "hasExcesses": false,
+      "totalExcesses": 0,
+      "totalExcessesFormatted": "0"
+    }
+  },
+  "workpaperDataId": "07fe6f83-c13f-4cbd-a35f-1ecd44178495",
+  "results": null,
+  "fileName": "Perfect Correlation.xlsx",
+  "userId": "3addd359-63fc-4329-bd70-b824a18c4701",
+  "alias": null,
+  "engagementId": "MAT-E152675-16"
+}

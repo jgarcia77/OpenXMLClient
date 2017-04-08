@@ -1,0 +1,2272 @@
+{
+  "visible": true,
+  "description": null,
+  "accountName": "Receivables",
+  "accountType": "asset",
+  "applicationType": "timeSeries",
+  "componentType": "credit",
+  "confidenceLevel": 0,
+  "controlsRelianceStrategy": "relying",
+  "forcedVariables": [],
+  "id": "1e2f20ce-ceb3-4567-875d-aafbaddbe8af",
+  "inherentRisk": "higher",
+  "numberOfObservations": 27,
+  "observationsFrom": 1,
+  "observationsTo": 44,
+  "performanceMateriality": 25,
+  "periodsPerYear": 12,
+  "predictingVariables": [
+    {
+      "analysisParametersId": "1e2f20ce-ceb3-4567-875d-aafbaddbe8af",
+      "value": "SALES"
+    },
+    {
+      "analysisParametersId": "1e2f20ce-ceb3-4567-875d-aafbaddbe8af",
+      "value": "SALES-1"
+    },
+    {
+      "analysisParametersId": "1e2f20ce-ceb3-4567-875d-aafbaddbe8af",
+      "value": "SALES-2"
+    },
+    {
+      "analysisParametersId": "1e2f20ce-ceb3-4567-875d-aafbaddbe8af",
+      "value": "SALES-3"
+    },
+    {
+      "analysisParametersId": "1e2f20ce-ceb3-4567-875d-aafbaddbe8af",
+      "value": "SALES-4"
+    }
+  ],
+  "recordedBalance": 300,
+  "runDateTime": "2017-03-08T10:33:46.9056045-06:00",
+  "seasonalAdjustment": false,
+  "testVariable": "COLLECTIONS",
+  "trend": false,
+  "typeOfProjection": "endingBalance",
+  "calculation": {
+    "status": "ReportContainsOutput",
+    "reportContents": "U1RBUjogU3RhdGlzdGljYWwgVGVjaG5pcXVlcyBmb3IgQW5hbHl0aWNhbCBSZXZpZXcgKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBWZXJzaW9uIDQuMC4yDQoNClNwZWNpZmljYXRpb25zIGZvciBNb2RlbA0KDQpWYXJpYWJsZXMgU3BlY2lmaWVkOiAgIA0KWSAgICBDT0xMRUNUSU9OUyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVEVTVA0KWDEgICBTQUxFUyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDIgICBTQUxFUy0xICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDMgICBTQUxFUy0yICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDQgICBTQUxFUy0zICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDUgICBTQUxFUy00ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KDQpPYnNlcnZhdGlvbnMgVXNlZDoNCkJhc2UsIDEgLSAxNyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTcNClByb2plY3Rpb24sIDE4IC0gNDQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjcNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0NClRvdGFsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNDQNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT09PT0NCg0KRGF0YSBQcm9maWxlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUSU1FIFNFUklFUw0KUGVyaW9kcyBwZXIgWWVhciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMg0KDQpUeXBlIG9mIFRlc3QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEVORElORyBCQUxBTkNFDQpQZXJmb3JtYW5jZSBNYXRlcmlhbGl0eSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDI1DQpUZXN0aW5nIFN0cmF0ZWd5OiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEhpZ2hlciBSaXNrLCBSZWx5aW5nIG9uIENvbnRyb2xzDQpBcHBsaWNhYmxlIFJpc2sgTGV2ZWw6ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSGlnaGVyDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpTdGVwd2lzZSBNdWx0aXBsZSBSZWdyZXNzaW9uIE1vZGVsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIElucHV0IERhdGEgICAgICAgICAgICAgICBSZWdyZXNzaW9uIEZ1bmN0aW9uDQogICAgICAgICAgICAgICAgICAgICAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RhbmRhcmQgICAgIENvbnN0YW50IG9yICAgICBTdGFuZGFyZA0KICAgICAgRGVzY3JpcHRpb24gICAgICAgICAgTWVhbiAgICAgICAgIERldmlhdGlvbiAgICAgQ29lZmZpY2llbnQgICAgICAgRXJyb3INCi0tLS0tLS0tLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLQ0KQ29uc3RhbnQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA4LjM2DQoNClByZWRpY3RpbmcgVmFyaWFibGVzDQpYMiAgIFNBTEVTLTEgICAgICAgICAgICAgICAgICAxNjcuNjUgICAgICAgICAgMjQuODkgICAgICAgICAwLjM5OTkgICAgICAgICAwLjA4OTcNClgzICAgU0FMRVMtMiAgICAgICAgICAgICAgICAgIDE2NC4xMiAgICAgICAgICAyMy45NSAgICAgICAgIDAuMzMwNiAgICAgICAgIDAuMDk0MA0KWDQgICBTQUxFUy0zICAgICAgICAgICAgICAgICAgMTYxLjAwICAgICAgICAgIDIzLjQwICAgICAgICAgMC4yMTk5ICAgICAgICAgMC4wOTQ1DQoNClRlc3QgVmFyaWFibGUNClkgICAgQ09MTEVDVElPTlMgICAgICAgICAgICAgIDE2NS4wNiAgICAgICAgICAxNy41Mw0KWScgICBFeHBlY3RhdGlvbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTY1LjA2ICAgICAgICAgOC43MDc5DQoNCkNvZWZmaWNpZW50IG9mIENvcnJlbGF0aW9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgODkuNCUNCg0KDQpFeHBlY3RhdGlvbiBbWScodCldIGZvciBvYnNlcnZhdGlvbiB0IDoNClknKHQpID0gOC4zNiArIDAuMzk5OSpYMih0KSArIDAuMzMwNipYMyh0KSArIDAuMjE5OSpYNCh0KQ0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KUGxvdCBvZiBSZXNpZHVhbHMNCg0KT2JzICAgIFJlY29yZGVkICAgICAgUmVncmVzc2lvbiAgICAgIFJlc2lkdWFsICAgICBSZXNpZHVhbHMgUGxvdHRlZCBpbiBVbml0cw0KIE5vICAgICBBbW91bnQgICAgICAgIEVzdGltYXRlICAgICAoRGlmZmVyZW5jZSkgICAgIG9mIE9uZSBTdGFuZGFyZCBFcnJvcg0KLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC00IC0zIC0yIC0xICAwICAxICAyICAzICA0DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogIDEgICAgICAgICAgICAxNDEgICAgICAgICAgICAxNDAgICAgICAgICAgICAgIDEgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDIgICAgICAgICAgICAxNTIgICAgICAgICAgICAxNTMgICAgICAgICAgICAgLTEgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDMgICAgICAgICAgICAxNjQgICAgICAgICAgICAxNjAgICAgICAgICAgICAgIDQgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogIDQgICAgICAgICAgICAxNTcgICAgICAgICAgICAxNjggICAgICAgICAgICAtMTEgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogIDUgICAgICAgICAgICAxNjYgICAgICAgICAgICAxNTkgICAgICAgICAgICAgIDcgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogIDYgICAgICAgICAgICAxNTMgICAgICAgICAgICAxNTIgICAgICAgICAgICAgIDEgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDcgICAgICAgICAgICAxMzMgICAgICAgICAgICAxMzUgICAgICAgICAgICAgLTIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogIDggICAgICAgICAgICAxNDcgICAgICAgICAgICAxNTAgICAgICAgICAgICAgLTMgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogIDkgICAgICAgICAgICAxNjUgICAgICAgICAgICAxNjYgICAgICAgICAgICAgLTEgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMTAgICAgICAgICAgICAxNjggICAgICAgICAgICAxNjggICAgICAgICAgICAgIDAgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMTEgICAgICAgICAgICAxNzQgICAgICAgICAgICAxODMgICAgICAgICAgICAgLTkgLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMTIgICAgICAgICAgICAxNjggICAgICAgICAgICAxODUgICAgICAgICAgICAtMTcgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMTMgICAgICAgICAgICAxNzEgICAgICAgICAgICAxNzYgICAgICAgICAgICAgLTUgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMTQgICAgICAgICAgICAxNzMgICAgICAgICAgICAxNzAgICAgICAgICAgICAgIDMgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMTUgICAgICAgICAgICAxNzcgICAgICAgICAgICAxNjkgICAgICAgICAgICAgIDggLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogMTYgICAgICAgICAgICAxOTUgICAgICAgICAgICAxODEgICAgICAgICAgICAgMTQgLXwgICAgICAgICAgIHwgICAgKiAgICAgIHwtDQogMTcgICAgICAgICAgICAyMDIgICAgICAgICAgICAxOTEgICAgICAgICAgICAgMTEgLXwgICAgICAgICAgIHwgICAqICAgICAgIHwtDQogMTggICAgICAgICAgICAxODggICAgICAgICAgICAxOTggICAgICAgICAgICAtMTAgLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMTkgICAgICAgICAgICAxODYgICAgICAgICAgICAxODcgICAgICAgICAgICAgLTEgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMjAgICAgICAgICAgICAyMDkgICAgICAgICAgICAxODcgICAgICAgICAgICAgMjIgLXwgICAgICAgICAgIHwgICAgICAgKiAgIHwtDQogMjEgICAgICAgICAgICAxODcgICAgICAgICAgICAxNzUgICAgICAgICAgICAgMTIgLXwgICAgICAgICAgIHwgICAqICAgICAgIHwtDQogMjIgICAgICAgICAgICAxNzcgICAgICAgICAgICAxNjkgICAgICAgICAgICAgIDggLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogMjMgICAgICAgICAgICAxOTIgICAgICAgICAgICAyMDAgICAgICAgICAgICAgLTggLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMjQgICAgICAgICAgICAxOTMgICAgICAgICAgICAyMDQgICAgICAgICAgICAtMTEgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMjUgICAgICAgICAgICAxODQgICAgICAgICAgICAyMDQgICAgICAgICAgICAtMjAgLXwgICAgKiAgICAgIHwgICAgICAgICAgIHwtDQogMjYgICAgICAgICAgICAyMDMgICAgICAgICAgICAxODYgICAgICAgICAgICAgMTcgLXwgICAgICAgICAgIHwgICAgICogICAgIHwtDQogMjcgICAgICAgICAgICAxODIgICAgICAgICAgICAxOTIgICAgICAgICAgICAtMTAgLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMjggICAgICAgICAgICAyMDQgICAgICAgICAgICAyMTQgICAgICAgICAgICAtMTAgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogMjkgICAgICAgICAgICAyMDAgICAgICAgICAgICAyMTQgICAgICAgICAgICAtMTQgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogMzAgICAgICAgICAgICAyMjUgICAgICAgICAgICAyMTQgICAgICAgICAgICAgMTEgLXwgICAgICAgICAgIHwgICAqICAgICAgIHwtDQogMzEgICAgICAgICAgICAyMjMgICAgICAgICAgICAyMDggICAgICAgICAgICAgMTUgLXwgICAgICAgICAgIHwgICAgKiAgICAgIHwtDQogMzIgICAgICAgICAgICAyMTMgICAgICAgICAgICAyMjAgICAgICAgICAgICAgLTcgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMzMgICAgICAgICAgICAyMzAgICAgICAgICAgICAyMTggICAgICAgICAgICAgMTIgLXwgICAgICAgICAgIHwgICAqICAgICAgIHwtDQogMzQgICAgICAgICAgICAyMTkgICAgICAgICAgICAyMjQgICAgICAgICAgICAgLTUgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMzUgICAgICAgICAgICAyMjcgICAgICAgICAgICAyMjEgICAgICAgICAgICAgIDYgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMzYgICAgICAgICAgICAyNDAgICAgICAgICAgICAyMzYgICAgICAgICAgICAgIDQgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMzcgICAgICAgICAgICAyMjAgICAgICAgICAgICAyMzEgICAgICAgICAgICAtMTEgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogMzggICAgICAgICAgICAyNjIgICAgICAgICAgICAyMzQgICAgICAgICAgICAgMjggLXwgICAgICAgICAgIHwgICAgICAgICAqIHwtDQogMzkgICAgICAgICAgICAyMzUgICAgICAgICAgICAyMzcgICAgICAgICAgICAgLTIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogNDAgICAgICAgICAgICAyMzAgICAgICAgICAgICAyNDUgICAgICAgICAgICAtMTUgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogNDEgICAgICAgICAgICAyNDcgICAgICAgICAgICAyNDkgICAgICAgICAgICAgLTIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogNDIgICAgICAgICAgICAyNDYgICAgICAgICAgICAyNDggICAgICAgICAgICAgLTIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogNDMgICAgICAgICAgICAyNDkgICAgICAgICAgICAyNTMgICAgICAgICAgICAgLTQgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogNDQgICAgICAgICAgICAyNDAgICAgICAgICAgICAyNTYgICAgICAgICAgICAtMTYgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQoNClRIRVJFIElTIEFOIElORElDQVRJT04gT0YgQVVUT0NPUlJFTEFUSU9OIElOIFRIRSBCQVNFIFBST0ZJTEUuICBHZW5lcmFsaXplZA0KbGVhc3Qgc3F1YXJlcyByZWdyZXNzaW9uIHdpbGwgYmUgdXNlZCB0byBjb3JyZWN0IGZvciB0aGUgY29uZGl0aW9uLg0KQXV0b2NvcnJlbGF0aW9uIGNhbiBvZnRlbiBiZSBhdHRyaWJ1dGVkIHRvIGEgbWlzc2luZyBtYWpvciBmYWN0b3IgYW5kIGlzDQpldmlkZW5jZWQgYnkgYSBwcm9ub3VuY2VkIHBhdHRlcm4gaW4gdGhlIHJlc2lkdWFscy4gIEV4YW1pbmUgdGhlIHBsb3Qgb2YNCnJlc2lkdWFscyB0byBpZGVudGlmeSB0aGUgbWlzc2luZyBmYWN0b3IuICBJbmNsdWRpbmcgdGhhdCBmYWN0b3IgYXMgYQ0KcHJlZGljdGluZyB2YXJpYWJsZSBtYXkgZWxpbWluYXRlIHRoZSBjb25kaXRpb24gYW5kIHJlZHVjZSB0aGUgZGlmZmVyZW5jZXMNCnRvIGJlIGF1ZGl0ZWQuDQoNCg0KR2VuZXJhbGl6ZWQgRXhwZWN0YXRpb24gW1knKHQpXSBmb3Igb2JzZXJ2YXRpb24gdCA6DQpZJygxKSA9IDkuMzkgKyAwLjM2ODIqWDIoMSkgKyAwLjM0NzUqWDMoMSkgKyAwLjIzMzcqWDQoMSkgKyBTUVIoMQ0KLTAuMzk2MV4yKSplKDEpDQpZJyh0KSA9IDkuMzkgKyAwLjM2ODIqWDIodCkgKyAwLjM0NzUqWDModCkgKyAwLjIzMzcqWDQodCkgKyAwLjM5NjEqZSh0DQotMSksIGZvciB0ID4gMQ0Kd2hlcmUsDQplKHQpICA9IFkodCkgLSAoOS4zOSArIDAuMzY4MipYMih0KSArIDAuMzQ3NSpYMyh0KSArIDAuMjMzNypYNCh0KSkNCg0KU3RhbmRhcmQgRXJyb3IgKHQpICAgICAgICAgICAgICAgID0gNy44NTIzDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpQbG90IG9mIFJlc2lkdWFscy0tQ29ycmVjdGVkIGZvciBBdXRvY29ycmVsYXRpb24NCg0KT2JzICAgIFJlY29yZGVkICAgICAgUmVncmVzc2lvbiAgICAgIFJlc2lkdWFsICAgICBSZXNpZHVhbHMgUGxvdHRlZCBpbiBVbml0cw0KIE5vICAgICBBbW91bnQgICAgICAgIEVzdGltYXRlICAgICAoRGlmZmVyZW5jZSkgICAgIG9mIE9uZSBTdGFuZGFyZCBFcnJvcg0KLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC00IC0zIC0yIC0xICAwICAxICAyICAzICA0DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogIDEgICAgICAgICAgICAxNDEgICAgICAgICAgICAxNDEgICAgICAgICAgICAgIDAgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDIgICAgICAgICAgICAxNTIgICAgICAgICAgICAxNTMgICAgICAgICAgICAgLTEgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDMgICAgICAgICAgICAxNjQgICAgICAgICAgICAxNjAgICAgICAgICAgICAgIDQgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogIDQgICAgICAgICAgICAxNTcgICAgICAgICAgICAxNzAgICAgICAgICAgICAtMTMgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogIDUgICAgICAgICAgICAxNjYgICAgICAgICAgICAxNTYgICAgICAgICAgICAgMTAgLXwgICAgICAgICAgIHwgICAqICAgICAgIHwtDQogIDYgICAgICAgICAgICAxNTMgICAgICAgICAgICAxNTYgICAgICAgICAgICAgLTMgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogIDcgICAgICAgICAgICAxMzMgICAgICAgICAgICAxMzYgICAgICAgICAgICAgLTMgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogIDggICAgICAgICAgICAxNDcgICAgICAgICAgICAxNDggICAgICAgICAgICAgLTEgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDkgICAgICAgICAgICAxNjUgICAgICAgICAgICAxNjUgICAgICAgICAgICAgIDAgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMTAgICAgICAgICAgICAxNjggICAgICAgICAgICAxNzAgICAgICAgICAgICAgLTIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogMTEgICAgICAgICAgICAxNzQgICAgICAgICAgICAxODEgICAgICAgICAgICAgLTcgLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMTIgICAgICAgICAgICAxNjggICAgICAgICAgICAxODMgICAgICAgICAgICAtMTUgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMTMgICAgICAgICAgICAxNzEgICAgICAgICAgICAxNzEgICAgICAgICAgICAgIDAgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMTQgICAgICAgICAgICAxNzMgICAgICAgICAgICAxNjggICAgICAgICAgICAgIDUgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTUgICAgICAgICAgICAxNzcgICAgICAgICAgICAxNzAgICAgICAgICAgICAgIDcgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogMTYgICAgICAgICAgICAxOTUgICAgICAgICAgICAxODUgICAgICAgICAgICAgMTAgLXwgICAgICAgICAgIHwgICAqICAgICAgIHwtDQogMTcgICAgICAgICAgICAyMDIgICAgICAgICAgICAxOTYgICAgICAgICAgICAgIDYgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTggICAgICAgICAgICAxODggICAgICAgICAgICAyMDMgICAgICAgICAgICAtMTUgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogMTkgICAgICAgICAgICAxODYgICAgICAgICAgICAxODQgICAgICAgICAgICAgIDIgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMjAgICAgICAgICAgICAyMDkgICAgICAgICAgICAxODYgICAgICAgICAgICAgMjMgLXwgICAgICAgICAgIHwgICAgICAgICogIHwtDQogMjEgICAgICAgICAgICAxODcgICAgICAgICAgICAxODUgICAgICAgICAgICAgIDIgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMjIgICAgICAgICAgICAxNzcgICAgICAgICAgICAxNzUgICAgICAgICAgICAgIDIgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMjMgICAgICAgICAgICAxOTIgICAgICAgICAgICAyMDAgICAgICAgICAgICAgLTggLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMjQgICAgICAgICAgICAxOTMgICAgICAgICAgICAyMDMgICAgICAgICAgICAtMTAgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMjUgICAgICAgICAgICAxODQgICAgICAgICAgICAyMDEgICAgICAgICAgICAtMTcgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogMjYgICAgICAgICAgICAyMDMgICAgICAgICAgICAxNzkgICAgICAgICAgICAgMjQgLXwgICAgICAgICAgIHwgICAgICAgICogIHwtDQogMjcgICAgICAgICAgICAxODIgICAgICAgICAgICAxOTggICAgICAgICAgICAtMTYgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogMjggICAgICAgICAgICAyMDQgICAgICAgICAgICAyMDkgICAgICAgICAgICAgLTUgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMjkgICAgICAgICAgICAyMDAgICAgICAgICAgICAyMTIgICAgICAgICAgICAtMTIgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogMzAgICAgICAgICAgICAyMjUgICAgICAgICAgICAyMDkgICAgICAgICAgICAgMTYgLXwgICAgICAgICAgIHwgICAgICogICAgIHwtDQogMzEgICAgICAgICAgICAyMjMgICAgICAgICAgICAyMTMgICAgICAgICAgICAgMTAgLXwgICAgICAgICAgIHwgICAqICAgICAgIHwtDQogMzIgICAgICAgICAgICAyMTMgICAgICAgICAgICAyMjYgICAgICAgICAgICAtMTMgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogMzMgICAgICAgICAgICAyMzAgICAgICAgICAgICAyMTcgICAgICAgICAgICAgMTMgLXwgICAgICAgICAgIHwgICAgKiAgICAgIHwtDQogMzQgICAgICAgICAgICAyMTkgICAgICAgICAgICAyMjggICAgICAgICAgICAgLTkgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogMzUgICAgICAgICAgICAyMjcgICAgICAgICAgICAyMjAgICAgICAgICAgICAgIDcgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogMzYgICAgICAgICAgICAyNDAgICAgICAgICAgICAyMzggICAgICAgICAgICAgIDIgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMzcgICAgICAgICAgICAyMjAgICAgICAgICAgICAyMzQgICAgICAgICAgICAtMTQgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogMzggICAgICAgICAgICAyNjIgICAgICAgICAgICAyMzAgICAgICAgICAgICAgMzIgLXwgICAgICAgICAgIHwgICAgICAgICAgICotDQogMzkgICAgICAgICAgICAyMzUgICAgICAgICAgICAyNDggICAgICAgICAgICAtMTMgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogNDAgICAgICAgICAgICAyMzAgICAgICAgICAgICAyNDUgICAgICAgICAgICAtMTUgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogNDEgICAgICAgICAgICAyNDcgICAgICAgICAgICAyNDMgICAgICAgICAgICAgIDQgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogNDIgICAgICAgICAgICAyNDYgICAgICAgICAgICAyNDggICAgICAgICAgICAgLTIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogNDMgICAgICAgICAgICAyNDkgICAgICAgICAgICAyNTIgICAgICAgICAgICAgLTMgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogNDQgICAgICAgICAgICAyNDAgICAgICAgICAgICAyNTUgICAgICAgICAgICAtMTUgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpFTkRJTkcgQkFMQU5DRSBUZXN0DQogIFBlcmZvcm1hbmNlIE1hdGVyaWFsaXR5ID0gIDI1DQogIFRlc3RpbmcgU3RyYXRlZ3k6IEhpZ2hlciBSaXNrLCBSZWx5aW5nIG9uIENvbnRyb2xzICAgICAgICAgICAgICAgICAgICAgICAgIA0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQpDT01QT05FTlQ6DQpSZWNvcmRlZCBDT0xMRUNUSU9OUyAgICAgICAgICAgICAgICAgIDUsODExICAgWSAoQ1JFRElUKQ0KRXN0aW1hdGVkIENPTExFQ1RJT05TICAgICAgICAgICAgICAgICA1LDg0MCAgIFknDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgIC0tLS0tLS0tLS0tLS0tDQpSZXNpZHVhbCAoQ29tcG9uZW50IFRvdGFsKSAgICAgICAgICAgICAgLTI5ICAgRSA9IFkgLSBZJw0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PT09PT09PT09PT09PQ0KQkFMQU5DRToNClJlY29yZGVkIFJlY2VpdmFibGVzICAgICAgICAgICAgICAgICAgICAzMDAgICBCIChBU1NFVCkNCkVzdGltYXRlZCBSZWNlaXZhYmxlcyAgICAgICAgICAgICAgICAgICAyNzEgICBCJyA9IEIgKyBFDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBVbmRlcnN0YXRlbWVudCAgT3ZlcnN0YXRlbWVudA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAtLS0tLS0tLS0tLS0tLSAgIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tDQpSZXNpZHVhbCAoQmFsYW5jZSkgICAgICAgICAgICAgICAgICAgICAgIDI5ICAgICAgICAgICAgICAgMjkgICAgICAgICAgICAgMjkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT09PT09PT09PT09PT0NClRocmVzaG9sZCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC0zOSAgICAgICAgICAgICAzOQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tDQpFeGNlc3MgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE5vbmUgICAgICAgICAgIE5vbmUNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA9PT09PT09PT09PT09PSA9PT09PT09PT09PT09PQ0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KVmFyaWFibGVzIFVzZWQgKCspLCBOb3QgVXNlZCAoLSkNCg0KT2JzIyAgICAgIFkrICAgICBYMS0gICAgIFgyKyAgICAgWDMrICAgICBYNCsgICAgIFg1LQ0KLS0tLSAtLS0tLS0tIC0tLS0tLS0gLS0tLS0tLSAtLS0tLS0tIC0tLS0tLS0gLS0tLS0tLQ0KICAgMSAgICAgMTQxICAgICAxNzIgICAgIDEzNiAgICAgMTQyICAgICAxNDAgICAgIDE0MA0KICAgMiAgICAgMTUyICAgICAxNjEgICAgIDE3MiAgICAgMTM2ICAgICAxNDIgICAgIDE0MA0KICAgMyAgICAgMTY0ICAgICAxNzIgICAgIDE2MSAgICAgMTcyICAgICAxMzYgICAgIDE0Mg0KICAgNCAgICAgMTU3ICAgICAxNDcgICAgIDE3MiAgICAgMTYxICAgICAxNzIgICAgIDEzNg0KICAgNSAgICAgMTY2ICAgICAxNDQgICAgIDE0NyAgICAgMTcyICAgICAxNjEgICAgIDE3Mg0KICAgNiAgICAgMTUzICAgICAxMTYgICAgIDE0NCAgICAgMTQ3ICAgICAxNzIgICAgIDE2MQ0KICAgNyAgICAgMTMzICAgICAxNzggICAgIDExNiAgICAgMTQ0ICAgICAxNDcgICAgIDE3Mg0KICAgOCAgICAgMTQ3ICAgICAxODQgICAgIDE3OCAgICAgMTE2ICAgICAxNDQgICAgIDE0Nw0KICAgOSAgICAgMTY1ICAgICAxNTAgICAgIDE4NCAgICAgMTc4ICAgICAxMTYgICAgIDE0NA0KICAxMCAgICAgMTY4ICAgICAyMTEgICAgIDE1MCAgICAgMTg0ICAgICAxNzggICAgIDExNg0KICAxMSAgICAgMTc0ICAgICAxODUgICAgIDIxMSAgICAgMTUwICAgICAxODQgICAgIDE3OA0KICAxMiAgICAgMTY4ICAgICAxNDkgICAgIDE4NSAgICAgMjExICAgICAxNTAgICAgIDE4NA0KICAxMyAgICAgMTcxICAgICAxNzkgICAgIDE0OSAgICAgMTg1ICAgICAyMTEgICAgIDE1MA0KICAxNCAgICAgMTczICAgICAxNzEgICAgIDE3OSAgICAgMTQ5ICAgICAxODUgICAgIDIxMQ0KICAxNSAgICAgMTc3ICAgICAxOTMgICAgIDE3MSAgICAgMTc5ICAgICAxNDkgICAgIDE4NQ0KICAxNiAgICAgMTk1ICAgICAyMDIgICAgIDE5MyAgICAgMTcxICAgICAxNzkgICAgIDE0OQ0KICAxNyAgICAgMjAyICAgICAyMDEgICAgIDIwMiAgICAgMTkzICAgICAxNzEgICAgIDE3OQ0KICAxOCAgICAgMTg4ICAgICAxNjkgICAgIDIwMSAgICAgMjAyICAgICAxOTMgICAgIDE3MQ0KICAxOSAgICAgMTg2ICAgICAxOTYgICAgIDE2OSAgICAgMjAxICAgICAyMDIgICAgIDE5Mw0KICAyMCAgICAgMjA5ICAgICAxNjEgICAgIDE5NiAgICAgMTY5ICAgICAyMDEgICAgIDIwMg0KICAyMSAgICAgMTg3ICAgICAxNjEgICAgIDE2MSAgICAgMTk2ICAgICAxNjkgICAgIDIwMQ0KICAyMiAgICAgMTc3ICAgICAyNTcgICAgIDE2MSAgICAgMTYxICAgICAxOTYgICAgIDE2OQ0KICAyMyAgICAgMTkyICAgICAxODcgICAgIDI1NyAgICAgMTYxICAgICAxNjEgICAgIDE5Ng0KICAyNCAgICAgMTkzICAgICAxOTMgICAgIDE4NyAgICAgMjU3ICAgICAxNjEgICAgIDE2MQ0KICAyNSAgICAgMTg0ICAgICAxODIgICAgIDE5MyAgICAgMTg3ICAgICAyNTcgICAgIDE2MQ0KICAyNiAgICAgMjAzICAgICAyMDIgICAgIDE4MiAgICAgMTkzICAgICAxODcgICAgIDI1Nw0KICAyNyAgICAgMTgyICAgICAyNDggICAgIDIwMiAgICAgMTgyICAgICAxOTMgICAgIDE4Nw0KICAyOCAgICAgMjA0ICAgICAxOTcgICAgIDI0OCAgICAgMjAyICAgICAxODIgICAgIDE5Mw0KICAyOSAgICAgMjAwICAgICAyMTQgICAgIDE5NyAgICAgMjQ4ICAgICAyMDIgICAgIDE4Mg0KICAzMCAgICAgMjI1ICAgICAyMTUgICAgIDIxNCAgICAgMTk3ICAgICAyNDggICAgIDIwMg0KICAzMSAgICAgMjIzICAgICAyMzQgICAgIDIxNSAgICAgMjE0ICAgICAxOTcgICAgIDI0OA0KICAzMiAgICAgMjEzICAgICAyMTMgICAgIDIzNCAgICAgMjE1ICAgICAyMTQgICAgIDE5Nw0KICAzMyAgICAgMjMwICAgICAyMzQgICAgIDIxMyAgICAgMjM0ICAgICAyMTUgICAgIDIxNA0KICAzNCAgICAgMjE5ICAgICAyMjEgICAgIDIzNCAgICAgMjEzICAgICAyMzQgICAgIDIxNQ0KICAzNSAgICAgMjI3ICAgICAyNTggICAgIDIyMSAgICAgMjM0ICAgICAyMTMgICAgIDIzNA0KICAzNiAgICAgMjQwICAgICAyMjEgICAgIDI1OCAgICAgMjIxICAgICAyMzQgICAgIDIxMw0KICAzNyAgICAgMjIwICAgICAyMzkgICAgIDIyMSAgICAgMjU4ICAgICAyMjEgICAgIDIzNA0KICAzOCAgICAgMjYyICAgICAyNTIgICAgIDIzOSAgICAgMjIxICAgICAyNTggICAgIDIyMQ0KICAzOSAgICAgMjM1ICAgICAyNTIgICAgIDI1MiAgICAgMjM5ICAgICAyMjEgICAgIDI1OA0KICA0MCAgICAgMjMwICAgICAyNTQgICAgIDI1MiAgICAgMjUyICAgICAyMzkgICAgIDIyMQ0KICA0MSAgICAgMjQ3ICAgICAyNTAgICAgIDI1NCAgICAgMjUyICAgICAyNTIgICAgIDIzOQ0KICA0MiAgICAgMjQ2ICAgICAyNjUgICAgIDI1MCAgICAgMjU0ICAgICAyNTIgICAgIDI1Mg0KICA0MyAgICAgMjQ5ICAgICAyNjMgICAgIDI2NSAgICAgMjUwICAgICAyNTQgICAgIDI1Mg0KICA0NCAgICAgMjQwICAgICAyNzAgICAgIDI2MyAgICAgMjY1ICAgICAyNTAgICAgIDI1NA0KICAgICAtLS0tLS0tIC0tLS0tLS0gLS0tLS0tLSAtLS0tLS0tIC0tLS0tLS0gLS0tLS0tLQ0KICAgICAgIDgsNjE3ICAgOCw5MjMgICA4LDc4OSAgIDgsNjY4ICAgOCw1NDMgICA4LDQzMw0KICAgICA9PT09PT09ID09PT09PT0gPT09PT09PSA9PT09PT09ID09PT09PT0gPT09PT09PQ0K",
+    "warnings": [
+      {
+        "code": 14,
+        "name": "Autocorrelation",
+        "title": "AUTOCORRELATION",
+        "body": "Reveal completed the procedure using generalized least squares regression."
+      }
+    ],
+    "regressionModel": {
+      "constant": 8.36,
+      "constantFormatted": "8.36",
+      "coefficientOfCorrelation": 89.4,
+      "coefficientOfCorrelationFormatted": "89.4",
+      "testVariable": {
+        "name": "COLLECTIONS",
+        "mean": 165.1,
+        "meanFormatted": "165.1",
+        "standardDeviation": 17.53,
+        "standardDeviationFormatted": "17.53"
+      },
+      "expectation": {
+        "constantOrCoefficient": 165.1,
+        "constantOrCoefficientFormatted": "165.1",
+        "standardError": 8.708,
+        "standardErrorFormatted": "8.708"
+      },
+      "predictingVariables": [
+        {
+          "name": "SALES-1",
+          "mean": 167.7,
+          "meanFormatted": "167.7",
+          "standardDeviation": 24.89,
+          "standardDeviationFormatted": "24.89",
+          "constantOrCoefficient": 0.3999,
+          "constantOrCoefficientFormatted": "0.3999",
+          "standardError": 0.0897,
+          "standardErrorFormatted": "0.0897"
+        },
+        {
+          "name": "SALES-2",
+          "mean": 164.1,
+          "meanFormatted": "164.1",
+          "standardDeviation": 23.95,
+          "standardDeviationFormatted": "23.95",
+          "constantOrCoefficient": 0.3306,
+          "constantOrCoefficientFormatted": "0.3306",
+          "standardError": 0.094,
+          "standardErrorFormatted": "0.094"
+        },
+        {
+          "name": "SALES-3",
+          "mean": 161,
+          "meanFormatted": "161",
+          "standardDeviation": 23.4,
+          "standardDeviationFormatted": "23.4",
+          "constantOrCoefficient": 0.2199,
+          "constantOrCoefficientFormatted": "0.2199",
+          "standardError": 0.0945,
+          "standardErrorFormatted": "0.0945"
+        }
+      ],
+      "expectationFormula": {
+        "value": "8.36 + 0.3999*X2(t) + 0.3306*X3(t) + 0.2199*X4(t)",
+        "testVariableName": "COLLECTIONS",
+        "constant": 8.36,
+        "constantFormatted": "8.36",
+        "period": "t",
+        "variables": [
+          {
+            "name": "SALES-1",
+            "value": 0.3999,
+            "valueFormatted": "0.3999",
+            "symbol": "X2",
+            "period": "t",
+            "operator": "+"
+          },
+          {
+            "name": "SALES-2",
+            "value": 0.3306,
+            "valueFormatted": "0.3306",
+            "symbol": "X3",
+            "period": "t",
+            "operator": "+"
+          },
+          {
+            "name": "SALES-3",
+            "value": 0.2199,
+            "valueFormatted": "0.2199",
+            "symbol": "X4",
+            "period": "t",
+            "operator": "+"
+          }
+        ]
+      }
+    },
+    "residualsIsCorrected": true,
+    "residualsCorrectedHeading": "Corrected for Autocorrelation",
+    "residuals": [
+      {
+        "observationNumber": 1,
+        "recordedAmount": 141,
+        "recordedAmountFormatted": "141",
+        "regressionEstimate": 141,
+        "regressionEstimateFormatted": "141",
+        "residualDifference": 0,
+        "residualDifferenceFormatted": "0",
+        "plotPosition": -0.017
+      },
+      {
+        "observationNumber": 2,
+        "recordedAmount": 152,
+        "recordedAmountFormatted": "152",
+        "regressionEstimate": 153,
+        "regressionEstimateFormatted": "153",
+        "residualDifference": -1,
+        "residualDifferenceFormatted": "-1",
+        "plotPosition": -0.367
+      },
+      {
+        "observationNumber": 3,
+        "recordedAmount": 164,
+        "recordedAmountFormatted": "164",
+        "regressionEstimate": 160,
+        "regressionEstimateFormatted": "160",
+        "residualDifference": 4,
+        "residualDifferenceFormatted": "4",
+        "plotPosition": 1.617
+      },
+      {
+        "observationNumber": 4,
+        "recordedAmount": 157,
+        "recordedAmountFormatted": "157",
+        "regressionEstimate": 170,
+        "regressionEstimateFormatted": "170",
+        "residualDifference": -13,
+        "residualDifferenceFormatted": "-13",
+        "plotPosition": -5.106
+      },
+      {
+        "observationNumber": 5,
+        "recordedAmount": 166,
+        "recordedAmountFormatted": "166",
+        "regressionEstimate": 156,
+        "regressionEstimateFormatted": "156",
+        "residualDifference": 10,
+        "residualDifferenceFormatted": "10",
+        "plotPosition": 3.738
+      },
+      {
+        "observationNumber": 6,
+        "recordedAmount": 153,
+        "recordedAmountFormatted": "153",
+        "regressionEstimate": 156,
+        "regressionEstimateFormatted": "156",
+        "residualDifference": -3,
+        "residualDifferenceFormatted": "-3",
+        "plotPosition": -1.035
+      },
+      {
+        "observationNumber": 7,
+        "recordedAmount": 133,
+        "recordedAmountFormatted": "133",
+        "regressionEstimate": 136,
+        "regressionEstimateFormatted": "136",
+        "residualDifference": -3,
+        "residualDifferenceFormatted": "-3",
+        "plotPosition": -1.233
+      },
+      {
+        "observationNumber": 8,
+        "recordedAmount": 147,
+        "recordedAmountFormatted": "147",
+        "regressionEstimate": 148,
+        "regressionEstimateFormatted": "148",
+        "residualDifference": -1,
+        "residualDifferenceFormatted": "-1",
+        "plotPosition": -0.195
+      },
+      {
+        "observationNumber": 9,
+        "recordedAmount": 165,
+        "recordedAmountFormatted": "165",
+        "regressionEstimate": 165,
+        "regressionEstimateFormatted": "165",
+        "residualDifference": 0,
+        "residualDifferenceFormatted": "0",
+        "plotPosition": -0.138
+      },
+      {
+        "observationNumber": 10,
+        "recordedAmount": 168,
+        "recordedAmountFormatted": "168",
+        "regressionEstimate": 170,
+        "regressionEstimateFormatted": "170",
+        "residualDifference": -2,
+        "residualDifferenceFormatted": "-2",
+        "plotPosition": -0.66
+      },
+      {
+        "observationNumber": 11,
+        "recordedAmount": 174,
+        "recordedAmountFormatted": "174",
+        "regressionEstimate": 181,
+        "regressionEstimateFormatted": "181",
+        "residualDifference": -7,
+        "residualDifferenceFormatted": "-7",
+        "plotPosition": -2.81
+      },
+      {
+        "observationNumber": 12,
+        "recordedAmount": 168,
+        "recordedAmountFormatted": "168",
+        "regressionEstimate": 183,
+        "regressionEstimateFormatted": "183",
+        "residualDifference": -15,
+        "residualDifferenceFormatted": "-15",
+        "plotPosition": -5.594
+      },
+      {
+        "observationNumber": 13,
+        "recordedAmount": 171,
+        "recordedAmountFormatted": "171",
+        "regressionEstimate": 171,
+        "regressionEstimateFormatted": "171",
+        "residualDifference": 0,
+        "residualDifferenceFormatted": "0",
+        "plotPosition": 0.088
+      },
+      {
+        "observationNumber": 14,
+        "recordedAmount": 173,
+        "recordedAmountFormatted": "173",
+        "regressionEstimate": 168,
+        "regressionEstimateFormatted": "168",
+        "residualDifference": 5,
+        "residualDifferenceFormatted": "5",
+        "plotPosition": 2.063
+      },
+      {
+        "observationNumber": 15,
+        "recordedAmount": 177,
+        "recordedAmountFormatted": "177",
+        "regressionEstimate": 170,
+        "regressionEstimateFormatted": "170",
+        "residualDifference": 7,
+        "residualDifferenceFormatted": "7",
+        "plotPosition": 2.503
+      },
+      {
+        "observationNumber": 16,
+        "recordedAmount": 195,
+        "recordedAmountFormatted": "195",
+        "regressionEstimate": 185,
+        "regressionEstimateFormatted": "185",
+        "residualDifference": 10,
+        "residualDifferenceFormatted": "10",
+        "plotPosition": 3.923
+      },
+      {
+        "observationNumber": 17,
+        "recordedAmount": 202,
+        "recordedAmountFormatted": "202",
+        "regressionEstimate": 196,
+        "regressionEstimateFormatted": "196",
+        "residualDifference": 6,
+        "residualDifferenceFormatted": "6",
+        "plotPosition": 2.266
+      },
+      {
+        "observationNumber": 18,
+        "recordedAmount": 188,
+        "recordedAmountFormatted": "188",
+        "regressionEstimate": 203,
+        "regressionEstimateFormatted": "203",
+        "residualDifference": -15,
+        "residualDifferenceFormatted": "-15",
+        "plotPosition": -5.785
+      },
+      {
+        "observationNumber": 19,
+        "recordedAmount": 186,
+        "recordedAmountFormatted": "186",
+        "regressionEstimate": 184,
+        "regressionEstimateFormatted": "184",
+        "residualDifference": 2,
+        "residualDifferenceFormatted": "2",
+        "plotPosition": 0.596
+      },
+      {
+        "observationNumber": 20,
+        "recordedAmount": 209,
+        "recordedAmountFormatted": "209",
+        "regressionEstimate": 186,
+        "regressionEstimateFormatted": "186",
+        "residualDifference": 23,
+        "residualDifferenceFormatted": "23",
+        "plotPosition": 8.709
+      },
+      {
+        "observationNumber": 21,
+        "recordedAmount": 187,
+        "recordedAmountFormatted": "187",
+        "regressionEstimate": 185,
+        "regressionEstimateFormatted": "185",
+        "residualDifference": 2,
+        "residualDifferenceFormatted": "2",
+        "plotPosition": 0.804
+      },
+      {
+        "observationNumber": 22,
+        "recordedAmount": 177,
+        "recordedAmountFormatted": "177",
+        "regressionEstimate": 175,
+        "regressionEstimateFormatted": "175",
+        "residualDifference": 2,
+        "residualDifferenceFormatted": "2",
+        "plotPosition": 0.888
+      },
+      {
+        "observationNumber": 23,
+        "recordedAmount": 192,
+        "recordedAmountFormatted": "192",
+        "regressionEstimate": 200,
+        "regressionEstimateFormatted": "200",
+        "residualDifference": -8,
+        "residualDifferenceFormatted": "-8",
+        "plotPosition": -3.133
+      },
+      {
+        "observationNumber": 24,
+        "recordedAmount": 193,
+        "recordedAmountFormatted": "193",
+        "regressionEstimate": 203,
+        "regressionEstimateFormatted": "203",
+        "residualDifference": -10,
+        "residualDifferenceFormatted": "-10",
+        "plotPosition": -3.81
+      },
+      {
+        "observationNumber": 25,
+        "recordedAmount": 184,
+        "recordedAmountFormatted": "184",
+        "regressionEstimate": 201,
+        "regressionEstimateFormatted": "201",
+        "residualDifference": -17,
+        "residualDifferenceFormatted": "-17",
+        "plotPosition": -6.371
+      },
+      {
+        "observationNumber": 26,
+        "recordedAmount": 203,
+        "recordedAmountFormatted": "203",
+        "regressionEstimate": 179,
+        "regressionEstimateFormatted": "179",
+        "residualDifference": 24,
+        "residualDifferenceFormatted": "24",
+        "plotPosition": 9.298
+      },
+      {
+        "observationNumber": 27,
+        "recordedAmount": 182,
+        "recordedAmountFormatted": "182",
+        "regressionEstimate": 198,
+        "regressionEstimateFormatted": "198",
+        "residualDifference": -16,
+        "residualDifferenceFormatted": "-16",
+        "plotPosition": -6.262
+      },
+      {
+        "observationNumber": 28,
+        "recordedAmount": 204,
+        "recordedAmountFormatted": "204",
+        "regressionEstimate": 209,
+        "regressionEstimateFormatted": "209",
+        "residualDifference": -5,
+        "residualDifferenceFormatted": "-5",
+        "plotPosition": -2.075
+      },
+      {
+        "observationNumber": 29,
+        "recordedAmount": 200,
+        "recordedAmountFormatted": "200",
+        "regressionEstimate": 212,
+        "regressionEstimateFormatted": "212",
+        "residualDifference": -12,
+        "residualDifferenceFormatted": "-12",
+        "plotPosition": -4.426
+      },
+      {
+        "observationNumber": 30,
+        "recordedAmount": 225,
+        "recordedAmountFormatted": "225",
+        "regressionEstimate": 209,
+        "regressionEstimateFormatted": "209",
+        "residualDifference": 16,
+        "residualDifferenceFormatted": "16",
+        "plotPosition": 6.289
+      },
+      {
+        "observationNumber": 31,
+        "recordedAmount": 223,
+        "recordedAmountFormatted": "223",
+        "regressionEstimate": 213,
+        "regressionEstimateFormatted": "213",
+        "residualDifference": 10,
+        "residualDifferenceFormatted": "10",
+        "plotPosition": 3.789
+      },
+      {
+        "observationNumber": 32,
+        "recordedAmount": 213,
+        "recordedAmountFormatted": "213",
+        "regressionEstimate": 226,
+        "regressionEstimateFormatted": "226",
+        "residualDifference": -13,
+        "residualDifferenceFormatted": "-13",
+        "plotPosition": -4.906
+      },
+      {
+        "observationNumber": 33,
+        "recordedAmount": 230,
+        "recordedAmountFormatted": "230",
+        "regressionEstimate": 217,
+        "regressionEstimateFormatted": "217",
+        "residualDifference": 13,
+        "residualDifferenceFormatted": "13",
+        "plotPosition": 5.157
+      },
+      {
+        "observationNumber": 34,
+        "recordedAmount": 219,
+        "recordedAmountFormatted": "219",
+        "regressionEstimate": 228,
+        "regressionEstimateFormatted": "228",
+        "residualDifference": -9,
+        "residualDifferenceFormatted": "-9",
+        "plotPosition": -3.616
+      },
+      {
+        "observationNumber": 35,
+        "recordedAmount": 227,
+        "recordedAmountFormatted": "227",
+        "regressionEstimate": 220,
+        "regressionEstimateFormatted": "220",
+        "residualDifference": 7,
+        "residualDifferenceFormatted": "7",
+        "plotPosition": 2.758
+      },
+      {
+        "observationNumber": 36,
+        "recordedAmount": 240,
+        "recordedAmountFormatted": "240",
+        "regressionEstimate": 238,
+        "regressionEstimateFormatted": "238",
+        "residualDifference": 2,
+        "residualDifferenceFormatted": "2",
+        "plotPosition": 0.798
+      },
+      {
+        "observationNumber": 37,
+        "recordedAmount": 220,
+        "recordedAmountFormatted": "220",
+        "regressionEstimate": 234,
+        "regressionEstimateFormatted": "234",
+        "residualDifference": -14,
+        "residualDifferenceFormatted": "-14",
+        "plotPosition": -5.238
+      },
+      {
+        "observationNumber": 38,
+        "recordedAmount": 262,
+        "recordedAmountFormatted": "262",
+        "regressionEstimate": 230,
+        "regressionEstimateFormatted": "230",
+        "residualDifference": 32,
+        "residualDifferenceFormatted": "32",
+        "plotPosition": 12.337
+      },
+      {
+        "observationNumber": 39,
+        "recordedAmount": 235,
+        "recordedAmountFormatted": "235",
+        "regressionEstimate": 248,
+        "regressionEstimateFormatted": "248",
+        "residualDifference": -13,
+        "residualDifferenceFormatted": "-13",
+        "plotPosition": -4.884
+      },
+      {
+        "observationNumber": 40,
+        "recordedAmount": 230,
+        "recordedAmountFormatted": "230",
+        "regressionEstimate": 245,
+        "regressionEstimateFormatted": "245",
+        "residualDifference": -15,
+        "residualDifferenceFormatted": "-15",
+        "plotPosition": -5.679
+      },
+      {
+        "observationNumber": 41,
+        "recordedAmount": 247,
+        "recordedAmountFormatted": "247",
+        "regressionEstimate": 243,
+        "regressionEstimateFormatted": "243",
+        "residualDifference": 4,
+        "residualDifferenceFormatted": "4",
+        "plotPosition": 1.451
+      },
+      {
+        "observationNumber": 42,
+        "recordedAmount": 246,
+        "recordedAmountFormatted": "246",
+        "regressionEstimate": 248,
+        "regressionEstimateFormatted": "248",
+        "residualDifference": -2,
+        "residualDifferenceFormatted": "-2",
+        "plotPosition": -0.635
+      },
+      {
+        "observationNumber": 43,
+        "recordedAmount": 249,
+        "recordedAmountFormatted": "249",
+        "regressionEstimate": 252,
+        "regressionEstimateFormatted": "252",
+        "residualDifference": -3,
+        "residualDifferenceFormatted": "-3",
+        "plotPosition": -1.213
+      },
+      {
+        "observationNumber": 44,
+        "recordedAmount": 240,
+        "recordedAmountFormatted": "240",
+        "regressionEstimate": 255,
+        "regressionEstimateFormatted": "255",
+        "residualDifference": -15,
+        "residualDifferenceFormatted": "-15",
+        "plotPosition": -5.763
+      }
+    ],
+    "variableUsageModel": {
+      "variables": [
+        {
+          "name": "COLLECTIONS",
+          "isUsed": true,
+          "total": 8617,
+          "totalFormatted": "8,617",
+          "min": 133,
+          "minFormatted": "133",
+          "max": 262,
+          "maxFormatted": "262",
+          "scatterMatrix": [
+            0.062,
+            0.147,
+            0.24,
+            0.186,
+            0.256,
+            0.155,
+            0,
+            0.109,
+            0.248,
+            0.271,
+            0.318,
+            0.271,
+            0.295,
+            0.31,
+            0.341,
+            0.481,
+            0.535,
+            0.426,
+            0.411,
+            0.589,
+            0.419,
+            0.341,
+            0.457,
+            0.465,
+            0.395,
+            0.543,
+            0.38,
+            0.55,
+            0.519,
+            0.713,
+            0.698,
+            0.62,
+            0.752,
+            0.667,
+            0.729,
+            0.829,
+            0.674,
+            1,
+            0.791,
+            0.752,
+            0.884,
+            0.876,
+            0.899,
+            0.829
+          ]
+        },
+        {
+          "name": "SALES",
+          "isUsed": false,
+          "total": 8923,
+          "totalFormatted": "8,923",
+          "min": 116,
+          "minFormatted": "116",
+          "max": 270,
+          "maxFormatted": "270",
+          "scatterMatrix": [
+            0.364,
+            0.292,
+            0.364,
+            0.201,
+            0.182,
+            0,
+            0.403,
+            0.442,
+            0.221,
+            0.617,
+            0.448,
+            0.214,
+            0.409,
+            0.357,
+            0.5,
+            0.558,
+            0.552,
+            0.344,
+            0.519,
+            0.292,
+            0.292,
+            0.916,
+            0.461,
+            0.5,
+            0.429,
+            0.558,
+            0.857,
+            0.526,
+            0.636,
+            0.643,
+            0.766,
+            0.63,
+            0.766,
+            0.682,
+            0.922,
+            0.682,
+            0.799,
+            0.883,
+            0.883,
+            0.896,
+            0.87,
+            0.968,
+            0.955,
+            1
+          ]
+        },
+        {
+          "name": "SALES-1",
+          "isUsed": true,
+          "total": 8789,
+          "totalFormatted": "8,789",
+          "min": 116,
+          "minFormatted": "116",
+          "max": 265,
+          "maxFormatted": "265",
+          "scatterMatrix": [
+            0.134,
+            0.376,
+            0.302,
+            0.376,
+            0.208,
+            0.188,
+            0,
+            0.416,
+            0.456,
+            0.228,
+            0.638,
+            0.463,
+            0.221,
+            0.423,
+            0.369,
+            0.517,
+            0.577,
+            0.57,
+            0.356,
+            0.537,
+            0.302,
+            0.302,
+            0.946,
+            0.477,
+            0.517,
+            0.443,
+            0.577,
+            0.886,
+            0.544,
+            0.658,
+            0.664,
+            0.792,
+            0.651,
+            0.792,
+            0.705,
+            0.953,
+            0.705,
+            0.826,
+            0.913,
+            0.913,
+            0.926,
+            0.899,
+            1,
+            0.987
+          ]
+        },
+        {
+          "name": "SALES-2",
+          "isUsed": true,
+          "total": 8668,
+          "totalFormatted": "8,668",
+          "min": 116,
+          "minFormatted": "116",
+          "max": 265,
+          "maxFormatted": "265",
+          "scatterMatrix": [
+            0.174,
+            0.134,
+            0.376,
+            0.302,
+            0.376,
+            0.208,
+            0.188,
+            0,
+            0.416,
+            0.456,
+            0.228,
+            0.638,
+            0.463,
+            0.221,
+            0.423,
+            0.369,
+            0.517,
+            0.577,
+            0.57,
+            0.356,
+            0.537,
+            0.302,
+            0.302,
+            0.946,
+            0.477,
+            0.517,
+            0.443,
+            0.577,
+            0.886,
+            0.544,
+            0.658,
+            0.664,
+            0.792,
+            0.651,
+            0.792,
+            0.705,
+            0.953,
+            0.705,
+            0.826,
+            0.913,
+            0.913,
+            0.926,
+            0.899,
+            1
+          ]
+        },
+        {
+          "name": "SALES-3",
+          "isUsed": true,
+          "total": 8543,
+          "totalFormatted": "8,543",
+          "min": 116,
+          "minFormatted": "116",
+          "max": 258,
+          "maxFormatted": "258",
+          "scatterMatrix": [
+            0.169,
+            0.183,
+            0.141,
+            0.394,
+            0.317,
+            0.394,
+            0.218,
+            0.197,
+            0,
+            0.437,
+            0.479,
+            0.239,
+            0.669,
+            0.486,
+            0.232,
+            0.444,
+            0.387,
+            0.542,
+            0.606,
+            0.599,
+            0.373,
+            0.563,
+            0.317,
+            0.317,
+            0.993,
+            0.5,
+            0.542,
+            0.465,
+            0.606,
+            0.93,
+            0.57,
+            0.69,
+            0.697,
+            0.831,
+            0.683,
+            0.831,
+            0.739,
+            1,
+            0.739,
+            0.866,
+            0.958,
+            0.958,
+            0.972,
+            0.944
+          ]
+        },
+        {
+          "name": "SALES-4",
+          "isUsed": false,
+          "total": 8433,
+          "totalFormatted": "8,433",
+          "min": 116,
+          "minFormatted": "116",
+          "max": 258,
+          "maxFormatted": "258",
+          "scatterMatrix": [
+            0.169,
+            0.169,
+            0.183,
+            0.141,
+            0.394,
+            0.317,
+            0.394,
+            0.218,
+            0.197,
+            0,
+            0.437,
+            0.479,
+            0.239,
+            0.669,
+            0.486,
+            0.232,
+            0.444,
+            0.387,
+            0.542,
+            0.606,
+            0.599,
+            0.373,
+            0.563,
+            0.317,
+            0.317,
+            0.993,
+            0.5,
+            0.542,
+            0.465,
+            0.606,
+            0.93,
+            0.57,
+            0.69,
+            0.697,
+            0.831,
+            0.683,
+            0.831,
+            0.739,
+            1,
+            0.739,
+            0.866,
+            0.958,
+            0.958,
+            0.972
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "observationNumber": 1,
+          "values": [
+            {
+              "valueDouble": 141,
+              "valueFormatted": "141"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            },
+            {
+              "valueDouble": 136,
+              "valueFormatted": "136"
+            },
+            {
+              "valueDouble": 142,
+              "valueFormatted": "142"
+            },
+            {
+              "valueDouble": 140,
+              "valueFormatted": "140"
+            },
+            {
+              "valueDouble": 140,
+              "valueFormatted": "140"
+            }
+          ]
+        },
+        {
+          "observationNumber": 2,
+          "values": [
+            {
+              "valueDouble": 152,
+              "valueFormatted": "152"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            },
+            {
+              "valueDouble": 136,
+              "valueFormatted": "136"
+            },
+            {
+              "valueDouble": 142,
+              "valueFormatted": "142"
+            },
+            {
+              "valueDouble": 140,
+              "valueFormatted": "140"
+            }
+          ]
+        },
+        {
+          "observationNumber": 3,
+          "values": [
+            {
+              "valueDouble": 164,
+              "valueFormatted": "164"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            },
+            {
+              "valueDouble": 136,
+              "valueFormatted": "136"
+            },
+            {
+              "valueDouble": 142,
+              "valueFormatted": "142"
+            }
+          ]
+        },
+        {
+          "observationNumber": 4,
+          "values": [
+            {
+              "valueDouble": 157,
+              "valueFormatted": "157"
+            },
+            {
+              "valueDouble": 147,
+              "valueFormatted": "147"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            },
+            {
+              "valueDouble": 136,
+              "valueFormatted": "136"
+            }
+          ]
+        },
+        {
+          "observationNumber": 5,
+          "values": [
+            {
+              "valueDouble": 166,
+              "valueFormatted": "166"
+            },
+            {
+              "valueDouble": 144,
+              "valueFormatted": "144"
+            },
+            {
+              "valueDouble": 147,
+              "valueFormatted": "147"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            }
+          ]
+        },
+        {
+          "observationNumber": 6,
+          "values": [
+            {
+              "valueDouble": 153,
+              "valueFormatted": "153"
+            },
+            {
+              "valueDouble": 116,
+              "valueFormatted": "116"
+            },
+            {
+              "valueDouble": 144,
+              "valueFormatted": "144"
+            },
+            {
+              "valueDouble": 147,
+              "valueFormatted": "147"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            }
+          ]
+        },
+        {
+          "observationNumber": 7,
+          "values": [
+            {
+              "valueDouble": 133,
+              "valueFormatted": "133"
+            },
+            {
+              "valueDouble": 178,
+              "valueFormatted": "178"
+            },
+            {
+              "valueDouble": 116,
+              "valueFormatted": "116"
+            },
+            {
+              "valueDouble": 144,
+              "valueFormatted": "144"
+            },
+            {
+              "valueDouble": 147,
+              "valueFormatted": "147"
+            },
+            {
+              "valueDouble": 172,
+              "valueFormatted": "172"
+            }
+          ]
+        },
+        {
+          "observationNumber": 8,
+          "values": [
+            {
+              "valueDouble": 147,
+              "valueFormatted": "147"
+            },
+            {
+              "valueDouble": 184,
+              "valueFormatted": "184"
+            },
+            {
+              "valueDouble": 178,
+              "valueFormatted": "178"
+            },
+            {
+              "valueDouble": 116,
+              "valueFormatted": "116"
+            },
+            {
+              "valueDouble": 144,
+              "valueFormatted": "144"
+            },
+            {
+              "valueDouble": 147,
+              "valueFormatted": "147"
+            }
+          ]
+        },
+        {
+          "observationNumber": 9,
+          "values": [
+            {
+              "valueDouble": 165,
+              "valueFormatted": "165"
+            },
+            {
+              "valueDouble": 150,
+              "valueFormatted": "150"
+            },
+            {
+              "valueDouble": 184,
+              "valueFormatted": "184"
+            },
+            {
+              "valueDouble": 178,
+              "valueFormatted": "178"
+            },
+            {
+              "valueDouble": 116,
+              "valueFormatted": "116"
+            },
+            {
+              "valueDouble": 144,
+              "valueFormatted": "144"
+            }
+          ]
+        },
+        {
+          "observationNumber": 10,
+          "values": [
+            {
+              "valueDouble": 168,
+              "valueFormatted": "168"
+            },
+            {
+              "valueDouble": 211,
+              "valueFormatted": "211"
+            },
+            {
+              "valueDouble": 150,
+              "valueFormatted": "150"
+            },
+            {
+              "valueDouble": 184,
+              "valueFormatted": "184"
+            },
+            {
+              "valueDouble": 178,
+              "valueFormatted": "178"
+            },
+            {
+              "valueDouble": 116,
+              "valueFormatted": "116"
+            }
+          ]
+        },
+        {
+          "observationNumber": 11,
+          "values": [
+            {
+              "valueDouble": 174,
+              "valueFormatted": "174"
+            },
+            {
+              "valueDouble": 185,
+              "valueFormatted": "185"
+            },
+            {
+              "valueDouble": 211,
+              "valueFormatted": "211"
+            },
+            {
+              "valueDouble": 150,
+              "valueFormatted": "150"
+            },
+            {
+              "valueDouble": 184,
+              "valueFormatted": "184"
+            },
+            {
+              "valueDouble": 178,
+              "valueFormatted": "178"
+            }
+          ]
+        },
+        {
+          "observationNumber": 12,
+          "values": [
+            {
+              "valueDouble": 168,
+              "valueFormatted": "168"
+            },
+            {
+              "valueDouble": 149,
+              "valueFormatted": "149"
+            },
+            {
+              "valueDouble": 185,
+              "valueFormatted": "185"
+            },
+            {
+              "valueDouble": 211,
+              "valueFormatted": "211"
+            },
+            {
+              "valueDouble": 150,
+              "valueFormatted": "150"
+            },
+            {
+              "valueDouble": 184,
+              "valueFormatted": "184"
+            }
+          ]
+        },
+        {
+          "observationNumber": 13,
+          "values": [
+            {
+              "valueDouble": 171,
+              "valueFormatted": "171"
+            },
+            {
+              "valueDouble": 179,
+              "valueFormatted": "179"
+            },
+            {
+              "valueDouble": 149,
+              "valueFormatted": "149"
+            },
+            {
+              "valueDouble": 185,
+              "valueFormatted": "185"
+            },
+            {
+              "valueDouble": 211,
+              "valueFormatted": "211"
+            },
+            {
+              "valueDouble": 150,
+              "valueFormatted": "150"
+            }
+          ]
+        },
+        {
+          "observationNumber": 14,
+          "values": [
+            {
+              "valueDouble": 173,
+              "valueFormatted": "173"
+            },
+            {
+              "valueDouble": 171,
+              "valueFormatted": "171"
+            },
+            {
+              "valueDouble": 179,
+              "valueFormatted": "179"
+            },
+            {
+              "valueDouble": 149,
+              "valueFormatted": "149"
+            },
+            {
+              "valueDouble": 185,
+              "valueFormatted": "185"
+            },
+            {
+              "valueDouble": 211,
+              "valueFormatted": "211"
+            }
+          ]
+        },
+        {
+          "observationNumber": 15,
+          "values": [
+            {
+              "valueDouble": 177,
+              "valueFormatted": "177"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 171,
+              "valueFormatted": "171"
+            },
+            {
+              "valueDouble": 179,
+              "valueFormatted": "179"
+            },
+            {
+              "valueDouble": 149,
+              "valueFormatted": "149"
+            },
+            {
+              "valueDouble": 185,
+              "valueFormatted": "185"
+            }
+          ]
+        },
+        {
+          "observationNumber": 16,
+          "values": [
+            {
+              "valueDouble": 195,
+              "valueFormatted": "195"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 171,
+              "valueFormatted": "171"
+            },
+            {
+              "valueDouble": 179,
+              "valueFormatted": "179"
+            },
+            {
+              "valueDouble": 149,
+              "valueFormatted": "149"
+            }
+          ]
+        },
+        {
+          "observationNumber": 17,
+          "values": [
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 201,
+              "valueFormatted": "201"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 171,
+              "valueFormatted": "171"
+            },
+            {
+              "valueDouble": 179,
+              "valueFormatted": "179"
+            }
+          ]
+        },
+        {
+          "observationNumber": 18,
+          "values": [
+            {
+              "valueDouble": 188,
+              "valueFormatted": "188"
+            },
+            {
+              "valueDouble": 169,
+              "valueFormatted": "169"
+            },
+            {
+              "valueDouble": 201,
+              "valueFormatted": "201"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 171,
+              "valueFormatted": "171"
+            }
+          ]
+        },
+        {
+          "observationNumber": 19,
+          "values": [
+            {
+              "valueDouble": 186,
+              "valueFormatted": "186"
+            },
+            {
+              "valueDouble": 196,
+              "valueFormatted": "196"
+            },
+            {
+              "valueDouble": 169,
+              "valueFormatted": "169"
+            },
+            {
+              "valueDouble": 201,
+              "valueFormatted": "201"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            }
+          ]
+        },
+        {
+          "observationNumber": 20,
+          "values": [
+            {
+              "valueDouble": 209,
+              "valueFormatted": "209"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 196,
+              "valueFormatted": "196"
+            },
+            {
+              "valueDouble": 169,
+              "valueFormatted": "169"
+            },
+            {
+              "valueDouble": 201,
+              "valueFormatted": "201"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            }
+          ]
+        },
+        {
+          "observationNumber": 21,
+          "values": [
+            {
+              "valueDouble": 187,
+              "valueFormatted": "187"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 196,
+              "valueFormatted": "196"
+            },
+            {
+              "valueDouble": 169,
+              "valueFormatted": "169"
+            },
+            {
+              "valueDouble": 201,
+              "valueFormatted": "201"
+            }
+          ]
+        },
+        {
+          "observationNumber": 22,
+          "values": [
+            {
+              "valueDouble": 177,
+              "valueFormatted": "177"
+            },
+            {
+              "valueDouble": 257,
+              "valueFormatted": "257"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 196,
+              "valueFormatted": "196"
+            },
+            {
+              "valueDouble": 169,
+              "valueFormatted": "169"
+            }
+          ]
+        },
+        {
+          "observationNumber": 23,
+          "values": [
+            {
+              "valueDouble": 192,
+              "valueFormatted": "192"
+            },
+            {
+              "valueDouble": 187,
+              "valueFormatted": "187"
+            },
+            {
+              "valueDouble": 257,
+              "valueFormatted": "257"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 196,
+              "valueFormatted": "196"
+            }
+          ]
+        },
+        {
+          "observationNumber": 24,
+          "values": [
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 187,
+              "valueFormatted": "187"
+            },
+            {
+              "valueDouble": 257,
+              "valueFormatted": "257"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            }
+          ]
+        },
+        {
+          "observationNumber": 25,
+          "values": [
+            {
+              "valueDouble": 184,
+              "valueFormatted": "184"
+            },
+            {
+              "valueDouble": 182,
+              "valueFormatted": "182"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 187,
+              "valueFormatted": "187"
+            },
+            {
+              "valueDouble": 257,
+              "valueFormatted": "257"
+            },
+            {
+              "valueDouble": 161,
+              "valueFormatted": "161"
+            }
+          ]
+        },
+        {
+          "observationNumber": 26,
+          "values": [
+            {
+              "valueDouble": 203,
+              "valueFormatted": "203"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 182,
+              "valueFormatted": "182"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 187,
+              "valueFormatted": "187"
+            },
+            {
+              "valueDouble": 257,
+              "valueFormatted": "257"
+            }
+          ]
+        },
+        {
+          "observationNumber": 27,
+          "values": [
+            {
+              "valueDouble": 182,
+              "valueFormatted": "182"
+            },
+            {
+              "valueDouble": 248,
+              "valueFormatted": "248"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 182,
+              "valueFormatted": "182"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            },
+            {
+              "valueDouble": 187,
+              "valueFormatted": "187"
+            }
+          ]
+        },
+        {
+          "observationNumber": 28,
+          "values": [
+            {
+              "valueDouble": 204,
+              "valueFormatted": "204"
+            },
+            {
+              "valueDouble": 197,
+              "valueFormatted": "197"
+            },
+            {
+              "valueDouble": 248,
+              "valueFormatted": "248"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 182,
+              "valueFormatted": "182"
+            },
+            {
+              "valueDouble": 193,
+              "valueFormatted": "193"
+            }
+          ]
+        },
+        {
+          "observationNumber": 29,
+          "values": [
+            {
+              "valueDouble": 200,
+              "valueFormatted": "200"
+            },
+            {
+              "valueDouble": 214,
+              "valueFormatted": "214"
+            },
+            {
+              "valueDouble": 197,
+              "valueFormatted": "197"
+            },
+            {
+              "valueDouble": 248,
+              "valueFormatted": "248"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            },
+            {
+              "valueDouble": 182,
+              "valueFormatted": "182"
+            }
+          ]
+        },
+        {
+          "observationNumber": 30,
+          "values": [
+            {
+              "valueDouble": 225,
+              "valueFormatted": "225"
+            },
+            {
+              "valueDouble": 215,
+              "valueFormatted": "215"
+            },
+            {
+              "valueDouble": 214,
+              "valueFormatted": "214"
+            },
+            {
+              "valueDouble": 197,
+              "valueFormatted": "197"
+            },
+            {
+              "valueDouble": 248,
+              "valueFormatted": "248"
+            },
+            {
+              "valueDouble": 202,
+              "valueFormatted": "202"
+            }
+          ]
+        },
+        {
+          "observationNumber": 31,
+          "values": [
+            {
+              "valueDouble": 223,
+              "valueFormatted": "223"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            },
+            {
+              "valueDouble": 215,
+              "valueFormatted": "215"
+            },
+            {
+              "valueDouble": 214,
+              "valueFormatted": "214"
+            },
+            {
+              "valueDouble": 197,
+              "valueFormatted": "197"
+            },
+            {
+              "valueDouble": 248,
+              "valueFormatted": "248"
+            }
+          ]
+        },
+        {
+          "observationNumber": 32,
+          "values": [
+            {
+              "valueDouble": 213,
+              "valueFormatted": "213"
+            },
+            {
+              "valueDouble": 213,
+              "valueFormatted": "213"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            },
+            {
+              "valueDouble": 215,
+              "valueFormatted": "215"
+            },
+            {
+              "valueDouble": 214,
+              "valueFormatted": "214"
+            },
+            {
+              "valueDouble": 197,
+              "valueFormatted": "197"
+            }
+          ]
+        },
+        {
+          "observationNumber": 33,
+          "values": [
+            {
+              "valueDouble": 230,
+              "valueFormatted": "230"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            },
+            {
+              "valueDouble": 213,
+              "valueFormatted": "213"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            },
+            {
+              "valueDouble": 215,
+              "valueFormatted": "215"
+            },
+            {
+              "valueDouble": 214,
+              "valueFormatted": "214"
+            }
+          ]
+        },
+        {
+          "observationNumber": 34,
+          "values": [
+            {
+              "valueDouble": 219,
+              "valueFormatted": "219"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            },
+            {
+              "valueDouble": 213,
+              "valueFormatted": "213"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            },
+            {
+              "valueDouble": 215,
+              "valueFormatted": "215"
+            }
+          ]
+        },
+        {
+          "observationNumber": 35,
+          "values": [
+            {
+              "valueDouble": 227,
+              "valueFormatted": "227"
+            },
+            {
+              "valueDouble": 258,
+              "valueFormatted": "258"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            },
+            {
+              "valueDouble": 213,
+              "valueFormatted": "213"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            }
+          ]
+        },
+        {
+          "observationNumber": 36,
+          "values": [
+            {
+              "valueDouble": 240,
+              "valueFormatted": "240"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            },
+            {
+              "valueDouble": 258,
+              "valueFormatted": "258"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            },
+            {
+              "valueDouble": 213,
+              "valueFormatted": "213"
+            }
+          ]
+        },
+        {
+          "observationNumber": 37,
+          "values": [
+            {
+              "valueDouble": 220,
+              "valueFormatted": "220"
+            },
+            {
+              "valueDouble": 239,
+              "valueFormatted": "239"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            },
+            {
+              "valueDouble": 258,
+              "valueFormatted": "258"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            },
+            {
+              "valueDouble": 234,
+              "valueFormatted": "234"
+            }
+          ]
+        },
+        {
+          "observationNumber": 38,
+          "values": [
+            {
+              "valueDouble": 262,
+              "valueFormatted": "262"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            },
+            {
+              "valueDouble": 239,
+              "valueFormatted": "239"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            },
+            {
+              "valueDouble": 258,
+              "valueFormatted": "258"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            }
+          ]
+        },
+        {
+          "observationNumber": 39,
+          "values": [
+            {
+              "valueDouble": 235,
+              "valueFormatted": "235"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            },
+            {
+              "valueDouble": 239,
+              "valueFormatted": "239"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            },
+            {
+              "valueDouble": 258,
+              "valueFormatted": "258"
+            }
+          ]
+        },
+        {
+          "observationNumber": 40,
+          "values": [
+            {
+              "valueDouble": 230,
+              "valueFormatted": "230"
+            },
+            {
+              "valueDouble": 254,
+              "valueFormatted": "254"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            },
+            {
+              "valueDouble": 239,
+              "valueFormatted": "239"
+            },
+            {
+              "valueDouble": 221,
+              "valueFormatted": "221"
+            }
+          ]
+        },
+        {
+          "observationNumber": 41,
+          "values": [
+            {
+              "valueDouble": 247,
+              "valueFormatted": "247"
+            },
+            {
+              "valueDouble": 250,
+              "valueFormatted": "250"
+            },
+            {
+              "valueDouble": 254,
+              "valueFormatted": "254"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            },
+            {
+              "valueDouble": 239,
+              "valueFormatted": "239"
+            }
+          ]
+        },
+        {
+          "observationNumber": 42,
+          "values": [
+            {
+              "valueDouble": 246,
+              "valueFormatted": "246"
+            },
+            {
+              "valueDouble": 265,
+              "valueFormatted": "265"
+            },
+            {
+              "valueDouble": 250,
+              "valueFormatted": "250"
+            },
+            {
+              "valueDouble": 254,
+              "valueFormatted": "254"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            }
+          ]
+        },
+        {
+          "observationNumber": 43,
+          "values": [
+            {
+              "valueDouble": 249,
+              "valueFormatted": "249"
+            },
+            {
+              "valueDouble": 263,
+              "valueFormatted": "263"
+            },
+            {
+              "valueDouble": 265,
+              "valueFormatted": "265"
+            },
+            {
+              "valueDouble": 250,
+              "valueFormatted": "250"
+            },
+            {
+              "valueDouble": 254,
+              "valueFormatted": "254"
+            },
+            {
+              "valueDouble": 252,
+              "valueFormatted": "252"
+            }
+          ]
+        },
+        {
+          "observationNumber": 44,
+          "values": [
+            {
+              "valueDouble": 240,
+              "valueFormatted": "240"
+            },
+            {
+              "valueDouble": 270,
+              "valueFormatted": "270"
+            },
+            {
+              "valueDouble": 263,
+              "valueFormatted": "263"
+            },
+            {
+              "valueDouble": 265,
+              "valueFormatted": "265"
+            },
+            {
+              "valueDouble": 250,
+              "valueFormatted": "250"
+            },
+            {
+              "valueDouble": 254,
+              "valueFormatted": "254"
+            }
+          ]
+        }
+      ]
+    },
+    "auditTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": "0",
+      "regressionEstimate": 0,
+      "regressionEstimateFormatted": "0",
+      "residualTotal": 0,
+      "residualTotalFormatted": "0",
+      "totalExcessUnderstatement": 0,
+      "totalExcessOverstatement": 0,
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "endingBalanceTestModel": {
+      "recordedCollections": 5811,
+      "recordedCollectionsFormatted": "5,811",
+      "estimatedCollections": 5840,
+      "estimatedCollectionsFormatted": "5,840",
+      "residualComponentTotal": -29,
+      "residualComponentTotalFormatted": "-29",
+      "recordedBalance": 300,
+      "recordedBalanceFormatted": "300",
+      "estimatedBalance": 271,
+      "estimatedBalanceFormatted": "271",
+      "residualBalance": 29,
+      "residualBalanceFormatted": "29",
+      "thresholdUnderstatement": -39,
+      "thresholdUnderstatementFormatted": "-39",
+      "thresholdOverstatement": 39,
+      "thresholdOverstatementFormatted": "39",
+      "excessUnderstatement": 0,
+      "excessUnderstatementFormatted": "None",
+      "excessOverstatement": 0,
+      "excessOverstatementFormatted": "None",
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "regressionTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": null,
+      "regressionEstimateTotal": 0,
+      "regressionEstimateTotalFormatted": null,
+      "residualTotal": 0,
+      "residualTotalFormatted": "0.0",
+      "precision": 0,
+      "precisionFormatted": "0.0",
+      "hasExcesses": false,
+      "totalExcesses": 0,
+      "totalExcessesFormatted": "0"
+    }
+  },
+  "workpaperDataId": "0d26898c-41a3-4c44-b580-b4675814134e",
+  "results": null,
+  "fileName": "Ending Balance.xlsx",
+  "userId": "3addd359-63fc-4329-bd70-b824a18c4701",
+  "alias": null,
+  "engagementId": "MAT-E152675-16"
+}

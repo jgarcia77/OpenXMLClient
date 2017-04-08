@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60E9A899-B2F5-4B1B-9045-3DD144CEDA6A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenXMLClient.Examples</RootNamespace>
+    <AssemblyName>OpenXMLClient.Examples</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Includes\Json\AbnormalityResponse.json" />
+    <None Include="Includes\Json\AutoCorrelationResponse.json" />
+    <None Include="Includes\Json\CrossSectionalResponse.json" />
+    <None Include="Includes\Json\Discontinuity B P Response.json" />
+    <None Include="Includes\Json\Discontinuity B Response.json" />
+    <None Include="Includes\Json\EmptyArray.json" />
+    <None Include="Includes\Json\EmptyCalculationArray.json" />
+    <None Include="Includes\Json\EmptyObject.json" />
+    <None Include="Includes\Json\EndingBalanceResponse.json" />
+    <None Include="Includes\Json\ExcessesResponse.json" />
+    <None Include="Includes\Json\ExportAllResponse.json" />
+    <None Include="Includes\Json\HeteroscedasticityResponse.json" />
+    <None Include="Includes\Json\No Significant Pred1Response.json" />
+    <None Include="Includes\Json\No Significant Pred2Response.json" />
+    <None Include="Includes\Json\NoExcessesNoneResponse.json" />
+    <None Include="Includes\Json\NoExcessesRegressionResponse.json" />
+    <None Include="Includes\Json\NoExcessesResponse.json" />
+    <None Include="Includes\Json\NoSolutionFoundToRegressionFunctionResponse.json" />
+    <None Include="Includes\Json\ParadoxicalResponse.json" />
+    <None Include="Includes\Json\PartialEmptyCalculationArray.json" />
+    <None Include="Includes\Json\Perfect CorrelationResponse.json" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenXMLClient\OpenXMLClient.csproj">
+      <Project>{0a7dae1d-5a8a-42f9-aac3-0be95d0479b7}</Project>
+      <Name>OpenXMLClient</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

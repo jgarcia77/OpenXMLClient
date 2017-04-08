@@ -1,0 +1,166 @@
+{
+  "visible": true,
+  "description": null,
+  "accountName": "",
+  "accountType": "",
+  "applicationType": "timeSeries",
+  "componentType": "",
+  "confidenceLevel": 0,
+  "controlsRelianceStrategy": "relying",
+  "forcedVariables": [],
+  "id": "84dff9d1-9dc6-43cf-887b-c4761a0c5eeb",
+  "inherentRisk": "significant",
+  "numberOfObservations": 12,
+  "observationsFrom": 1,
+  "observationsTo": 36,
+  "performanceMateriality": 1250,
+  "periodsPerYear": 12,
+  "predictingVariables": [
+    {
+      "analysisParametersId": "84dff9d1-9dc6-43cf-887b-c4761a0c5eeb",
+      "value": "Sales Non-passengers"
+    },
+    {
+      "analysisParametersId": "84dff9d1-9dc6-43cf-887b-c4761a0c5eeb",
+      "value": "Sales Total"
+    },
+    {
+      "analysisParametersId": "84dff9d1-9dc6-43cf-887b-c4761a0c5eeb",
+      "value": "COS Passengers"
+    },
+    {
+      "analysisParametersId": "84dff9d1-9dc6-43cf-887b-c4761a0c5eeb",
+      "value": "COS Non- passenger"
+    },
+    {
+      "analysisParametersId": "84dff9d1-9dc6-43cf-887b-c4761a0c5eeb",
+      "value": "COS Total"
+    },
+    {
+      "analysisParametersId": "84dff9d1-9dc6-43cf-887b-c4761a0c5eeb",
+      "value": "Gross Profit Passengers"
+    },
+    {
+      "analysisParametersId": "84dff9d1-9dc6-43cf-887b-c4761a0c5eeb",
+      "value": "Gross Profit Non- passenger"
+    }
+  ],
+  "recordedBalance": 0,
+  "runDateTime": "2017-03-16T08:30:22.4272982-05:00",
+  "seasonalAdjustment": false,
+  "testVariable": "Sales Passengers",
+  "trend": false,
+  "typeOfProjection": "audit",
+  "calculation": {
+    "status": "ReportContainsErrorMsg",
+    "reportContents": "U1RBUjogU3RhdGlzdGljYWwgVGVjaG5pcXVlcyBmb3IgQW5hbHl0aWNhbCBSZXZpZXcgKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBWZXJzaW9uIDQuMC4yDQoNClNwZWNpZmljYXRpb25zIGZvciBNb2RlbA0KDQpWYXJpYWJsZXMgU3BlY2lmaWVkOiAgIA0KWSAgICBTYWxlcyBQYXNzZW5nZXJzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVEVTVA0KWDEgICBTYWxlcyBOb24tcGFzc2VuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDIgICBTYWxlcyBUb3RhbCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDMgICBDT1MgUGFzc2VuZ2VycyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDQgICBDT1MgTm9uLSBwYXNzZW5nICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDUgICBDT1MgVG90YWwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDYgICBHcm9zcyBQcm9maXQgUGFzICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDcgICBHcm9zcyBQcm9maXQgTm9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KDQpPYnNlcnZhdGlvbnMgVXNlZDoNCkJhc2UsIDEgLSAyNCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjQNClByb2plY3Rpb24sIDI1IC0gMzYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0NClRvdGFsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzYNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT09PT0NCg0KRGF0YSBQcm9maWxlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUSU1FIFNFUklFUw0KUGVyaW9kcyBwZXIgWWVhciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMg0KDQpUeXBlIG9mIFRlc3QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFVRElUDQpQZXJmb3JtYW5jZSBNYXRlcmlhbGl0eSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDEsMjUwDQpUZXN0aW5nIFN0cmF0ZWd5OiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTaWduaWZpY2FudCBSaXNrLCBSZWx5aW5nIG9uIENvbnRyb2xzDQpBcHBsaWNhYmxlIFJpc2sgTGV2ZWw6ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNpZ25pZmljYW50DQoNCk5PIFNPTFVUSU9OIEZPVU5EIFRPIFJFR1JFU1NJT04gRlVOQ1RJT04uIEFQUExJQ0FUSU9OIFVOVVNBQkxFLg0KDQoqICogKiAgVW51c3VhbCBUZXJtaW5hdGlvbiBvZiBBcHBsaWNhdGlvbiAgKiAqICoNCg==",
+    "warnings": [
+      {
+        "code": 17,
+        "name": "Regression Function",
+        "title": "UNUSUAL TERMINATION OF APPLICATION",
+        "body": "No solution found to regression function.  Application unusable."
+      }
+    ],
+    "regressionModel": {
+      "constant": 0,
+      "constantFormatted": "0",
+      "coefficientOfCorrelation": 0,
+      "coefficientOfCorrelationFormatted": "0",
+      "testVariable": {
+        "name": "",
+        "mean": 0,
+        "meanFormatted": "0",
+        "standardDeviation": 0,
+        "standardDeviationFormatted": "0"
+      },
+      "expectation": {
+        "constantOrCoefficient": 0,
+        "constantOrCoefficientFormatted": "0",
+        "standardError": 0,
+        "standardErrorFormatted": "0"
+      },
+      "predictingVariables": [],
+      "expectationFormula": {
+        "value": "",
+        "testVariableName": "",
+        "constant": 0,
+        "constantFormatted": "0",
+        "period": "",
+        "variables": []
+      }
+    },
+    "residualsIsCorrected": false,
+    "residualsCorrectedHeading": null,
+    "residuals": [],
+    "variableUsageModel": {
+      "variables": [],
+      "observations": []
+    },
+    "auditTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": "0",
+      "regressionEstimate": 0,
+      "regressionEstimateFormatted": "0",
+      "residualTotal": 0,
+      "residualTotalFormatted": "0",
+      "totalExcessUnderstatement": 0,
+      "totalExcessOverstatement": 0,
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "endingBalanceTestModel": {
+      "recordedCollections": 0,
+      "recordedCollectionsFormatted": "0",
+      "estimatedCollections": 0,
+      "estimatedCollectionsFormatted": "0",
+      "residualComponentTotal": 0,
+      "residualComponentTotalFormatted": "0",
+      "recordedBalance": 0,
+      "recordedBalanceFormatted": "0",
+      "estimatedBalance": 0,
+      "estimatedBalanceFormatted": "0",
+      "residualBalance": 0,
+      "residualBalanceFormatted": "0",
+      "thresholdUnderstatement": 0,
+      "thresholdUnderstatementFormatted": "0",
+      "thresholdOverstatement": 0,
+      "thresholdOverstatementFormatted": "0",
+      "excessUnderstatement": 0,
+      "excessUnderstatementFormatted": "None",
+      "excessOverstatement": 0,
+      "excessOverstatementFormatted": "None",
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "regressionTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": null,
+      "regressionEstimateTotal": 0,
+      "regressionEstimateTotalFormatted": null,
+      "residualTotal": 0,
+      "residualTotalFormatted": null,
+      "precision": 0,
+      "precisionFormatted": null,
+      "hasExcesses": false,
+      "totalExcesses": 0,
+      "totalExcessesFormatted": null
+    }
+  },
+  "workpaperDataId": "29965088-74c0-494a-9b28-f4c209ca7861",
+  "results": null,
+  "fileName": "NoSolutionFoundToRegressionFunction.csv",
+  "userId": "3addd359-63fc-4329-bd70-b824a18c4701",
+  "alias": null,
+  "engagementId": "MAT-E152675-16"
+}

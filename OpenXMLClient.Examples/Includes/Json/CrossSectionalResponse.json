@@ -1,0 +1,3050 @@
+{
+  "visible": true,
+  "description": null,
+  "accountName": "",
+  "accountType": "",
+  "applicationType": "timeSeries",
+  "componentType": "",
+  "confidenceLevel": 0,
+  "controlsRelianceStrategy": "relying",
+  "forcedVariables": [],
+  "id": "d6f036e1-535c-4c71-8904-a146794e8cea",
+  "inherentRisk": "higher",
+  "numberOfObservations": 27,
+  "observationsFrom": 1,
+  "observationsTo": 49,
+  "performanceMateriality": 400000,
+  "periodsPerYear": 12,
+  "predictingVariables": [
+    {
+      "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+      "value": "Inventory"
+    },
+    {
+      "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+      "value": "Square Feet"
+    },
+    {
+      "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+      "value": "Average FTE"
+    },
+    {
+      "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+      "value": "New Store"
+    },
+    {
+      "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+      "value": "Sells Gas"
+    }
+  ],
+  "recordedBalance": 0,
+  "runDateTime": "2017-03-08T10:36:06.6528788-06:00",
+  "seasonalAdjustment": false,
+  "testVariable": "Sales",
+  "trend": false,
+  "typeOfProjection": "audit",
+  "calculation": {
+    "status": "ReportContainsOutput",
+    "reportContents": "U1RBUjogU3RhdGlzdGljYWwgVGVjaG5pcXVlcyBmb3IgQW5hbHl0aWNhbCBSZXZpZXcgKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBWZXJzaW9uIDQuMC4yDQoNClNwZWNpZmljYXRpb25zIGZvciBNb2RlbA0KDQpWYXJpYWJsZXMgU3BlY2lmaWVkOiAgIA0KWSAgICBTYWxlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVEVTVA0KWDEgICBJbnZlbnRvcnkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDIgICBTcXVhcmUgRmVldCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDMgICBBdmVyYWdlIEZURSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDQgICBOZXcgU3RvcmUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KWDUgICBTZWxscyBHYXMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KDQpPYnNlcnZhdGlvbnMgVXNlZDoNCkJhc2UsIDEgLSAyMiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjINClByb2plY3Rpb24sIDIzIC0gNDkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjcNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0NClRvdGFsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgNDkNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT09PT0NCg0KRGF0YSBQcm9maWxlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUSU1FIFNFUklFUw0KUGVyaW9kcyBwZXIgWWVhciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMg0KDQpUeXBlIG9mIFRlc3QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFVRElUDQpQZXJmb3JtYW5jZSBNYXRlcmlhbGl0eSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA0MDAsMDAwDQpUZXN0aW5nIFN0cmF0ZWd5OiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEhpZ2hlciBSaXNrLCBSZWx5aW5nIG9uIENvbnRyb2xzDQpBcHBsaWNhYmxlIFJpc2sgTGV2ZWw6ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSGlnaGVyDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpTdGVwd2lzZSBNdWx0aXBsZSBSZWdyZXNzaW9uIE1vZGVsDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIElucHV0IERhdGEgICAgICAgICAgICAgICBSZWdyZXNzaW9uIEZ1bmN0aW9uDQogICAgICAgICAgICAgICAgICAgICAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3RhbmRhcmQgICAgIENvbnN0YW50IG9yICAgICBTdGFuZGFyZA0KICAgICAgRGVzY3JpcHRpb24gICAgICAgICAgTWVhbiAgICAgICAgIERldmlhdGlvbiAgICAgQ29lZmZpY2llbnQgICAgICAgRXJyb3INCi0tLS0tLS0tLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLQ0KQ29uc3RhbnQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC05MDMsMDY2LjgxDQoNClByZWRpY3RpbmcgVmFyaWFibGVzDQpYMSAgIEludmVudG9yeSAgICAgICAgICAgICA0NSwxNDQuNzMgICAgICAgNywyNzguODMgICAgICAgIDE3LjM2ODkgICAgICAgICAzLjQ4NDUNClgzICAgQXZlcmFnZSBGVEUgICAgICAgICAgICAgMTAuOTA0NSAgICAgICAgIDEuNTkzNyAgIDExNCw3MjYuODc4NiAgICAxOCwwOTUuNDYzNw0KWDQgICBOZXcgU3RvcmUgICAgICAgICAgICAgICAgICAwLjIzICAgICAgICAgICAwLjQzICAtMjU2LDY5My43MTc2ICAgIDY3LDM1MS43NzY3DQpYNSAgIFNlbGxzIEdhcyAgICAgICAgICAgICAgICAgIDAuNTUgICAgICAgICAgIDAuNTEgICA5MDgsMjQwLjAzOTIgICAgNzAsNjYzLjE5MTQNCg0KVGVzdCBWYXJpYWJsZQ0KWSAgICBTYWxlcyAgICAgICAgICAgICAgMSw1NjksMTU1LjUwICAgICA1NDksNzE5LjU1DQpZJyAgIEV4cGVjdGF0aW9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxLDU2OSwxNTUuNTAgICAxMDAsODQ1LjczNDQNCg0KQ29lZmZpY2llbnQgb2YgQ29ycmVsYXRpb24gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA5OC42JQ0KDQoNCkV4cGVjdGF0aW9uIFtZJyh0KV0gZm9yIG9ic2VydmF0aW9uIHQgOg0KWScodCkgPSAtOTAzLDA2Ni44MSArIDE3LjM2ODkqWDEodCkgKyAxMTQsNzI2Ljg3ODYqWDModCkgLSAyNTYsNjkzLjcxNzYqWDQodCkgDQorIDkwOCwyNDAuMDM5MipYNSh0KQ0KDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KUGxvdCBvZiBSZXNpZHVhbHMNCg0KT2JzICAgIFJlY29yZGVkICAgICAgUmVncmVzc2lvbiAgICAgIFJlc2lkdWFsICAgICBSZXNpZHVhbHMgUGxvdHRlZCBpbiBVbml0cw0KIE5vICAgICBBbW91bnQgICAgICAgIEVzdGltYXRlICAgICAoRGlmZmVyZW5jZSkgICAgIG9mIE9uZSBTdGFuZGFyZCBFcnJvcg0KLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC00IC0zIC0yIC0xICAwICAxICAyICAzICA0DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogIDEgICAgICAgIDc4MSw3OTMgICAgICAgIDk0OCw1MzQgICAgICAgLTE2Niw3NDEgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogIDIgICAgICAxLDE0Niw0MzggICAgICAxLDE2MSw2OTUgICAgICAgIC0xNSwyNTcgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogIDMgICAgICAxLDE5NSwwMDQgICAgICAxLDMyMCw0MzEgICAgICAgLTEyNSw0MjcgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogIDQgICAgICAgIDk1MSw3ODQgICAgICAgIDg0NywzMzUgICAgICAgIDEwNCw0NDkgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogIDUgICAgICAxLDk4MSw0MDkgICAgICAxLDk1NSwyNzIgICAgICAgICAyNiwxMzcgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogIDYgICAgICAyLDMwMCw2NzEgICAgICAyLDIxNCwxNjUgICAgICAgICA4Niw1MDYgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogIDcgICAgICAxLDk1Niw0ODEgICAgICAyLDEwMCwzMTAgICAgICAgLTE0Myw4MjkgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogIDggICAgICAxLDc5OSw3MTMgICAgICAxLDY4MiwyNDAgICAgICAgIDExNyw0NzMgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogIDkgICAgICAxLDgyMCw2NDEgICAgICAxLDc0MCw0ODQgICAgICAgICA4MCwxNTcgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTAgICAgICAgIDc3NCw5NTQgICAgICAgIDc0OCw0MTEgICAgICAgICAyNiw1NDMgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMTEgICAgICAxLDE1OSwwMDQgICAgICAxLDA4MSw5NDcgICAgICAgICA3NywwNTcgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTIgICAgICAxLDEzOSw0NzUgICAgICAxLDE1NiwwMDUgICAgICAgIC0xNiw1MzAgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMTMgICAgICAgIDk0OCw1MjIgICAgICAgIDk3OCw3MTQgICAgICAgIC0zMCwxOTIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogMTQgICAgICAxLDk4NCw3NzcgICAgICAyLDA3OCwzMDIgICAgICAgIC05Myw1MjUgLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMTUgICAgICAyLDI5Myw4NDcgICAgICAyLDI0MSwyNzcgICAgICAgICA1Miw1NzAgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMTYgICAgICAxLDk4NCw3MjIgICAgICAyLDExNiw4NjkgICAgICAgLTEzMiwxNDcgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogMTcgICAgICAxLDc5OCwzMzYgICAgICAxLDgzMiw4MTMgICAgICAgIC0zNCw0NzcgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogMTggICAgICAyLDQ4NCw1MDMgICAgICAyLDMyNywzMjggICAgICAgIDE1NywxNzUgLXwgICAgICAgICAgIHwgICAgKiAgICAgIHwtDQogMTkgICAgICAxLDgzNyw0MDAgICAgICAxLDg4MSw5NDIgICAgICAgIC00NCw1NDIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogMjAgICAgICAxLDYwOSwzODUgICAgICAxLDYxMCw5NDggICAgICAgICAtMSw1NjMgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMjEgICAgICAxLDg3NCwyMjkgICAgICAxLDg2NCwwMDUgICAgICAgICAxMCwyMjQgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMjIgICAgICAgIDY5OCwzMzMgICAgICAgIDYzMiwzOTIgICAgICAgICA2NSw5NDEgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMjMgICAgICAxLDE5OCwyMjkgICAgICAxLDEyNiw1NzIgICAgICAgICA3MSw2NTcgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMjQgICAgICAxLDIzMSw1OTYgICAgICAxLDEzNSw4NjAgICAgICAgICA5NSw3MzYgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMjUgICAgICAxLDM5OCw5NTEgICAgICAxLDMwMCwwMTYgICAgICAgICA5OCw5MzUgLXwgICAgICAgICAgIHwgICogICAgICAgIHwtDQogMjYgICAgICAxLDI3NSw0NTEgICAgICAxLDM0MCwxNjcgICAgICAgIC02NCw3MTYgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMjcgICAgICAgIDkxNCw2NTkgICAgICAxLDA2NywwMTMgICAgICAgLTE1MiwzNTQgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogMjggICAgICAxLDg1MywzNTEgICAgICAxLDgxMCwyNzQgICAgICAgICA0MywwNzcgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogMjkgICAgICAyLDMwMCwzODQgICAgICAyLDQxMCwwOTkgICAgICAgLTEwOSw3MTUgLXwgICAgICAgICogIHwgICAgICAgICAgIHwtDQogMzAgICAgICAxLDg4OCw1NDUgICAgICAyLDA4MCw1MDkgICAgICAgLTE5MSw5NjQgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogMzEgICAgICAxLDc0MSw1NzEgICAgICAxLDYxNyw5ODcgICAgICAgIDEyMyw1ODQgLXwgICAgICAgICAgIHwgICAqICAgICAgIHwtDQogMzIgICAgICAxLDY2OSwxMzAgICAgICAxLDczMiw3MzIgICAgICAgIC02Myw2MDIgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMzMgICAgICAgIDkzNCw4NzUgICAgICAxLDAxNyw5MDEgICAgICAgIC04MywwMjYgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMzQgICAgICAxLDI0OCwwMjkgICAgICAxLDIzOSwzNzkgICAgICAgICAgOCw2NTAgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMzUgICAgICAxLDExNiw3MTMgICAgICAxLDA1NywzOTkgICAgICAgICA1OSwzMTQgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogMzYgICAgICAxLDE4OSw3MTMgICAgICAxLDE4NCw1NjEgICAgICAgICAgNSwxNTIgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogMzcgICAgICAyLDE2Niw1MzAgICAgICAyLDIzNCwyMDEgICAgICAgIC02Nyw2NzEgLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogMzggICAgICAyLDQ3MSw0NTUgICAgICAyLDQ3NiwzODAgICAgICAgICAtNCw5MjUgLXwgICAgICAgICAgICogICAgICAgICAgIHwtDQogMzkgICAgICAxLDk4OCw5MTcgICAgICAyLDAyMCw1NTUgICAgICAgIC0zMSw2MzggLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogNDAgICAgICAxLDUxMCw4OTcgICAgICAxLDgwMyw3MDggICAgICAgLTI5Miw4MTEgLXwgICogICAgICAgIHwgICAgICAgICAgIHwtDQogNDEgICAgICAyLDI0Nyw5NzAgICAgICAyLDQxNiw4MzAgICAgICAgLTE2OCw4NjAgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogNDIgICAgICAxLDc4Myw3OTggICAgICAxLDk5Miw3MDMgICAgICAgLTIwOCw5MDUgLXwgICAgICogICAgIHwgICAgICAgICAgIHwtDQogNDMgICAgICAxLDY4NSw1MzcgICAgICAxLDgxMiwyMzcgICAgICAgLTEyNiw3MDAgLXwgICAgICAgKiAgIHwgICAgICAgICAgIHwtDQogNDQgICAgICAxLDcwMyw1MTIgICAgICAxLDc4MSw1MTAgICAgICAgIC03Nyw5OTggLXwgICAgICAgICAqIHwgICAgICAgICAgIHwtDQogNDUgICAgICAgIDY3OCw2NTEgICAgICAgIDgzMyw1MTggICAgICAgLTE1NCw4NjcgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogNDYgICAgICAxLDE4OCw3MzMgICAgICAxLDE2NSwzODEgICAgICAgICAyMywzNTIgLXwgICAgICAgICAgIHwqICAgICAgICAgIHwtDQogNDcgICAgICAgIDc4MSw3OTMgICAgICAgIDk0OCw1MzQgICAgICAgLTE2Niw3NDEgLXwgICAgICAqICAgIHwgICAgICAgICAgIHwtDQogNDggICAgICAgIDk0OCw1MjIgICAgICAgIDk3OCw3MTQgICAgICAgIC0zMCwxOTIgLXwgICAgICAgICAgKnwgICAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQogNDkgICAgICAgIDY5OCwzMzMgICAgICAgIDYzMiwzOTIgICAgICAgICA2NSw5NDEgLXwgICAgICAgICAgIHwgKiAgICAgICAgIHwtDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLXwtLSstLSstLSstLXwtLSstLSstLSstLXwtDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpBVURJVCB0ZXN0IHdpdGg6IFBlcmZvcm1hbmNlIE1hdGVyaWFsaXR5ID0gIDQwMCwwMDANCiAgICAgICAgICAgICAgICAgVGVzdGluZyBTdHJhdGVneTogSGlnaGVyIFJpc2ssIFJlbHlpbmcgb24gQ29udHJvbHMNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KT2JzICAgIFJlY29yZGVkICAgICAgUmVncmVzc2lvbiAgICAgIFJlc2lkdWFsICAgIC0tLS0tLS0tLSBUaHJlc2hvbGQgLS0tLS0tLS0tIC0tLS0tLS0tLS0tIEV4Y2VzcyAtLS0tLS0tLS0tDQogTm8gICAgIEFtb3VudCAgICAgICAgRXN0aW1hdGUgICAgIChEaWZmZXJlbmNlKSAgVW5kZXJzdGF0ZW1lbnQgIE92ZXJzdGF0ZW1lbnQgVW5kZXJzdGF0ZW1lbnQgIE92ZXJzdGF0ZW1lbnQNCi0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLS0tLQ0KIDIzICAgICAgMSwxOTgsMjI5ICAgICAgMSwxMjYsNTcyICAgICAgICAgNzEsNjU3ICAgICAgIC0yMzQsNTk1ICAgICAgICAyMzQsNTk1ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogMjQgICAgICAxLDIzMSw1OTYgICAgICAxLDEzNSw4NjAgICAgICAgICA5NSw3MzYgICAgICAgLTIzNyw2MzUgICAgICAgIDIzNyw2MzUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAyNSAgICAgIDEsMzk4LDk1MSAgICAgIDEsMzAwLDAxNiAgICAgICAgIDk4LDkzNSAgICAgICAtMjI5LDUyOSAgICAgICAgMjI5LDUyOSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIDI2ICAgICAgMSwyNzUsNDUxICAgICAgMSwzNDAsMTY3ICAgICAgICAtNjQsNzE2ICAgICAgIC0yMzMsNDA4ICAgICAgICAyMzMsNDA4ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogMjcgICAgICAgIDkxNCw2NTkgICAgICAxLDA2NywwMTMgICAgICAgLTE1MiwzNTQgICAgICAgLTIzMyw0NjEgICAgICAgIDIzMyw0NjEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAyOCAgICAgIDEsODUzLDM1MSAgICAgIDEsODEwLDI3NCAgICAgICAgIDQzLDA3NyAgICAgICAtMjI3LDA3MiAgICAgICAgMjI3LDA3MiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIDI5ICAgICAgMiwzMDAsMzg0ICAgICAgMiw0MTAsMDk5ICAgICAgIC0xMDksNzE1ICAgICAgIC0yMzUsOTI4ICAgICAgICAyMzUsOTI4ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogMzAgICAgICAxLDg4OCw1NDUgICAgICAyLDA4MCw1MDkgICAgICAgLTE5MSw5NjQgICAgICAgLTIyMSw4MDcgICAgICAgIDIyMSw4MDcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAzMSAgICAgIDEsNzQxLDU3MSAgICAgIDEsNjE3LDk4NyAgICAgICAgMTIzLDU4NCAgICAgICAtMjUxLDE2NCAgICAgICAgMjUxLDE2NCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIDMyICAgICAgMSw2NjksMTMwICAgICAgMSw3MzIsNzMyICAgICAgICAtNjMsNjAyICAgICAgIC0yNTEsMjE2ICAgICAgICAyNTEsMjE2ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogMzMgICAgICAgIDkzNCw4NzUgICAgICAxLDAxNyw5MDEgICAgICAgIC04MywwMjYgICAgICAgLTI0MSw1NTcgICAgICAgIDI0MSw1NTcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAzNCAgICAgIDEsMjQ4LDAyOSAgICAgIDEsMjM5LDM3OSAgICAgICAgICA4LDY1MCAgICAgICAtMjI5LDYzMCAgICAgICAgMjI5LDYzMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIDM1ICAgICAgMSwxMTYsNzEzICAgICAgMSwwNTcsMzk5ICAgICAgICAgNTksMzE0ICAgICAgIC0yNDEsNzEwICAgICAgICAyNDEsNzEwICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogMzYgICAgICAxLDE4OSw3MTMgICAgICAxLDE4NCw1NjEgICAgICAgICAgNSwxNTIgICAgICAgLTIzMCwzMzAgICAgICAgIDIzMCwzMzAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAzNyAgICAgIDIsMTY2LDUzMCAgICAgIDIsMjM0LDIwMSAgICAgICAgLTY3LDY3MSAgICAgICAtMjM4LDk3MCAgICAgICAgMjM4LDk3MCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIDM4ICAgICAgMiw0NzEsNDU1ICAgICAgMiw0NzYsMzgwICAgICAgICAgLTQsOTI1ICAgICAgIC0yNDEsMTU1ICAgICAgICAyNDEsMTU1ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogMzkgICAgICAxLDk4OCw5MTcgICAgICAyLDAyMCw1NTUgICAgICAgIC0zMSw2MzggICAgICAgLTIyMSwxODcgICAgICAgIDIyMSwxODcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiA0MCAgICAgIDEsNTEwLDg5NyAgICAgIDEsODAzLDcwOCAgICAgICAtMjkyLDgxMSAgICAgICAtMjI2LDg4OCAgICAgICAgMjI2LDg4OCAgICAgICAgLTY1LDkyNCAgICAgICAgICAgICAgIA0KIDQxICAgICAgMiwyNDcsOTcwICAgICAgMiw0MTYsODMwICAgICAgIC0xNjgsODYwICAgICAgIC0yMzQsOTgyICAgICAgICAyMzQsOTgyICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogNDIgICAgICAxLDc4Myw3OTggICAgICAxLDk5Miw3MDMgICAgICAgLTIwOCw5MDUgICAgICAgLTIyMSwwNjUgICAgICAgIDIyMSwwNjUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiA0MyAgICAgIDEsNjg1LDUzNyAgICAgIDEsODEyLDIzNyAgICAgICAtMTI2LDcwMCAgICAgICAtMjI2LDk4MyAgICAgICAgMjI2LDk4MyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIDQ0ICAgICAgMSw3MDMsNTEyICAgICAgMSw3ODEsNTEwICAgICAgICAtNzcsOTk4ICAgICAgIC0yMjksNDU2ICAgICAgICAyMjksNDU2ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogNDUgICAgICAgIDY3OCw2NTEgICAgICAgIDgzMyw1MTggICAgICAgLTE1NCw4NjcgICAgICAgLTI0NCwyOTAgICAgICAgIDI0NCwyOTAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiA0NiAgICAgIDEsMTg4LDczMyAgICAgIDEsMTY1LDM4MSAgICAgICAgIDIzLDM1MiAgICAgICAtMjMzLDIzNSAgICAgICAgMjMzLDIzNSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KIDQ3ICAgICAgICA3ODEsNzkzICAgICAgICA5NDgsNTM0ICAgICAgIC0xNjYsNzQxICAgICAgIC0yMzYsMTY5ICAgICAgICAyMzYsMTY5ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogNDggICAgICAgIDk0OCw1MjIgICAgICAgIDk3OCw3MTQgICAgICAgIC0zMCwxOTIgICAgICAgLTIzMSwzMDAgICAgICAgIDIzMSwzMDAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiA0OSAgICAgICAgNjk4LDMzMyAgICAgICAgNjMyLDM5MiAgICAgICAgIDY1LDk0MSAgICAgICAtMjMyLDc4MyAgICAgICAgMjMyLDc4MyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0tDQogICAgICAgIDM5LDgxNSw4NDUgICAgIDQxLDIxNywxMzIgICAgIC0xLDQwMSwyODcNCiAgICA9PT09PT09PT09PT09PSA9PT09PT09PT09PT09PSA9PT09PT09PT09PT09PQ0KDQpUaGUgYW5hbHl0aWNhbCBwcm9jZWR1cmUgaWRlbnRpZmllZCB0aGUgZm9sbG93aW5nIEV4Y2Vzc2VzIHRvIGJlIGludmVzdGlnYXRlZDoNCiAgICAxIGluZGljYXRpbmcgcG90ZW50aWFsIHVuZGVyc3RhdGVtZW50DQoNCkZvciBlYWNoIHN1Y2ggRXhjZXNzLCBpbnZlc3RpZ2F0ZSB0aGUgcmVsYXRlZCBSZXNpZHVhbCBieToNCiAtICBJbnF1aXJpbmcgb2YgbWFuYWdlbWVudCBhbmQgb2J0YWluaW5nIGFwcHJvcHJpYXRlIGF1ZGl0IGV2aWRlbmNlIHJlbGV2YW50IHRvIG1hbmFnZW1lbnSScyByZXNwb25zZSwgYW5kDQogLSAgUGVyZm9ybWluZyBvdGhlciBhdWRpdCBwcm9jZWR1cmVzIGFzIG5lY2Vzc2FyeSBpbiB0aGUgY2lyY3Vtc3RhbmNlcy4NCklmIHN1Y2ggaW52ZXN0aWdhdGlvbiBkb2VzIG5vdCByZXN1bHQgaW4gYSBzYXRpc2ZhY3RvcnkgZXhwbGFuYXRpb24sIHRoZW4gdGhlIEV4Y2VzcyBpcyBhIFNBUCBNaXNzdGF0ZW1lbnQuDQoNCkNvbnNpZGVyIHdoZXRoZXIgdGhlcmUgYXJlIHVudXN1YWwgcGF0dGVybnMgaW4gdGhlIHJlc2lkdWFscyB0aGF0IHNob3VsZCBiZSBpbnZlc3RpZ2F0ZWQgKGUuZy4sIHJlc2lkdWFscyANCnRlbmQgc3Ryb25nbHkgaW4gb25lIGRpcmVjdGlvbiBhbmQgYXJlIGNsb3NlIHRvIHRoZSBpbmRpdmlkdWFsIHRocmVzaG9sZHMsIGFuZCB0aGVpciBzdW0gaXMgbXVsdGlwbGVzIG9mDQpwZXJmb3JtYW5jZSBtYXRlcmlhbGl0eSkuDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpWYXJpYWJsZXMgVXNlZCAoKyksIE5vdCBVc2VkICgtKQ0KDQpPYnMjICAgICAgICAgICBZKyAgICAgICAgIFgxKyAgICAgICBYMi0gICAgICBYMysgICBYNCsgICBYNSsNCi0tLS0gLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tIC0tLS0tLS0tLSAtLS0tLS0tLSAtLS0tLSAtLS0tLQ0KICAgMSAgICAgIDc4MSw3OTMgICAgICA0OCw3MjUgICAgIDIsNTAwICAgIDExLjAwICAgICAxICAgICAwDQogICAyICAgIDEsMTQ2LDQzOCAgICAgIDQ0LDE3MSAgICAgMiw1MDAgICAgMTEuMzEgICAgIDAgICAgIDANCiAgIDMgICAgMSwxOTUsMDA0ICAgICAgNDUsNzE0ICAgICAyLDUwMCAgICAxMi40NiAgICAgMCAgICAgMA0KICAgNCAgICAgIDk1MSw3ODQgICAgICAzNywyMTggICAgIDQsMDAwICAgIDExLjg2ICAgICAxICAgICAwDQogICA1ICAgIDEsOTgxLDQwOSAgICAgIDQ1LDgyNiAgICAgNCwwMDAgICAgMTAuMDYgICAgIDAgICAgIDENCiAgIDYgICAgMiwzMDAsNjcxICAgICAgNTMsODYyICAgICA0LDAwMCAgICAxMS4xMCAgICAgMCAgICAgMQ0KICAgNyAgICAxLDk1Niw0ODEgICAgICA0OSw4ODMgICAgIDQsMDAwICAgIDEwLjcxICAgICAwICAgICAxDQogICA4ICAgIDEsNzk5LDcxMyAgICAgIDQ3LDAxNiAgICAgNCwwMDAgICAgIDcuNTAgICAgIDAgICAgIDENCiAgIDkgICAgMSw4MjAsNjQxICAgICAgNTksNzI2ICAgICA0LDAwMCAgICAxNC4wMCAgICAgMCAgICAgMA0KICAxMCAgICAgIDc3NCw5NTQgICAgICAzNSw4ODIgICAgIDIsNTAwICAgIDExLjIwICAgICAxICAgICAwDQogIDExICAgIDEsMTU5LDAwNCAgICAgIDM3LDY2NCAgICAgMiw1MDAgICAgMTEuNjAgICAgIDAgICAgIDANCiAgMTIgICAgMSwxMzksNDc1ICAgICAgMzQsNjYyICAgICAyLDUwMCAgICAxMi43MCAgICAgMCAgICAgMA0KICAxMyAgICAgIDk0OCw1MjIgICAgICA0NCw3ODIgICAgIDQsMDAwICAgIDExLjg2ICAgICAxICAgICAwDQogIDE0ICAgIDEsOTg0LDc3NyAgICAgIDM4LDc3NCAgICAgNCwwMDAgICAgMTIuMjAgICAgIDAgICAgIDENCiAgMTUgICAgMiwyOTMsODQ3ICAgICAgNTUsNDIzICAgICA0LDAwMCAgICAxMS4xMCAgICAgMCAgICAgMQ0KICAxNiAgICAxLDk4NCw3MjIgICAgICA1Miw4ODQgICAgIDQsMDAwICAgIDEwLjQwICAgICAwICAgICAxDQogIDE3ICAgIDEsNzk4LDMzNiAgICAgIDQ2LDgzNCAgICAgNCwwMDAgICAgIDguODQgICAgIDAgICAgIDENCiAgMTggICAgMiw0ODQsNTAzICAgICAgNTMsNzcyICAgICA0LDAwMCAgICAxMi4xMCAgICAgMCAgICAgMQ0KICAxOSAgICAxLDgzNyw0MDAgICAgICA0Myw5ODIgICAgIDQsMDAwICAgICA5LjcwICAgICAwICAgICAxDQogIDIwICAgIDEsNjA5LDM4NSAgICAgIDQ0LDg5MyAgICAgNCwwMDAgICAgIDcuMjAgICAgIDAgICAgIDENCiAgMjEgICAgMSw4NzQsMjI5ICAgICAgMzcsNjY1ICAgICA0LDAwMCAgICAxMC41MCAgICAgMCAgICAgMQ0KICAyMiAgICAgIDY5OCwzMzMgICAgICAzMyw4MjYgICAgIDIsNTAwICAgIDEwLjUwICAgICAxICAgICAwDQogIDIzICAgIDEsMTk4LDIyOSAgICAgIDQ0LDg1NyAgICAgMiw1MDAgICAgMTAuOTAgICAgIDAgICAgIDANCiAgMjQgICAgMSwyMzEsNTk2ICAgICAgNDYsOTc3ICAgICAyLDUwMCAgICAxMC42NiAgICAgMCAgICAgMA0KICAyNSAgICAxLDM5OCw5NTEgICAgICA0Myw4MTIgICAgIDIsNTAwICAgIDEyLjU3ICAgICAwICAgICAwDQogIDI2ICAgIDEsMjc1LDQ1MSAgICAgIDUwLDI4NSAgICAgMiw1MDAgICAgMTEuOTQgICAgIDAgICAgIDANCiAgMjcgICAgICA5MTQsNjU5ICAgICAgMzcsNzk1ICAgICA0LDAwMCAgICAxMS40NSAgICAgMCAgICAgMA0KICAyOCAgICAxLDg1MywzNTEgICAgICAzOCw5MzEgICAgIDQsMDAwICAgICA5Ljg0ICAgICAwICAgICAxDQogIDI5ICAgIDIsMzAwLDM4NCAgICAgIDYwLDQ1MyAgICAgNCwwMDAgICAgMTEuODEgICAgIDAgICAgIDENCiAgMzAgICAgMSw4ODgsNTQ1ICAgICAgNDgsODA5ICAgICA0LDAwMCAgICAxMC43MCAgICAgMCAgICAgMQ0KICAzMSAgICAxLDc0MSw1NzEgICAgICA0OSw5ODggICAgIDQsMDAwICAgICA2LjQ5ICAgICAwICAgICAxDQogIDMyICAgIDEsNjY5LDEzMCAgICAgIDYyLDEyMCAgICAgNCwwMDAgICAgMTMuNTcgICAgIDAgICAgIDANCiAgMzMgICAgICA5MzQsODc1ICAgICAgNDQsNDEzICAgICAyLDUwMCAgICAxMC4wMiAgICAgMCAgICAgMA0KICAzNCAgICAxLDI0OCwwMjkgICAgICA0Miw5NjMgICAgIDIsNTAwICAgIDEyLjE3ICAgICAwICAgICAwDQogIDM1ICAgIDEsMTE2LDcxMyAgICAgIDMxLDY5MyAgICAgMiw1MDAgICAgMTIuMjkgICAgIDAgICAgIDANCiAgMzYgICAgMSwxODksNzEzICAgICAgNDIsMzgzICAgICA0LDAwMCAgICAxMS43OCAgICAgMCAgICAgMA0KICAzNyAgICAyLDE2Niw1MzAgICAgICA0NCwzMTUgICAgIDQsMDAwICAgIDEyLjcyICAgICAwICAgICAxDQogIDM4ICAgIDIsNDcxLDQ1NSAgICAgIDYyLDk0OCAgICAgNCwwMDAgICAgMTIuMDEgICAgIDAgICAgIDENCiAgMzkgICAgMSw5ODgsOTE3ICAgICAgNDgsODU4ICAgICA0LDAwMCAgICAxMC4xNyAgICAgMCAgICAgMQ0KICA0MCAgICAxLDUxMCw4OTcgICAgICA0NywyNzIgICAgIDQsMDAwICAgICA4LjUyICAgICAwICAgICAxDQogIDQxICAgIDIsMjQ3LDk3MCAgICAgIDU2LDQ4MSAgICAgNCwwMDAgICAgMTIuNDcgICAgIDAgICAgIDENCiAgNDIgICAgMSw3ODMsNzk4ICAgICAgNDcsOTE1ICAgICA0LDAwMCAgICAxMC4wNyAgICAgMCAgICAgMQ0KICA0MyAgICAxLDY4NSw1MzcgICAgICA0Nyw2OTcgICAgIDQsMDAwICAgICA4LjUzICAgICAwICAgICAxDQogIDQ0ICAgIDEsNzAzLDUxMiAgICAgIDM3LDM0MSAgICAgNCwwMDAgICAgIDkuODMgICAgIDAgICAgIDENCiAgNDUgICAgICA2NzgsNjUxICAgICAgMzMsNDAxICAgICAyLDUwMCAgICAxMC4wOCAgICAgMCAgICAgMA0KICA0NiAgICAxLDE4OCw3MzMgICAgICA0NSwzNzQgICAgIDIsNTAwICAgIDExLjE2ICAgICAwICAgICAwDQogIDQ3ICAgICAgNzgxLDc5MyAgICAgIDQ4LDcyNSAgICAgMiw1MDAgICAgMTEuMDAgICAgIDEgICAgIDANCiAgNDggICAgICA5NDgsNTIyICAgICAgNDQsNzgyICAgICA0LDAwMCAgICAxMS44NiAgICAgMSAgICAgMA0KICA0OSAgICAgIDY5OCwzMzMgICAgICAzMyw4MjYgICAgIDIsNTAwICAgIDEwLjUwICAgICAxICAgICAwDQogICAgIC0tLS0tLS0tLS0tLSAtLS0tLS0tLS0tLSAtLS0tLS0tLS0gLS0tLS0tLS0gLS0tLS0gLS0tLS0NCiAgICAgICA3NCwzMzcsMjY2ICAgMiwyMzcsNTk4ICAgMTY5LDAwMCAgIDUzNS4wMSAgICAgOCAgICAyNA0KICAgICA9PT09PT09PT09PT0gPT09PT09PT09PT0gPT09PT09PT09ID09PT09PT09ID09PT09ID09PT09DQo=",
+    "warnings": [],
+    "regressionModel": {
+      "constant": -903100,
+      "constantFormatted": "-903,100",
+      "coefficientOfCorrelation": 98.6,
+      "coefficientOfCorrelationFormatted": "98.6",
+      "testVariable": {
+        "name": "Sales",
+        "mean": 1569000,
+        "meanFormatted": "1,569,000",
+        "standardDeviation": 549700,
+        "standardDeviationFormatted": "549,700"
+      },
+      "expectation": {
+        "constantOrCoefficient": 1569000,
+        "constantOrCoefficientFormatted": "1,569,000",
+        "standardError": 100800,
+        "standardErrorFormatted": "100,800"
+      },
+      "predictingVariables": [
+        {
+          "name": "Inventory",
+          "mean": 45140,
+          "meanFormatted": "45,140",
+          "standardDeviation": 7279,
+          "standardDeviationFormatted": "7,279",
+          "constantOrCoefficient": 17.37,
+          "constantOrCoefficientFormatted": "17.37",
+          "standardError": 3.485,
+          "standardErrorFormatted": "3.485"
+        },
+        {
+          "name": "Average FTE",
+          "mean": 10.9,
+          "meanFormatted": "10.9",
+          "standardDeviation": 1.594,
+          "standardDeviationFormatted": "1.594",
+          "constantOrCoefficient": 114700,
+          "constantOrCoefficientFormatted": "114,700",
+          "standardError": 18100,
+          "standardErrorFormatted": "18,100"
+        },
+        {
+          "name": "New Store",
+          "mean": 0.23,
+          "meanFormatted": "0.23",
+          "standardDeviation": 0.43,
+          "standardDeviationFormatted": "0.43",
+          "constantOrCoefficient": -256700,
+          "constantOrCoefficientFormatted": "-256,700",
+          "standardError": 67350,
+          "standardErrorFormatted": "67,350"
+        },
+        {
+          "name": "Sells Gas",
+          "mean": 0.55,
+          "meanFormatted": "0.55",
+          "standardDeviation": 0.51,
+          "standardDeviationFormatted": "0.51",
+          "constantOrCoefficient": 908200,
+          "constantOrCoefficientFormatted": "908,200",
+          "standardError": 70660,
+          "standardErrorFormatted": "70,660"
+        }
+      ],
+      "expectationFormula": {
+        "value": "-903,066.81 + 17.3689*X1(t) + 114,726.8786*X3(t) - 256,693.7176*X4(t) + 908,240.0392*X5(t)",
+        "testVariableName": "Sales",
+        "constant": -903100,
+        "constantFormatted": "-903,100",
+        "period": "t",
+        "variables": [
+          {
+            "name": "Inventory",
+            "value": 17.37,
+            "valueFormatted": "17.37",
+            "symbol": "X1",
+            "period": "t",
+            "operator": "+"
+          },
+          {
+            "name": "Average FTE",
+            "value": 114700,
+            "valueFormatted": "114,700",
+            "symbol": "X3",
+            "period": "t",
+            "operator": "+"
+          },
+          {
+            "name": "New Store",
+            "value": 256700,
+            "valueFormatted": "256,700",
+            "symbol": "X4",
+            "period": "t",
+            "operator": "-"
+          },
+          {
+            "name": "Sells Gas",
+            "value": 908200,
+            "valueFormatted": "908,200",
+            "symbol": "X5",
+            "period": "t",
+            "operator": "+"
+          }
+        ]
+      }
+    },
+    "residualsIsCorrected": false,
+    "residualsCorrectedHeading": null,
+    "residuals": [
+      {
+        "observationNumber": 1,
+        "recordedAmount": 781800,
+        "recordedAmountFormatted": "781,800",
+        "regressionEstimate": 948500,
+        "regressionEstimateFormatted": "948,500",
+        "residualDifference": -166700,
+        "residualDifferenceFormatted": "-166,700",
+        "plotPosition": -4.96
+      },
+      {
+        "observationNumber": 2,
+        "recordedAmount": 1146000,
+        "recordedAmountFormatted": "1,146,000",
+        "regressionEstimate": 1162000,
+        "regressionEstimateFormatted": "1,162,000",
+        "residualDifference": -15260,
+        "residualDifferenceFormatted": "-15,260",
+        "plotPosition": -0.454
+      },
+      {
+        "observationNumber": 3,
+        "recordedAmount": 1195000,
+        "recordedAmountFormatted": "1,195,000",
+        "regressionEstimate": 1320000,
+        "regressionEstimateFormatted": "1,320,000",
+        "residualDifference": -125400,
+        "residualDifferenceFormatted": "-125,400",
+        "plotPosition": -3.731
+      },
+      {
+        "observationNumber": 4,
+        "recordedAmount": 951800,
+        "recordedAmountFormatted": "951,800",
+        "regressionEstimate": 847300,
+        "regressionEstimateFormatted": "847,300",
+        "residualDifference": 104400,
+        "residualDifferenceFormatted": "104,400",
+        "plotPosition": 3.107
+      },
+      {
+        "observationNumber": 5,
+        "recordedAmount": 1981000,
+        "recordedAmountFormatted": "1,981,000",
+        "regressionEstimate": 1955000,
+        "regressionEstimateFormatted": "1,955,000",
+        "residualDifference": 26140,
+        "residualDifferenceFormatted": "26,140",
+        "plotPosition": 0.778
+      },
+      {
+        "observationNumber": 6,
+        "recordedAmount": 2301000,
+        "recordedAmountFormatted": "2,301,000",
+        "regressionEstimate": 2214000,
+        "regressionEstimateFormatted": "2,214,000",
+        "residualDifference": 86510,
+        "residualDifferenceFormatted": "86,510",
+        "plotPosition": 2.573
+      },
+      {
+        "observationNumber": 7,
+        "recordedAmount": 1956000,
+        "recordedAmountFormatted": "1,956,000",
+        "regressionEstimate": 2100000,
+        "regressionEstimateFormatted": "2,100,000",
+        "residualDifference": -143800,
+        "residualDifferenceFormatted": "-143,800",
+        "plotPosition": -4.279
+      },
+      {
+        "observationNumber": 8,
+        "recordedAmount": 1800000,
+        "recordedAmountFormatted": "1,800,000",
+        "regressionEstimate": 1682000,
+        "regressionEstimateFormatted": "1,682,000",
+        "residualDifference": 117500,
+        "residualDifferenceFormatted": "117,500",
+        "plotPosition": 3.495
+      },
+      {
+        "observationNumber": 9,
+        "recordedAmount": 1821000,
+        "recordedAmountFormatted": "1,821,000",
+        "regressionEstimate": 1740000,
+        "regressionEstimateFormatted": "1,740,000",
+        "residualDifference": 80160,
+        "residualDifferenceFormatted": "80,160",
+        "plotPosition": 2.385
+      },
+      {
+        "observationNumber": 10,
+        "recordedAmount": 775000,
+        "recordedAmountFormatted": "775,000",
+        "regressionEstimate": 748400,
+        "regressionEstimateFormatted": "748,400",
+        "residualDifference": 26540,
+        "residualDifferenceFormatted": "26,540",
+        "plotPosition": 0.79
+      },
+      {
+        "observationNumber": 11,
+        "recordedAmount": 1159000,
+        "recordedAmountFormatted": "1,159,000",
+        "regressionEstimate": 1082000,
+        "regressionEstimateFormatted": "1,082,000",
+        "residualDifference": 77060,
+        "residualDifferenceFormatted": "77,060",
+        "plotPosition": 2.292
+      },
+      {
+        "observationNumber": 12,
+        "recordedAmount": 1139000,
+        "recordedAmountFormatted": "1,139,000",
+        "regressionEstimate": 1156000,
+        "regressionEstimateFormatted": "1,156,000",
+        "residualDifference": -16530,
+        "residualDifferenceFormatted": "-16,530",
+        "plotPosition": -0.492
+      },
+      {
+        "observationNumber": 13,
+        "recordedAmount": 948500,
+        "recordedAmountFormatted": "948,500",
+        "regressionEstimate": 978700,
+        "regressionEstimateFormatted": "978,700",
+        "residualDifference": -30190,
+        "residualDifferenceFormatted": "-30,190",
+        "plotPosition": -0.898
+      },
+      {
+        "observationNumber": 14,
+        "recordedAmount": 1985000,
+        "recordedAmountFormatted": "1,985,000",
+        "regressionEstimate": 2078000,
+        "regressionEstimateFormatted": "2,078,000",
+        "residualDifference": -93520,
+        "residualDifferenceFormatted": "-93,520",
+        "plotPosition": -2.782
+      },
+      {
+        "observationNumber": 15,
+        "recordedAmount": 2294000,
+        "recordedAmountFormatted": "2,294,000",
+        "regressionEstimate": 2241000,
+        "regressionEstimateFormatted": "2,241,000",
+        "residualDifference": 52570,
+        "residualDifferenceFormatted": "52,570",
+        "plotPosition": 1.564
+      },
+      {
+        "observationNumber": 16,
+        "recordedAmount": 1985000,
+        "recordedAmountFormatted": "1,985,000",
+        "regressionEstimate": 2117000,
+        "regressionEstimateFormatted": "2,117,000",
+        "residualDifference": -132100,
+        "residualDifferenceFormatted": "-132,100",
+        "plotPosition": -3.931
+      },
+      {
+        "observationNumber": 17,
+        "recordedAmount": 1798000,
+        "recordedAmountFormatted": "1,798,000",
+        "regressionEstimate": 1833000,
+        "regressionEstimateFormatted": "1,833,000",
+        "residualDifference": -34480,
+        "residualDifferenceFormatted": "-34,480",
+        "plotPosition": -1.026
+      },
+      {
+        "observationNumber": 18,
+        "recordedAmount": 2485000,
+        "recordedAmountFormatted": "2,485,000",
+        "regressionEstimate": 2327000,
+        "regressionEstimateFormatted": "2,327,000",
+        "residualDifference": 157200,
+        "residualDifferenceFormatted": "157,200",
+        "plotPosition": 4.676
+      },
+      {
+        "observationNumber": 19,
+        "recordedAmount": 1837000,
+        "recordedAmountFormatted": "1,837,000",
+        "regressionEstimate": 1882000,
+        "regressionEstimateFormatted": "1,882,000",
+        "residualDifference": -44540,
+        "residualDifferenceFormatted": "-44,540",
+        "plotPosition": -1.325
+      },
+      {
+        "observationNumber": 20,
+        "recordedAmount": 1609000,
+        "recordedAmountFormatted": "1,609,000",
+        "regressionEstimate": 1611000,
+        "regressionEstimateFormatted": "1,611,000",
+        "residualDifference": -1563,
+        "residualDifferenceFormatted": "-1,563",
+        "plotPosition": -0.047
+      },
+      {
+        "observationNumber": 21,
+        "recordedAmount": 1874000,
+        "recordedAmountFormatted": "1,874,000",
+        "regressionEstimate": 1864000,
+        "regressionEstimateFormatted": "1,864,000",
+        "residualDifference": 10220,
+        "residualDifferenceFormatted": "10,220",
+        "plotPosition": 0.304
+      },
+      {
+        "observationNumber": 22,
+        "recordedAmount": 698300,
+        "recordedAmountFormatted": "698,300",
+        "regressionEstimate": 632400,
+        "regressionEstimateFormatted": "632,400",
+        "residualDifference": 65940,
+        "residualDifferenceFormatted": "65,940",
+        "plotPosition": 1.962
+      },
+      {
+        "observationNumber": 23,
+        "recordedAmount": 1198000,
+        "recordedAmountFormatted": "1,198,000",
+        "regressionEstimate": 1127000,
+        "regressionEstimateFormatted": "1,127,000",
+        "residualDifference": 71660,
+        "residualDifferenceFormatted": "71,660",
+        "plotPosition": 2.132
+      },
+      {
+        "observationNumber": 24,
+        "recordedAmount": 1232000,
+        "recordedAmountFormatted": "1,232,000",
+        "regressionEstimate": 1136000,
+        "regressionEstimateFormatted": "1,136,000",
+        "residualDifference": 95740,
+        "residualDifferenceFormatted": "95,740",
+        "plotPosition": 2.848
+      },
+      {
+        "observationNumber": 25,
+        "recordedAmount": 1399000,
+        "recordedAmountFormatted": "1,399,000",
+        "regressionEstimate": 1300000,
+        "regressionEstimateFormatted": "1,300,000",
+        "residualDifference": 98940,
+        "residualDifferenceFormatted": "98,940",
+        "plotPosition": 2.943
+      },
+      {
+        "observationNumber": 26,
+        "recordedAmount": 1275000,
+        "recordedAmountFormatted": "1,275,000",
+        "regressionEstimate": 1340000,
+        "regressionEstimateFormatted": "1,340,000",
+        "residualDifference": -64720,
+        "residualDifferenceFormatted": "-64,720",
+        "plotPosition": -1.925
+      },
+      {
+        "observationNumber": 27,
+        "recordedAmount": 914700,
+        "recordedAmountFormatted": "914,700",
+        "regressionEstimate": 1067000,
+        "regressionEstimateFormatted": "1,067,000",
+        "residualDifference": -152400,
+        "residualDifferenceFormatted": "-152,400",
+        "plotPosition": -4.532
+      },
+      {
+        "observationNumber": 28,
+        "recordedAmount": 1853000,
+        "recordedAmountFormatted": "1,853,000",
+        "regressionEstimate": 1810000,
+        "regressionEstimateFormatted": "1,810,000",
+        "residualDifference": 43080,
+        "residualDifferenceFormatted": "43,080",
+        "plotPosition": 1.281
+      },
+      {
+        "observationNumber": 29,
+        "recordedAmount": 2300000,
+        "recordedAmountFormatted": "2,300,000",
+        "regressionEstimate": 2410000,
+        "regressionEstimateFormatted": "2,410,000",
+        "residualDifference": -109700,
+        "residualDifferenceFormatted": "-109,700",
+        "plotPosition": -3.264
+      },
+      {
+        "observationNumber": 30,
+        "recordedAmount": 1889000,
+        "recordedAmountFormatted": "1,889,000",
+        "regressionEstimate": 2081000,
+        "regressionEstimateFormatted": "2,081,000",
+        "residualDifference": -192000,
+        "residualDifferenceFormatted": "-192,000",
+        "plotPosition": -5.711
+      },
+      {
+        "observationNumber": 31,
+        "recordedAmount": 1742000,
+        "recordedAmountFormatted": "1,742,000",
+        "regressionEstimate": 1618000,
+        "regressionEstimateFormatted": "1,618,000",
+        "residualDifference": 123600,
+        "residualDifferenceFormatted": "123,600",
+        "plotPosition": 3.676
+      },
+      {
+        "observationNumber": 32,
+        "recordedAmount": 1669000,
+        "recordedAmountFormatted": "1,669,000",
+        "regressionEstimate": 1733000,
+        "regressionEstimateFormatted": "1,733,000",
+        "residualDifference": -63600,
+        "residualDifferenceFormatted": "-63,600",
+        "plotPosition": -1.892
+      },
+      {
+        "observationNumber": 33,
+        "recordedAmount": 934900,
+        "recordedAmountFormatted": "934,900",
+        "regressionEstimate": 1018000,
+        "regressionEstimateFormatted": "1,018,000",
+        "residualDifference": -83030,
+        "residualDifferenceFormatted": "-83,030",
+        "plotPosition": -2.47
+      },
+      {
+        "observationNumber": 34,
+        "recordedAmount": 1248000,
+        "recordedAmountFormatted": "1,248,000",
+        "regressionEstimate": 1239000,
+        "regressionEstimateFormatted": "1,239,000",
+        "residualDifference": 8650,
+        "residualDifferenceFormatted": "8,650",
+        "plotPosition": 0.257
+      },
+      {
+        "observationNumber": 35,
+        "recordedAmount": 1117000,
+        "recordedAmountFormatted": "1,117,000",
+        "regressionEstimate": 1057000,
+        "regressionEstimateFormatted": "1,057,000",
+        "residualDifference": 59310,
+        "residualDifferenceFormatted": "59,310",
+        "plotPosition": 1.765
+      },
+      {
+        "observationNumber": 36,
+        "recordedAmount": 1190000,
+        "recordedAmountFormatted": "1,190,000",
+        "regressionEstimate": 1185000,
+        "regressionEstimateFormatted": "1,185,000",
+        "residualDifference": 5152,
+        "residualDifferenceFormatted": "5,152",
+        "plotPosition": 0.153
+      },
+      {
+        "observationNumber": 37,
+        "recordedAmount": 2167000,
+        "recordedAmountFormatted": "2,167,000",
+        "regressionEstimate": 2234000,
+        "regressionEstimateFormatted": "2,234,000",
+        "residualDifference": -67670,
+        "residualDifferenceFormatted": "-67,670",
+        "plotPosition": -2.013
+      },
+      {
+        "observationNumber": 38,
+        "recordedAmount": 2471000,
+        "recordedAmountFormatted": "2,471,000",
+        "regressionEstimate": 2476000,
+        "regressionEstimateFormatted": "2,476,000",
+        "residualDifference": -4925,
+        "residualDifferenceFormatted": "-4,925",
+        "plotPosition": -0.147
+      },
+      {
+        "observationNumber": 39,
+        "recordedAmount": 1989000,
+        "recordedAmountFormatted": "1,989,000",
+        "regressionEstimate": 2021000,
+        "regressionEstimateFormatted": "2,021,000",
+        "residualDifference": -31640,
+        "residualDifferenceFormatted": "-31,640",
+        "plotPosition": -0.941
+      },
+      {
+        "observationNumber": 40,
+        "recordedAmount": 1511000,
+        "recordedAmountFormatted": "1,511,000",
+        "regressionEstimate": 1804000,
+        "regressionEstimateFormatted": "1,804,000",
+        "residualDifference": -292800,
+        "residualDifferenceFormatted": "-292,800",
+        "plotPosition": -8.711
+      },
+      {
+        "observationNumber": 41,
+        "recordedAmount": 2248000,
+        "recordedAmountFormatted": "2,248,000",
+        "regressionEstimate": 2417000,
+        "regressionEstimateFormatted": "2,417,000",
+        "residualDifference": -168900,
+        "residualDifferenceFormatted": "-168,900",
+        "plotPosition": -5.023
+      },
+      {
+        "observationNumber": 42,
+        "recordedAmount": 1784000,
+        "recordedAmountFormatted": "1,784,000",
+        "regressionEstimate": 1993000,
+        "regressionEstimateFormatted": "1,993,000",
+        "residualDifference": -208900,
+        "residualDifferenceFormatted": "-208,900",
+        "plotPosition": -6.215
+      },
+      {
+        "observationNumber": 43,
+        "recordedAmount": 1686000,
+        "recordedAmountFormatted": "1,686,000",
+        "regressionEstimate": 1812000,
+        "regressionEstimateFormatted": "1,812,000",
+        "residualDifference": -126700,
+        "residualDifferenceFormatted": "-126,700",
+        "plotPosition": -3.769
+      },
+      {
+        "observationNumber": 44,
+        "recordedAmount": 1704000,
+        "recordedAmountFormatted": "1,704,000",
+        "regressionEstimate": 1782000,
+        "regressionEstimateFormatted": "1,782,000",
+        "residualDifference": -78000,
+        "residualDifferenceFormatted": "-78,000",
+        "plotPosition": -2.32
+      },
+      {
+        "observationNumber": 45,
+        "recordedAmount": 678700,
+        "recordedAmountFormatted": "678,700",
+        "regressionEstimate": 833500,
+        "regressionEstimateFormatted": "833,500",
+        "residualDifference": -154900,
+        "residualDifferenceFormatted": "-154,900",
+        "plotPosition": -4.607
+      },
+      {
+        "observationNumber": 46,
+        "recordedAmount": 1189000,
+        "recordedAmountFormatted": "1,189,000",
+        "regressionEstimate": 1165000,
+        "regressionEstimateFormatted": "1,165,000",
+        "residualDifference": 23350,
+        "residualDifferenceFormatted": "23,350",
+        "plotPosition": 0.695
+      },
+      {
+        "observationNumber": 47,
+        "recordedAmount": 781800,
+        "recordedAmountFormatted": "781,800",
+        "regressionEstimate": 948500,
+        "regressionEstimateFormatted": "948,500",
+        "residualDifference": -166700,
+        "residualDifferenceFormatted": "-166,700",
+        "plotPosition": -4.96
+      },
+      {
+        "observationNumber": 48,
+        "recordedAmount": 948500,
+        "recordedAmountFormatted": "948,500",
+        "regressionEstimate": 978700,
+        "regressionEstimateFormatted": "978,700",
+        "residualDifference": -30190,
+        "residualDifferenceFormatted": "-30,190",
+        "plotPosition": -0.898
+      },
+      {
+        "observationNumber": 49,
+        "recordedAmount": 698300,
+        "recordedAmountFormatted": "698,300",
+        "regressionEstimate": 632400,
+        "regressionEstimateFormatted": "632,400",
+        "residualDifference": 65940,
+        "residualDifferenceFormatted": "65,940",
+        "plotPosition": 1.962
+      }
+    ],
+    "variableUsageModel": {
+      "variables": [
+        {
+          "name": "Sales",
+          "isUsed": true,
+          "total": 74340000,
+          "totalFormatted": "74,340,000",
+          "min": 678700,
+          "minFormatted": "678,700",
+          "max": 2485000,
+          "maxFormatted": "2,485,000",
+          "scatterMatrix": [
+            0.057,
+            0.259,
+            0.286,
+            0.151,
+            0.721,
+            0.898,
+            0.707,
+            0.621,
+            0.632,
+            0.053,
+            0.266,
+            0.255,
+            0.149,
+            0.723,
+            0.894,
+            0.723,
+            0.62,
+            1,
+            0.641,
+            0.515,
+            0.662,
+            0.011,
+            0.287,
+            0.306,
+            0.399,
+            0.33,
+            0.131,
+            0.65,
+            0.898,
+            0.67,
+            0.589,
+            0.548,
+            0.142,
+            0.315,
+            0.243,
+            0.283,
+            0.824,
+            0.992,
+            0.725,
+            0.461,
+            0.869,
+            0.612,
+            0.558,
+            0.568,
+            0,
+            0.283,
+            0.057,
+            0.149,
+            0.011
+          ]
+        },
+        {
+          "name": "Inventory",
+          "isUsed": true,
+          "total": 2238000,
+          "totalFormatted": "2,238,000",
+          "min": 31690,
+          "minFormatted": "31,690",
+          "max": 62950,
+          "maxFormatted": "62,950",
+          "scatterMatrix": [
+            0.545,
+            0.399,
+            0.448,
+            0.177,
+            0.452,
+            0.709,
+            0.582,
+            0.49,
+            0.897,
+            0.134,
+            0.191,
+            0.095,
+            0.419,
+            0.226,
+            0.759,
+            0.678,
+            0.484,
+            0.706,
+            0.393,
+            0.422,
+            0.191,
+            0.068,
+            0.421,
+            0.489,
+            0.388,
+            0.595,
+            0.195,
+            0.232,
+            0.92,
+            0.548,
+            0.585,
+            0.973,
+            0.407,
+            0.361,
+            0,
+            0.342,
+            0.404,
+            1,
+            0.549,
+            0.498,
+            0.793,
+            0.519,
+            0.512,
+            0.181,
+            0.055,
+            0.438,
+            0.545,
+            0.419,
+            0.068
+          ]
+        },
+        {
+          "name": "Square Feet",
+          "isUsed": false,
+          "total": 169000,
+          "totalFormatted": "169,000",
+          "min": 2500,
+          "minFormatted": "2,500",
+          "max": 4000,
+          "maxFormatted": "4,000",
+          "scatterMatrix": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "Average FTE",
+          "isUsed": true,
+          "total": 535,
+          "totalFormatted": "535",
+          "min": 6.49,
+          "minFormatted": "6.49",
+          "max": 14,
+          "maxFormatted": "14",
+          "scatterMatrix": [
+            0.601,
+            0.642,
+            0.795,
+            0.715,
+            0.475,
+            0.614,
+            0.562,
+            0.134,
+            1,
+            0.627,
+            0.68,
+            0.827,
+            0.715,
+            0.76,
+            0.614,
+            0.521,
+            0.313,
+            0.747,
+            0.427,
+            0.095,
+            0.534,
+            0.534,
+            0.587,
+            0.555,
+            0.81,
+            0.726,
+            0.66,
+            0.446,
+            0.708,
+            0.561,
+            0,
+            0.943,
+            0.47,
+            0.756,
+            0.772,
+            0.704,
+            0.83,
+            0.735,
+            0.49,
+            0.27,
+            0.796,
+            0.477,
+            0.272,
+            0.445,
+            0.478,
+            0.622,
+            0.601,
+            0.715,
+            0.534
+          ]
+        },
+        {
+          "name": "New Store",
+          "isUsed": true,
+          "total": 8,
+          "totalFormatted": "8",
+          "min": 0,
+          "minFormatted": "0",
+          "max": 1,
+          "maxFormatted": "1",
+          "scatterMatrix": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Sells Gas",
+          "isUsed": true,
+          "total": 24,
+          "totalFormatted": "24",
+          "min": 0,
+          "minFormatted": "0",
+          "max": 1,
+          "maxFormatted": "1",
+          "scatterMatrix": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "observationNumber": 1,
+          "values": [
+            {
+              "valueDouble": 781800,
+              "valueFormatted": "781,800"
+            },
+            {
+              "valueDouble": 48730,
+              "valueFormatted": "48,730"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 11,
+              "valueFormatted": "11"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 2,
+          "values": [
+            {
+              "valueDouble": 1146000,
+              "valueFormatted": "1,146,000"
+            },
+            {
+              "valueDouble": 44170,
+              "valueFormatted": "44,170"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 11.31,
+              "valueFormatted": "11.31"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 3,
+          "values": [
+            {
+              "valueDouble": 1195000,
+              "valueFormatted": "1,195,000"
+            },
+            {
+              "valueDouble": 45710,
+              "valueFormatted": "45,710"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 12.46,
+              "valueFormatted": "12.46"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 4,
+          "values": [
+            {
+              "valueDouble": 951800,
+              "valueFormatted": "951,800"
+            },
+            {
+              "valueDouble": 37220,
+              "valueFormatted": "37,220"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 11.86,
+              "valueFormatted": "11.86"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 5,
+          "values": [
+            {
+              "valueDouble": 1981000,
+              "valueFormatted": "1,981,000"
+            },
+            {
+              "valueDouble": 45830,
+              "valueFormatted": "45,830"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 10.06,
+              "valueFormatted": "10.06"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 6,
+          "values": [
+            {
+              "valueDouble": 2301000,
+              "valueFormatted": "2,301,000"
+            },
+            {
+              "valueDouble": 53860,
+              "valueFormatted": "53,860"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 11.1,
+              "valueFormatted": "11.1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 7,
+          "values": [
+            {
+              "valueDouble": 1956000,
+              "valueFormatted": "1,956,000"
+            },
+            {
+              "valueDouble": 49880,
+              "valueFormatted": "49,880"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 10.71,
+              "valueFormatted": "10.71"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 8,
+          "values": [
+            {
+              "valueDouble": 1800000,
+              "valueFormatted": "1,800,000"
+            },
+            {
+              "valueDouble": 47020,
+              "valueFormatted": "47,020"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 7.5,
+              "valueFormatted": "7.5"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 9,
+          "values": [
+            {
+              "valueDouble": 1821000,
+              "valueFormatted": "1,821,000"
+            },
+            {
+              "valueDouble": 59730,
+              "valueFormatted": "59,730"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 14,
+              "valueFormatted": "14"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 10,
+          "values": [
+            {
+              "valueDouble": 775000,
+              "valueFormatted": "775,000"
+            },
+            {
+              "valueDouble": 35880,
+              "valueFormatted": "35,880"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 11.2,
+              "valueFormatted": "11.2"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 11,
+          "values": [
+            {
+              "valueDouble": 1159000,
+              "valueFormatted": "1,159,000"
+            },
+            {
+              "valueDouble": 37660,
+              "valueFormatted": "37,660"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 11.6,
+              "valueFormatted": "11.6"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 12,
+          "values": [
+            {
+              "valueDouble": 1139000,
+              "valueFormatted": "1,139,000"
+            },
+            {
+              "valueDouble": 34660,
+              "valueFormatted": "34,660"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 12.7,
+              "valueFormatted": "12.7"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 13,
+          "values": [
+            {
+              "valueDouble": 948500,
+              "valueFormatted": "948,500"
+            },
+            {
+              "valueDouble": 44780,
+              "valueFormatted": "44,780"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 11.86,
+              "valueFormatted": "11.86"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 14,
+          "values": [
+            {
+              "valueDouble": 1985000,
+              "valueFormatted": "1,985,000"
+            },
+            {
+              "valueDouble": 38770,
+              "valueFormatted": "38,770"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 12.2,
+              "valueFormatted": "12.2"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 15,
+          "values": [
+            {
+              "valueDouble": 2294000,
+              "valueFormatted": "2,294,000"
+            },
+            {
+              "valueDouble": 55420,
+              "valueFormatted": "55,420"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 11.1,
+              "valueFormatted": "11.1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 16,
+          "values": [
+            {
+              "valueDouble": 1985000,
+              "valueFormatted": "1,985,000"
+            },
+            {
+              "valueDouble": 52880,
+              "valueFormatted": "52,880"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 10.4,
+              "valueFormatted": "10.4"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 17,
+          "values": [
+            {
+              "valueDouble": 1798000,
+              "valueFormatted": "1,798,000"
+            },
+            {
+              "valueDouble": 46830,
+              "valueFormatted": "46,830"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 8.84,
+              "valueFormatted": "8.84"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 18,
+          "values": [
+            {
+              "valueDouble": 2485000,
+              "valueFormatted": "2,485,000"
+            },
+            {
+              "valueDouble": 53770,
+              "valueFormatted": "53,770"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 12.1,
+              "valueFormatted": "12.1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 19,
+          "values": [
+            {
+              "valueDouble": 1837000,
+              "valueFormatted": "1,837,000"
+            },
+            {
+              "valueDouble": 43980,
+              "valueFormatted": "43,980"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 9.7,
+              "valueFormatted": "9.7"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 20,
+          "values": [
+            {
+              "valueDouble": 1609000,
+              "valueFormatted": "1,609,000"
+            },
+            {
+              "valueDouble": 44890,
+              "valueFormatted": "44,890"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 7.2,
+              "valueFormatted": "7.2"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 21,
+          "values": [
+            {
+              "valueDouble": 1874000,
+              "valueFormatted": "1,874,000"
+            },
+            {
+              "valueDouble": 37670,
+              "valueFormatted": "37,670"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 10.5,
+              "valueFormatted": "10.5"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 22,
+          "values": [
+            {
+              "valueDouble": 698300,
+              "valueFormatted": "698,300"
+            },
+            {
+              "valueDouble": 33830,
+              "valueFormatted": "33,830"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 10.5,
+              "valueFormatted": "10.5"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 23,
+          "values": [
+            {
+              "valueDouble": 1198000,
+              "valueFormatted": "1,198,000"
+            },
+            {
+              "valueDouble": 44860,
+              "valueFormatted": "44,860"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 10.9,
+              "valueFormatted": "10.9"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 24,
+          "values": [
+            {
+              "valueDouble": 1232000,
+              "valueFormatted": "1,232,000"
+            },
+            {
+              "valueDouble": 46980,
+              "valueFormatted": "46,980"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 10.66,
+              "valueFormatted": "10.66"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 25,
+          "values": [
+            {
+              "valueDouble": 1399000,
+              "valueFormatted": "1,399,000"
+            },
+            {
+              "valueDouble": 43810,
+              "valueFormatted": "43,810"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 12.57,
+              "valueFormatted": "12.57"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 26,
+          "values": [
+            {
+              "valueDouble": 1275000,
+              "valueFormatted": "1,275,000"
+            },
+            {
+              "valueDouble": 50290,
+              "valueFormatted": "50,290"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 11.94,
+              "valueFormatted": "11.94"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 27,
+          "values": [
+            {
+              "valueDouble": 914700,
+              "valueFormatted": "914,700"
+            },
+            {
+              "valueDouble": 37800,
+              "valueFormatted": "37,800"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 11.45,
+              "valueFormatted": "11.45"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 28,
+          "values": [
+            {
+              "valueDouble": 1853000,
+              "valueFormatted": "1,853,000"
+            },
+            {
+              "valueDouble": 38930,
+              "valueFormatted": "38,930"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 9.84,
+              "valueFormatted": "9.84"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 29,
+          "values": [
+            {
+              "valueDouble": 2300000,
+              "valueFormatted": "2,300,000"
+            },
+            {
+              "valueDouble": 60450,
+              "valueFormatted": "60,450"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 11.81,
+              "valueFormatted": "11.81"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 30,
+          "values": [
+            {
+              "valueDouble": 1889000,
+              "valueFormatted": "1,889,000"
+            },
+            {
+              "valueDouble": 48810,
+              "valueFormatted": "48,810"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 10.7,
+              "valueFormatted": "10.7"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 31,
+          "values": [
+            {
+              "valueDouble": 1742000,
+              "valueFormatted": "1,742,000"
+            },
+            {
+              "valueDouble": 49990,
+              "valueFormatted": "49,990"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 6.49,
+              "valueFormatted": "6.49"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 32,
+          "values": [
+            {
+              "valueDouble": 1669000,
+              "valueFormatted": "1,669,000"
+            },
+            {
+              "valueDouble": 62120,
+              "valueFormatted": "62,120"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 13.57,
+              "valueFormatted": "13.57"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 33,
+          "values": [
+            {
+              "valueDouble": 934900,
+              "valueFormatted": "934,900"
+            },
+            {
+              "valueDouble": 44410,
+              "valueFormatted": "44,410"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 10.02,
+              "valueFormatted": "10.02"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 34,
+          "values": [
+            {
+              "valueDouble": 1248000,
+              "valueFormatted": "1,248,000"
+            },
+            {
+              "valueDouble": 42960,
+              "valueFormatted": "42,960"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 12.17,
+              "valueFormatted": "12.17"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 35,
+          "values": [
+            {
+              "valueDouble": 1117000,
+              "valueFormatted": "1,117,000"
+            },
+            {
+              "valueDouble": 31690,
+              "valueFormatted": "31,690"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 12.29,
+              "valueFormatted": "12.29"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 36,
+          "values": [
+            {
+              "valueDouble": 1190000,
+              "valueFormatted": "1,190,000"
+            },
+            {
+              "valueDouble": 42380,
+              "valueFormatted": "42,380"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 11.78,
+              "valueFormatted": "11.78"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 37,
+          "values": [
+            {
+              "valueDouble": 2167000,
+              "valueFormatted": "2,167,000"
+            },
+            {
+              "valueDouble": 44320,
+              "valueFormatted": "44,320"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 12.72,
+              "valueFormatted": "12.72"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 38,
+          "values": [
+            {
+              "valueDouble": 2471000,
+              "valueFormatted": "2,471,000"
+            },
+            {
+              "valueDouble": 62950,
+              "valueFormatted": "62,950"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 12.01,
+              "valueFormatted": "12.01"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 39,
+          "values": [
+            {
+              "valueDouble": 1989000,
+              "valueFormatted": "1,989,000"
+            },
+            {
+              "valueDouble": 48860,
+              "valueFormatted": "48,860"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 10.17,
+              "valueFormatted": "10.17"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 40,
+          "values": [
+            {
+              "valueDouble": 1511000,
+              "valueFormatted": "1,511,000"
+            },
+            {
+              "valueDouble": 47270,
+              "valueFormatted": "47,270"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 8.52,
+              "valueFormatted": "8.52"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 41,
+          "values": [
+            {
+              "valueDouble": 2248000,
+              "valueFormatted": "2,248,000"
+            },
+            {
+              "valueDouble": 56480,
+              "valueFormatted": "56,480"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 12.47,
+              "valueFormatted": "12.47"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 42,
+          "values": [
+            {
+              "valueDouble": 1784000,
+              "valueFormatted": "1,784,000"
+            },
+            {
+              "valueDouble": 47920,
+              "valueFormatted": "47,920"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 10.07,
+              "valueFormatted": "10.07"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 43,
+          "values": [
+            {
+              "valueDouble": 1686000,
+              "valueFormatted": "1,686,000"
+            },
+            {
+              "valueDouble": 47700,
+              "valueFormatted": "47,700"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 8.53,
+              "valueFormatted": "8.53"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 44,
+          "values": [
+            {
+              "valueDouble": 1704000,
+              "valueFormatted": "1,704,000"
+            },
+            {
+              "valueDouble": 37340,
+              "valueFormatted": "37,340"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 9.83,
+              "valueFormatted": "9.83"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            }
+          ]
+        },
+        {
+          "observationNumber": 45,
+          "values": [
+            {
+              "valueDouble": 678700,
+              "valueFormatted": "678,700"
+            },
+            {
+              "valueDouble": 33400,
+              "valueFormatted": "33,400"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 10.08,
+              "valueFormatted": "10.08"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 46,
+          "values": [
+            {
+              "valueDouble": 1189000,
+              "valueFormatted": "1,189,000"
+            },
+            {
+              "valueDouble": 45370,
+              "valueFormatted": "45,370"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 11.16,
+              "valueFormatted": "11.16"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 47,
+          "values": [
+            {
+              "valueDouble": 781800,
+              "valueFormatted": "781,800"
+            },
+            {
+              "valueDouble": 48730,
+              "valueFormatted": "48,730"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 11,
+              "valueFormatted": "11"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 48,
+          "values": [
+            {
+              "valueDouble": 948500,
+              "valueFormatted": "948,500"
+            },
+            {
+              "valueDouble": 44780,
+              "valueFormatted": "44,780"
+            },
+            {
+              "valueDouble": 4000,
+              "valueFormatted": "4,000"
+            },
+            {
+              "valueDouble": 11.86,
+              "valueFormatted": "11.86"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        },
+        {
+          "observationNumber": 49,
+          "values": [
+            {
+              "valueDouble": 698300,
+              "valueFormatted": "698,300"
+            },
+            {
+              "valueDouble": 33830,
+              "valueFormatted": "33,830"
+            },
+            {
+              "valueDouble": 2500,
+              "valueFormatted": "2,500"
+            },
+            {
+              "valueDouble": 10.5,
+              "valueFormatted": "10.5"
+            },
+            {
+              "valueDouble": 1,
+              "valueFormatted": "1"
+            },
+            {
+              "valueDouble": 0,
+              "valueFormatted": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "auditTestModel": {
+      "observations": [
+        {
+          "observationNumber": 23,
+          "recordedAmount": 1198000,
+          "recordedAmountFormatted": "1,198,000",
+          "regressionEstimate": 1127000,
+          "regressionEstimateFormatted": "1,127,000",
+          "residualDifference": 71660,
+          "residualDifferenceFormatted": "71,660",
+          "thresholdUnderstatement": -234600,
+          "thresholdUnderstatementFormatted": "-234,600",
+          "thresholdOverstatement": 234600,
+          "thresholdOverstatementFormatted": "234,600",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 24,
+          "recordedAmount": 1232000,
+          "recordedAmountFormatted": "1,232,000",
+          "regressionEstimate": 1136000,
+          "regressionEstimateFormatted": "1,136,000",
+          "residualDifference": 95740,
+          "residualDifferenceFormatted": "95,740",
+          "thresholdUnderstatement": -237600,
+          "thresholdUnderstatementFormatted": "-237,600",
+          "thresholdOverstatement": 237600,
+          "thresholdOverstatementFormatted": "237,600",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 25,
+          "recordedAmount": 1399000,
+          "recordedAmountFormatted": "1,399,000",
+          "regressionEstimate": 1300000,
+          "regressionEstimateFormatted": "1,300,000",
+          "residualDifference": 98940,
+          "residualDifferenceFormatted": "98,940",
+          "thresholdUnderstatement": -229500,
+          "thresholdUnderstatementFormatted": "-229,500",
+          "thresholdOverstatement": 229500,
+          "thresholdOverstatementFormatted": "229,500",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 26,
+          "recordedAmount": 1275000,
+          "recordedAmountFormatted": "1,275,000",
+          "regressionEstimate": 1340000,
+          "regressionEstimateFormatted": "1,340,000",
+          "residualDifference": -64720,
+          "residualDifferenceFormatted": "-64,720",
+          "thresholdUnderstatement": -233400,
+          "thresholdUnderstatementFormatted": "-233,400",
+          "thresholdOverstatement": 233400,
+          "thresholdOverstatementFormatted": "233,400",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 27,
+          "recordedAmount": 914700,
+          "recordedAmountFormatted": "914,700",
+          "regressionEstimate": 1067000,
+          "regressionEstimateFormatted": "1,067,000",
+          "residualDifference": -152400,
+          "residualDifferenceFormatted": "-152,400",
+          "thresholdUnderstatement": -233500,
+          "thresholdUnderstatementFormatted": "-233,500",
+          "thresholdOverstatement": 233500,
+          "thresholdOverstatementFormatted": "233,500",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 28,
+          "recordedAmount": 1853000,
+          "recordedAmountFormatted": "1,853,000",
+          "regressionEstimate": 1810000,
+          "regressionEstimateFormatted": "1,810,000",
+          "residualDifference": 43080,
+          "residualDifferenceFormatted": "43,080",
+          "thresholdUnderstatement": -227100,
+          "thresholdUnderstatementFormatted": "-227,100",
+          "thresholdOverstatement": 227100,
+          "thresholdOverstatementFormatted": "227,100",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 29,
+          "recordedAmount": 2300000,
+          "recordedAmountFormatted": "2,300,000",
+          "regressionEstimate": 2410000,
+          "regressionEstimateFormatted": "2,410,000",
+          "residualDifference": -109700,
+          "residualDifferenceFormatted": "-109,700",
+          "thresholdUnderstatement": -235900,
+          "thresholdUnderstatementFormatted": "-235,900",
+          "thresholdOverstatement": 235900,
+          "thresholdOverstatementFormatted": "235,900",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 30,
+          "recordedAmount": 1889000,
+          "recordedAmountFormatted": "1,889,000",
+          "regressionEstimate": 2081000,
+          "regressionEstimateFormatted": "2,081,000",
+          "residualDifference": -192000,
+          "residualDifferenceFormatted": "-192,000",
+          "thresholdUnderstatement": -221800,
+          "thresholdUnderstatementFormatted": "-221,800",
+          "thresholdOverstatement": 221800,
+          "thresholdOverstatementFormatted": "221,800",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 31,
+          "recordedAmount": 1742000,
+          "recordedAmountFormatted": "1,742,000",
+          "regressionEstimate": 1618000,
+          "regressionEstimateFormatted": "1,618,000",
+          "residualDifference": 123600,
+          "residualDifferenceFormatted": "123,600",
+          "thresholdUnderstatement": -251200,
+          "thresholdUnderstatementFormatted": "-251,200",
+          "thresholdOverstatement": 251200,
+          "thresholdOverstatementFormatted": "251,200",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 32,
+          "recordedAmount": 1669000,
+          "recordedAmountFormatted": "1,669,000",
+          "regressionEstimate": 1733000,
+          "regressionEstimateFormatted": "1,733,000",
+          "residualDifference": -63600,
+          "residualDifferenceFormatted": "-63,600",
+          "thresholdUnderstatement": -251200,
+          "thresholdUnderstatementFormatted": "-251,200",
+          "thresholdOverstatement": 251200,
+          "thresholdOverstatementFormatted": "251,200",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 33,
+          "recordedAmount": 934900,
+          "recordedAmountFormatted": "934,900",
+          "regressionEstimate": 1018000,
+          "regressionEstimateFormatted": "1,018,000",
+          "residualDifference": -83030,
+          "residualDifferenceFormatted": "-83,030",
+          "thresholdUnderstatement": -241600,
+          "thresholdUnderstatementFormatted": "-241,600",
+          "thresholdOverstatement": 241600,
+          "thresholdOverstatementFormatted": "241,600",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 34,
+          "recordedAmount": 1248000,
+          "recordedAmountFormatted": "1,248,000",
+          "regressionEstimate": 1239000,
+          "regressionEstimateFormatted": "1,239,000",
+          "residualDifference": 8650,
+          "residualDifferenceFormatted": "8,650",
+          "thresholdUnderstatement": -229600,
+          "thresholdUnderstatementFormatted": "-229,600",
+          "thresholdOverstatement": 229600,
+          "thresholdOverstatementFormatted": "229,600",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 35,
+          "recordedAmount": 1117000,
+          "recordedAmountFormatted": "1,117,000",
+          "regressionEstimate": 1057000,
+          "regressionEstimateFormatted": "1,057,000",
+          "residualDifference": 59310,
+          "residualDifferenceFormatted": "59,310",
+          "thresholdUnderstatement": -241700,
+          "thresholdUnderstatementFormatted": "-241,700",
+          "thresholdOverstatement": 241700,
+          "thresholdOverstatementFormatted": "241,700",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 36,
+          "recordedAmount": 1190000,
+          "recordedAmountFormatted": "1,190,000",
+          "regressionEstimate": 1185000,
+          "regressionEstimateFormatted": "1,185,000",
+          "residualDifference": 5152,
+          "residualDifferenceFormatted": "5,152",
+          "thresholdUnderstatement": -230300,
+          "thresholdUnderstatementFormatted": "-230,300",
+          "thresholdOverstatement": 230300,
+          "thresholdOverstatementFormatted": "230,300",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 37,
+          "recordedAmount": 2167000,
+          "recordedAmountFormatted": "2,167,000",
+          "regressionEstimate": 2234000,
+          "regressionEstimateFormatted": "2,234,000",
+          "residualDifference": -67670,
+          "residualDifferenceFormatted": "-67,670",
+          "thresholdUnderstatement": -239000,
+          "thresholdUnderstatementFormatted": "-239,000",
+          "thresholdOverstatement": 239000,
+          "thresholdOverstatementFormatted": "239,000",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 38,
+          "recordedAmount": 2471000,
+          "recordedAmountFormatted": "2,471,000",
+          "regressionEstimate": 2476000,
+          "regressionEstimateFormatted": "2,476,000",
+          "residualDifference": -4925,
+          "residualDifferenceFormatted": "-4,925",
+          "thresholdUnderstatement": -241200,
+          "thresholdUnderstatementFormatted": "-241,200",
+          "thresholdOverstatement": 241200,
+          "thresholdOverstatementFormatted": "241,200",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 39,
+          "recordedAmount": 1989000,
+          "recordedAmountFormatted": "1,989,000",
+          "regressionEstimate": 2021000,
+          "regressionEstimateFormatted": "2,021,000",
+          "residualDifference": -31640,
+          "residualDifferenceFormatted": "-31,640",
+          "thresholdUnderstatement": -221200,
+          "thresholdUnderstatementFormatted": "-221,200",
+          "thresholdOverstatement": 221200,
+          "thresholdOverstatementFormatted": "221,200",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 40,
+          "recordedAmount": 1511000,
+          "recordedAmountFormatted": "1,511,000",
+          "regressionEstimate": 1804000,
+          "regressionEstimateFormatted": "1,804,000",
+          "residualDifference": -292800,
+          "residualDifferenceFormatted": "-292,800",
+          "thresholdUnderstatement": -226900,
+          "thresholdUnderstatementFormatted": "-226,900",
+          "thresholdOverstatement": 226900,
+          "thresholdOverstatementFormatted": "226,900",
+          "excessUnderstatement": -65920,
+          "excessUnderstatementFormatted": "-65,920",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": true,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 41,
+          "recordedAmount": 2248000,
+          "recordedAmountFormatted": "2,248,000",
+          "regressionEstimate": 2417000,
+          "regressionEstimateFormatted": "2,417,000",
+          "residualDifference": -168900,
+          "residualDifferenceFormatted": "-168,900",
+          "thresholdUnderstatement": -235000,
+          "thresholdUnderstatementFormatted": "-235,000",
+          "thresholdOverstatement": 235000,
+          "thresholdOverstatementFormatted": "235,000",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 42,
+          "recordedAmount": 1784000,
+          "recordedAmountFormatted": "1,784,000",
+          "regressionEstimate": 1993000,
+          "regressionEstimateFormatted": "1,993,000",
+          "residualDifference": -208900,
+          "residualDifferenceFormatted": "-208,900",
+          "thresholdUnderstatement": -221100,
+          "thresholdUnderstatementFormatted": "-221,100",
+          "thresholdOverstatement": 221100,
+          "thresholdOverstatementFormatted": "221,100",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 43,
+          "recordedAmount": 1686000,
+          "recordedAmountFormatted": "1,686,000",
+          "regressionEstimate": 1812000,
+          "regressionEstimateFormatted": "1,812,000",
+          "residualDifference": -126700,
+          "residualDifferenceFormatted": "-126,700",
+          "thresholdUnderstatement": -227000,
+          "thresholdUnderstatementFormatted": "-227,000",
+          "thresholdOverstatement": 227000,
+          "thresholdOverstatementFormatted": "227,000",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 44,
+          "recordedAmount": 1704000,
+          "recordedAmountFormatted": "1,704,000",
+          "regressionEstimate": 1782000,
+          "regressionEstimateFormatted": "1,782,000",
+          "residualDifference": -78000,
+          "residualDifferenceFormatted": "-78,000",
+          "thresholdUnderstatement": -229500,
+          "thresholdUnderstatementFormatted": "-229,500",
+          "thresholdOverstatement": 229500,
+          "thresholdOverstatementFormatted": "229,500",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 45,
+          "recordedAmount": 678700,
+          "recordedAmountFormatted": "678,700",
+          "regressionEstimate": 833500,
+          "regressionEstimateFormatted": "833,500",
+          "residualDifference": -154900,
+          "residualDifferenceFormatted": "-154,900",
+          "thresholdUnderstatement": -244300,
+          "thresholdUnderstatementFormatted": "-244,300",
+          "thresholdOverstatement": 244300,
+          "thresholdOverstatementFormatted": "244,300",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 46,
+          "recordedAmount": 1189000,
+          "recordedAmountFormatted": "1,189,000",
+          "regressionEstimate": 1165000,
+          "regressionEstimateFormatted": "1,165,000",
+          "residualDifference": 23350,
+          "residualDifferenceFormatted": "23,350",
+          "thresholdUnderstatement": -233200,
+          "thresholdUnderstatementFormatted": "-233,200",
+          "thresholdOverstatement": 233200,
+          "thresholdOverstatementFormatted": "233,200",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 47,
+          "recordedAmount": 781800,
+          "recordedAmountFormatted": "781,800",
+          "regressionEstimate": 948500,
+          "regressionEstimateFormatted": "948,500",
+          "residualDifference": -166700,
+          "residualDifferenceFormatted": "-166,700",
+          "thresholdUnderstatement": -236200,
+          "thresholdUnderstatementFormatted": "-236,200",
+          "thresholdOverstatement": 236200,
+          "thresholdOverstatementFormatted": "236,200",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 48,
+          "recordedAmount": 948500,
+          "recordedAmountFormatted": "948,500",
+          "regressionEstimate": 978700,
+          "regressionEstimateFormatted": "978,700",
+          "residualDifference": -30190,
+          "residualDifferenceFormatted": "-30,190",
+          "thresholdUnderstatement": -231300,
+          "thresholdUnderstatementFormatted": "-231,300",
+          "thresholdOverstatement": 231300,
+          "thresholdOverstatementFormatted": "231,300",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        },
+        {
+          "observationNumber": 49,
+          "recordedAmount": 698300,
+          "recordedAmountFormatted": "698,300",
+          "regressionEstimate": 632400,
+          "regressionEstimateFormatted": "632,400",
+          "residualDifference": 65940,
+          "residualDifferenceFormatted": "65,940",
+          "thresholdUnderstatement": -232800,
+          "thresholdUnderstatementFormatted": "-232,800",
+          "thresholdOverstatement": 232800,
+          "thresholdOverstatementFormatted": "232,800",
+          "excessUnderstatement": 0,
+          "excessUnderstatementFormatted": "",
+          "excessOverstatement": 0,
+          "excessOverstatementFormatted": "",
+          "isExcessUnderstatment": false,
+          "isExcessOverstatment": false,
+          "isParadoxicalExcess": false
+        }
+      ],
+      "recordedAmountTotal": 39820000,
+      "recordedAmountTotalFormatted": "39,820,000",
+      "regressionEstimate": 41220000,
+      "regressionEstimateFormatted": "41,220,000",
+      "residualTotal": -1401000,
+      "residualTotalFormatted": "-1,401,000",
+      "totalExcessUnderstatement": 1,
+      "totalExcessOverstatement": 0,
+      "hasExcesses": true,
+      "excessTitle": "The following excesses were identified:",
+      "understatementHeading": "1 indicating potential excess under threshold",
+      "overstatementHeading": null,
+      "excessMessage": "If the sum of the residuals exceeds performance materiality, consider any of the other excesses that have been identified in the application. Reduce the cumulative residual by the amount of excesses that have been quantified and corroborated in step 1 below. If the remaining cumulative residual exceeds performance materiality, then seek additional explanations from management and quantify and corroborate the factors identified. If no specific items are identified, treat the remaining cumulative residual as a substantive analytical procedure misstatement.\r\n\r\nNext Steps:\r\nFor each Excess, investigate the residual by:\r\n|Inquiring of management and obtaining appropriate audit evidence relevant to management's response\r\nIf such investigation does not result in a satisfactory explanation, then the Excess is a substantive analytical procedure misstatement.\r\n|Consider whether there are unusual patterns in the residuals that should be investigated (e.g., residuals tending strongly in one direction close to the individual thresholds, with a total that is multiples of performance materiality).\r\n|Consider disaggregating the data, introducing one or more additional variables (real or dummy), or removing one or more variables that is causing the variability.\r\n|For more information see examples provided in the Performing Substantive Analytical Procedures Guide section x.x Identification of Significant Differences. \r\n|To discuss further alternatives please submit an online support request <a href=\"https://servicedesk.deloittenet.deloitte.com/CAisd/pdmweb.exe?OP=SHOW_DETAIL+PERSID=KD:448925+HTMPL=kt_document_view.htmpl+open_mode=2\" target=\"_blank\">online support request</a>.",
+      "auditMessage": null
+    },
+    "endingBalanceTestModel": {
+      "recordedCollections": 0,
+      "recordedCollectionsFormatted": "0",
+      "estimatedCollections": 0,
+      "estimatedCollectionsFormatted": "0",
+      "residualComponentTotal": 0,
+      "residualComponentTotalFormatted": "0",
+      "recordedBalance": 0,
+      "recordedBalanceFormatted": "0",
+      "estimatedBalance": 0,
+      "estimatedBalanceFormatted": "0",
+      "residualBalance": 0,
+      "residualBalanceFormatted": "0",
+      "thresholdUnderstatement": 0,
+      "thresholdUnderstatementFormatted": "0",
+      "thresholdOverstatement": 0,
+      "thresholdOverstatementFormatted": "0",
+      "excessUnderstatement": 0,
+      "excessUnderstatementFormatted": "None",
+      "excessOverstatement": 0,
+      "excessOverstatementFormatted": "None",
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "regressionTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": null,
+      "regressionEstimateTotal": 0,
+      "regressionEstimateTotalFormatted": null,
+      "residualTotal": 0,
+      "residualTotalFormatted": "0.0",
+      "precision": 0,
+      "precisionFormatted": "0.0",
+      "hasExcesses": false,
+      "totalExcesses": 0,
+      "totalExcessesFormatted": "0"
+    }
+  },
+  "workpaperDataId": "22547b86-54f5-4826-816d-3f63b87dbba8",
+  "results": null,
+  "fileName": "Cross Sectional.xlsx",
+  "userId": "3addd359-63fc-4329-bd70-b824a18c4701",
+  "alias": null,
+  "engagementId": "MAT-E152675-16"
+}

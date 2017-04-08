@@ -1,0 +1,92 @@
+﻿[
+  {
+    "visible": true,
+    "description": null,
+    "accountName": "",
+    "accountType": "",
+    "applicationType": "timeSeries",
+    "componentType": "",
+    "confidenceLevel": 0,
+    "controlsRelianceStrategy": "relying",
+    "forcedVariables": [],
+    "id": "66851f2f-7241-4648-a1ad-8a1ca6b006b3",
+    "inherentRisk": "significant",
+    "numberOfObservations": 12,
+    "observationsFrom": 1,
+    "observationsTo": 36,
+    "performanceMateriality": 1250,
+    "periodsPerYear": 12,
+    "predictingVariables": [
+      {
+        "analysisParametersId": "66851f2f-7241-4648-a1ad-8a1ca6b006b3",
+        "value": "COS"
+      }
+    ],
+    "recordedBalance": 0,
+    "runDateTime": "2017-03-08T10:38:06.4069445-06:00",
+    "seasonalAdjustment": false,
+    "testVariable": "Sales",
+    "trend": false,
+    "typeOfProjection": "audit",
+    "calculation": null,
+    "workpaperDataId": "6fee070c-c399-4ac8-97e5-4a93dcf60d7a",
+    "results": null,
+    "fileName": "Abnormality.xlsx",
+    "userId": "3addd359-63fc-4329-bd70-b824a18c4701",
+    "alias": null,
+    "engagementId": "MAT-E152675-16"
+  },
+  {
+    "visible": true,
+    "description": null,
+    "accountName": "",
+    "accountType": "",
+    "applicationType": "timeSeries",
+    "componentType": "",
+    "confidenceLevel": 0,
+    "controlsRelianceStrategy": "relying",
+    "forcedVariables": [],
+    "id": "d6f036e1-535c-4c71-8904-a146794e8cea",
+    "inherentRisk": "higher",
+    "numberOfObservations": 27,
+    "observationsFrom": 1,
+    "observationsTo": 49,
+    "performanceMateriality": 400000,
+    "periodsPerYear": 12,
+    "predictingVariables": [
+      {
+        "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+        "value": "Inventory"
+      },
+      {
+        "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+        "value": "Square Feet"
+      },
+      {
+        "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+        "value": "Average FTE"
+      },
+      {
+        "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+        "value": "New Store"
+      },
+      {
+        "analysisParametersId": "d6f036e1-535c-4c71-8904-a146794e8cea",
+        "value": "Sells Gas"
+      }
+    ],
+    "recordedBalance": 0,
+    "runDateTime": "2017-03-08T10:36:06.6528788-06:00",
+    "seasonalAdjustment": false,
+    "testVariable": "Sales",
+    "trend": false,
+    "typeOfProjection": "audit",
+    "calculation": {},
+    "workpaperDataId": "22547b86-54f5-4826-816d-3f63b87dbba8",
+    "results": null,
+    "fileName": "Cross Sectional.xlsx",
+    "userId": "3addd359-63fc-4329-bd70-b824a18c4701",
+    "alias": null,
+    "engagementId": "MAT-E152675-16"
+  }
+]

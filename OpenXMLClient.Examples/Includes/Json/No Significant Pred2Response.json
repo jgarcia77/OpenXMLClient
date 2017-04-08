@@ -1,0 +1,708 @@
+{
+  "visible": true,
+  "description": null,
+  "accountName": "",
+  "accountType": "",
+  "applicationType": "timeSeries",
+  "componentType": "",
+  "confidenceLevel": 0,
+  "controlsRelianceStrategy": "relying",
+  "forcedVariables": [],
+  "id": "9b0de125-61fb-48f2-8947-bebd81f852f5",
+  "inherentRisk": "significant",
+  "numberOfObservations": 12,
+  "observationsFrom": 1,
+  "observationsTo": 36,
+  "performanceMateriality": 1250,
+  "periodsPerYear": 12,
+  "predictingVariables": [
+    {
+      "analysisParametersId": "9b0de125-61fb-48f2-8947-bebd81f852f5",
+      "value": "COS"
+    }
+  ],
+  "recordedBalance": 0,
+  "runDateTime": "2017-03-08T10:17:00.6426731-06:00",
+  "seasonalAdjustment": false,
+  "testVariable": "Sales",
+  "trend": false,
+  "typeOfProjection": "audit",
+  "calculation": {
+    "status": "ReportContainsOutput",
+    "reportContents": "U1RBUjogU3RhdGlzdGljYWwgVGVjaG5pcXVlcyBmb3IgQW5hbHl0aWNhbCBSZXZpZXcgKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBWZXJzaW9uIDQuMC4yDQoNClNwZWNpZmljYXRpb25zIGZvciBNb2RlbA0KDQpWYXJpYWJsZXMgU3BlY2lmaWVkOiAgIA0KWSAgICBTYWxlcyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVEVTVA0KWDEgICBDT1MgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUFJFRElDVElORw0KDQpPYnNlcnZhdGlvbnMgVXNlZDoNCkJhc2UsIDEgLSAyNCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjQNClByb2plY3Rpb24sIDI1IC0gMzYgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLS0tLS0NClRvdGFsICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMzYNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPT09PT0NCg0KRGF0YSBQcm9maWxlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUSU1FIFNFUklFUw0KUGVyaW9kcyBwZXIgWWVhciAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMg0KDQpUeXBlIG9mIFRlc3QgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFVRElUDQpQZXJmb3JtYW5jZSBNYXRlcmlhbGl0eSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMSwyNTAuMDAwDQpUZXN0aW5nIFN0cmF0ZWd5OiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTaWduaWZpY2FudCBSaXNrLCBSZWx5aW5nIG9uIENvbnRyb2xzDQpBcHBsaWNhYmxlIFJpc2sgTGV2ZWw6ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNpZ25pZmljYW50DQoNCk5PIFNJR05JRklDQU5UIFBSRURJQ1RJTkcgVkFSSUFCTEUgSEFTIEJFRU4gRk9VTkQuICBTVEFSIHdpbGwgbm90IHByb2Nlc3MgdGhlDQpkYXRhIGZ1cnRoZXIuICBSZXZpZXcgdGhlIGJhc2UgcHJvZmlsZSBhbmQgc3R1ZHkgdGhlIHJlbGF0aW9uc2hpcHMNCmFuYWx5dGljYWxseSB0byBkZXRlcm1pbmUgd2h5IHRoZSBwcmVkaWN0aW5nIHZhcmlhYmxlKHMpIGRvIG5vdCBoYXZlIHRoZQ0KZXhwZWN0ZWQgcmVsYXRpb25zaGlwcyB0byB0aGUgdGVzdCB2YXJpYWJsZS4NCg0KPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNClZhcmlhYmxlcyBVc2VkICgrKSwgTm90IFVzZWQgKC0pDQoNCk9icyMgICAgICAgICAgICBZKyAgICAgICAgICAgWDEtDQotLS0tIC0tLS0tLS0tLS0tLS0gLS0tLS0tLS0tLS0tLQ0KICAgMSAgICAxNyw3ODkuMDAwICAgICAgIDc4Ny4wMDANCiAgIDIgICAgMTksNDE3LjAwMCAgICAgICAzMTMuMDAwDQogICAzICAgIDIyLDgwMi4wMDAgICAgICAgNzY1LjAwMA0KICAgNCAgICAxNyw4MjUuMDAwICAgICAgIDUxNi4wMDANCiAgIDUgICAgMTcsODE2LjAwMCAgICAgICA4NTEuMDAwDQogICA2ICAgIDE1LDk0OC4wMDAgICAgICAgNTMyLjAwMA0KICAgNyAgICAxOCwyOTcuMDAwICAgICAgIDUxOS4wMDANCiAgIDggICAgMTQsNTg2LjAwMCAgICAgICA3MjEuMDAwDQogICA5ICAgIDE4LDYxNy4wMDAgICAgICAgNTgxLjAwMA0KICAxMCAgICAyMSwwMDEuMDAwICAgICAgIDUzOC4wMDANCiAgMTEgICAgMTgsNjE5LjAwMCAgICAgICA1ODkuMDAwDQogIDEyICAgIDE2LDEyNS4wMDAgICAgICAgOTU2LjAwMA0KICAxMyAgICAxOCw2NDIuMDAwICAgICAgIDc1Ny4wMDANCiAgMTQgICAgMTgsNjgwLjAwMCAgICAgICAzOTMuMDAwDQogIDE1ICAgIDE5LDIzNC4wMDAgICAgIDMsNjA1LjAwMA0KICAxNiAgICAxOCw3NDEuMDAwICAgICA0LDcxOC4wMDANCiAgMTcgICAgMTcsOTQyLjAwMCAgICAgNCw4NzAuMDAwDQogIDE4ICAgIDIwLDM0MS4wMDAgICAgIDQsMTc5LjAwMA0KICAxOSAgICAxNyw0MzYuMDAwICAgICAzLDc5Ni4wMDANCiAgMjAgICAgMTMsOTg0LjAwMCAgICAgMywwOTIuMDAwDQogIDIxICAgIDE4LDcxMS4wMDAgICAgIDQsNDI0LjAwMA0KICAyMiAgICAyMiw2NzIuMDAwICAgICA0LDA0OC4wMDANCiAgMjMgICAgMTksNTExLjAwMCAgICAgNCw4ODAuMDAwDQogIDI0ICAgIDE2LDYzNC4wMDAgICAgIDMsNTAwLjAwMA0KICAyNSAgICAxOSwyMTQuODc3ICAgICAzLDgxNS42MzkNCiAgMjYgICAgMTgsMDEwLjkxNCAgICAgNCw0MTIuMzg4DQogIDI3ICAgIDIxLDc3Ny43MjUgICAgIDQsOTgyLjE3MA0KICAyOCAgICAxOCw1MTIuOTY4ICAgICA0LDg5NS40MTgNCiAgMjkgICAgMTcsNTI0LjIzMCAgICAgNCwzNzkuNzQwDQogIDMwICAgIDIxLDQyOS4yNzAgICAgIDMsNjYxLjg4OA0KICAzMSAgICAxOCw5NjYuMjY4ICAgICA0LDEzNC4yMDANCiAgMzIgICAgMTUsODE5Ljk3NyAgICAxMiw3MTMuNDE3DQogIDMzICAgIDIzLDg4MC4zNTYgICAgMTcsOTA4Ljg3Mw0KICAzNCAgICAyMiwwODAuODg1ICAgIDE2LDQzMi4zOTYNCiAgMzUgICAgMjIsMTA2LjgyMSAgICAxNywyNjAuMDE4DQogIDM2ICAgIDE4LDUzNy43NDYgICAgMTUsMDc5LjcyNw0KICAgICAtLS0tLS0tLS0tLS0tIC0tLS0tLS0tLS0tLS0NCiAgICAgICA2NzksMjMyLjAzNyAgIDE1OSw2MDUuODc0DQogICAgID09PT09PT09PT09PT0gPT09PT09PT09PT09PQ0K",
+    "warnings": [
+      {
+        "code": 2,
+        "name": "No significant predicting variable",
+        "title": "NO CORRELATION",
+        "body": "The procedure could not be completed because no predicting variable was found to be significantly correlated with the test variable. This model cannot be used for audit purposes. \r\n\r\nNext Steps:\r\n|Check that the base data is complete and accurate by confirming that typos do not exist and that rounding is consistently applied (e.g., if a variable is expressed in thousands, it is expressed in thousands throughout).\r\n|Review the base data and study the relationships to determine why the predicting variable(s) do not have the expected relationships to the test variable. Inspecting scatter diagrams is frequently helpful. \r\n|Consider using other predicting variables that may have stronger relationships to the test variable. \r\n|For more information see examples provided in the Performing Substantive Analytical Procedures Guide section x.x Predicting Variables and Appendix A Examples of Plausible and Predictable Relationships.\r\n|To discuss further alternatives please submit an online support request <a href=\"https://servicedesk.deloittenet.deloitte.com/CAisd/pdmweb.exe?OP=SHOW_DETAIL+PERSID=KD:448925+HTMPL=kt_document_view.htmpl+open_mode=2\" target=\"_blank\">online support request</a>."
+      }
+    ],
+    "regressionModel": {
+      "constant": 0,
+      "constantFormatted": "0",
+      "coefficientOfCorrelation": 0,
+      "coefficientOfCorrelationFormatted": "0",
+      "testVariable": {
+        "name": "",
+        "mean": 0,
+        "meanFormatted": "0",
+        "standardDeviation": 0,
+        "standardDeviationFormatted": "0"
+      },
+      "expectation": {
+        "constantOrCoefficient": 0,
+        "constantOrCoefficientFormatted": "0",
+        "standardError": 0,
+        "standardErrorFormatted": "0"
+      },
+      "predictingVariables": [],
+      "expectationFormula": {
+        "value": "",
+        "testVariableName": "",
+        "constant": 0,
+        "constantFormatted": "0",
+        "period": "",
+        "variables": []
+      }
+    },
+    "residualsIsCorrected": false,
+    "residualsCorrectedHeading": null,
+    "residuals": [],
+    "variableUsageModel": {
+      "variables": [
+        {
+          "name": "Sales",
+          "isUsed": true,
+          "total": 679200,
+          "totalFormatted": "679,200",
+          "min": 13980,
+          "minFormatted": "13,980",
+          "max": 23880,
+          "maxFormatted": "23,880",
+          "scatterMatrix": [
+            0.385,
+            0.549,
+            0.891,
+            0.389,
+            0.388,
+            0.199,
+            0.436,
+            0.062,
+            0.469,
+            0.709,
+            0.469,
+            0.217,
+            0.471,
+            0.475,
+            0.53,
+            0.481,
+            0.4,
+            0.642,
+            0.349,
+            0,
+            0.478,
+            0.878,
+            0.559,
+            0.268,
+            0.528,
+            0.407,
+            0.788,
+            0.458,
+            0.358,
+            0.753,
+            0.504,
+            0.186,
+            1,
+            0.818,
+            0.821,
+            0.461
+          ]
+        },
+        {
+          "name": "COS",
+          "isUsed": false,
+          "total": 159600,
+          "totalFormatted": "159,600",
+          "min": 313,
+          "minFormatted": "313",
+          "max": 17910,
+          "maxFormatted": "17,910",
+          "scatterMatrix": [
+            0.027,
+            0,
+            0.026,
+            0.012,
+            0.031,
+            0.012,
+            0.012,
+            0.023,
+            0.015,
+            0.013,
+            0.016,
+            0.037,
+            0.025,
+            0.005,
+            0.187,
+            0.25,
+            0.259,
+            0.22,
+            0.198,
+            0.158,
+            0.234,
+            0.212,
+            0.26,
+            0.181,
+            0.199,
+            0.233,
+            0.265,
+            0.26,
+            0.231,
+            0.19,
+            0.217,
+            0.704,
+            1,
+            0.916,
+            0.963,
+            0.839
+          ]
+        }
+      ],
+      "observations": [
+        {
+          "observationNumber": 1,
+          "values": [
+            {
+              "valueDouble": 17790,
+              "valueFormatted": "17,790"
+            },
+            {
+              "valueDouble": 787,
+              "valueFormatted": "787"
+            }
+          ]
+        },
+        {
+          "observationNumber": 2,
+          "values": [
+            {
+              "valueDouble": 19420,
+              "valueFormatted": "19,420"
+            },
+            {
+              "valueDouble": 313,
+              "valueFormatted": "313"
+            }
+          ]
+        },
+        {
+          "observationNumber": 3,
+          "values": [
+            {
+              "valueDouble": 22800,
+              "valueFormatted": "22,800"
+            },
+            {
+              "valueDouble": 765,
+              "valueFormatted": "765"
+            }
+          ]
+        },
+        {
+          "observationNumber": 4,
+          "values": [
+            {
+              "valueDouble": 17830,
+              "valueFormatted": "17,830"
+            },
+            {
+              "valueDouble": 516,
+              "valueFormatted": "516"
+            }
+          ]
+        },
+        {
+          "observationNumber": 5,
+          "values": [
+            {
+              "valueDouble": 17820,
+              "valueFormatted": "17,820"
+            },
+            {
+              "valueDouble": 851,
+              "valueFormatted": "851"
+            }
+          ]
+        },
+        {
+          "observationNumber": 6,
+          "values": [
+            {
+              "valueDouble": 15950,
+              "valueFormatted": "15,950"
+            },
+            {
+              "valueDouble": 532,
+              "valueFormatted": "532"
+            }
+          ]
+        },
+        {
+          "observationNumber": 7,
+          "values": [
+            {
+              "valueDouble": 18300,
+              "valueFormatted": "18,300"
+            },
+            {
+              "valueDouble": 519,
+              "valueFormatted": "519"
+            }
+          ]
+        },
+        {
+          "observationNumber": 8,
+          "values": [
+            {
+              "valueDouble": 14590,
+              "valueFormatted": "14,590"
+            },
+            {
+              "valueDouble": 721,
+              "valueFormatted": "721"
+            }
+          ]
+        },
+        {
+          "observationNumber": 9,
+          "values": [
+            {
+              "valueDouble": 18620,
+              "valueFormatted": "18,620"
+            },
+            {
+              "valueDouble": 581,
+              "valueFormatted": "581"
+            }
+          ]
+        },
+        {
+          "observationNumber": 10,
+          "values": [
+            {
+              "valueDouble": 21000,
+              "valueFormatted": "21,000"
+            },
+            {
+              "valueDouble": 538,
+              "valueFormatted": "538"
+            }
+          ]
+        },
+        {
+          "observationNumber": 11,
+          "values": [
+            {
+              "valueDouble": 18620,
+              "valueFormatted": "18,620"
+            },
+            {
+              "valueDouble": 589,
+              "valueFormatted": "589"
+            }
+          ]
+        },
+        {
+          "observationNumber": 12,
+          "values": [
+            {
+              "valueDouble": 16130,
+              "valueFormatted": "16,130"
+            },
+            {
+              "valueDouble": 956,
+              "valueFormatted": "956"
+            }
+          ]
+        },
+        {
+          "observationNumber": 13,
+          "values": [
+            {
+              "valueDouble": 18640,
+              "valueFormatted": "18,640"
+            },
+            {
+              "valueDouble": 757,
+              "valueFormatted": "757"
+            }
+          ]
+        },
+        {
+          "observationNumber": 14,
+          "values": [
+            {
+              "valueDouble": 18680,
+              "valueFormatted": "18,680"
+            },
+            {
+              "valueDouble": 393,
+              "valueFormatted": "393"
+            }
+          ]
+        },
+        {
+          "observationNumber": 15,
+          "values": [
+            {
+              "valueDouble": 19230,
+              "valueFormatted": "19,230"
+            },
+            {
+              "valueDouble": 3605,
+              "valueFormatted": "3,605"
+            }
+          ]
+        },
+        {
+          "observationNumber": 16,
+          "values": [
+            {
+              "valueDouble": 18740,
+              "valueFormatted": "18,740"
+            },
+            {
+              "valueDouble": 4718,
+              "valueFormatted": "4,718"
+            }
+          ]
+        },
+        {
+          "observationNumber": 17,
+          "values": [
+            {
+              "valueDouble": 17940,
+              "valueFormatted": "17,940"
+            },
+            {
+              "valueDouble": 4870,
+              "valueFormatted": "4,870"
+            }
+          ]
+        },
+        {
+          "observationNumber": 18,
+          "values": [
+            {
+              "valueDouble": 20340,
+              "valueFormatted": "20,340"
+            },
+            {
+              "valueDouble": 4179,
+              "valueFormatted": "4,179"
+            }
+          ]
+        },
+        {
+          "observationNumber": 19,
+          "values": [
+            {
+              "valueDouble": 17440,
+              "valueFormatted": "17,440"
+            },
+            {
+              "valueDouble": 3796,
+              "valueFormatted": "3,796"
+            }
+          ]
+        },
+        {
+          "observationNumber": 20,
+          "values": [
+            {
+              "valueDouble": 13980,
+              "valueFormatted": "13,980"
+            },
+            {
+              "valueDouble": 3092,
+              "valueFormatted": "3,092"
+            }
+          ]
+        },
+        {
+          "observationNumber": 21,
+          "values": [
+            {
+              "valueDouble": 18710,
+              "valueFormatted": "18,710"
+            },
+            {
+              "valueDouble": 4424,
+              "valueFormatted": "4,424"
+            }
+          ]
+        },
+        {
+          "observationNumber": 22,
+          "values": [
+            {
+              "valueDouble": 22670,
+              "valueFormatted": "22,670"
+            },
+            {
+              "valueDouble": 4048,
+              "valueFormatted": "4,048"
+            }
+          ]
+        },
+        {
+          "observationNumber": 23,
+          "values": [
+            {
+              "valueDouble": 19510,
+              "valueFormatted": "19,510"
+            },
+            {
+              "valueDouble": 4880,
+              "valueFormatted": "4,880"
+            }
+          ]
+        },
+        {
+          "observationNumber": 24,
+          "values": [
+            {
+              "valueDouble": 16630,
+              "valueFormatted": "16,630"
+            },
+            {
+              "valueDouble": 3500,
+              "valueFormatted": "3,500"
+            }
+          ]
+        },
+        {
+          "observationNumber": 25,
+          "values": [
+            {
+              "valueDouble": 19210,
+              "valueFormatted": "19,210"
+            },
+            {
+              "valueDouble": 3816,
+              "valueFormatted": "3,816"
+            }
+          ]
+        },
+        {
+          "observationNumber": 26,
+          "values": [
+            {
+              "valueDouble": 18010,
+              "valueFormatted": "18,010"
+            },
+            {
+              "valueDouble": 4412,
+              "valueFormatted": "4,412"
+            }
+          ]
+        },
+        {
+          "observationNumber": 27,
+          "values": [
+            {
+              "valueDouble": 21780,
+              "valueFormatted": "21,780"
+            },
+            {
+              "valueDouble": 4982,
+              "valueFormatted": "4,982"
+            }
+          ]
+        },
+        {
+          "observationNumber": 28,
+          "values": [
+            {
+              "valueDouble": 18510,
+              "valueFormatted": "18,510"
+            },
+            {
+              "valueDouble": 4895,
+              "valueFormatted": "4,895"
+            }
+          ]
+        },
+        {
+          "observationNumber": 29,
+          "values": [
+            {
+              "valueDouble": 17520,
+              "valueFormatted": "17,520"
+            },
+            {
+              "valueDouble": 4380,
+              "valueFormatted": "4,380"
+            }
+          ]
+        },
+        {
+          "observationNumber": 30,
+          "values": [
+            {
+              "valueDouble": 21430,
+              "valueFormatted": "21,430"
+            },
+            {
+              "valueDouble": 3662,
+              "valueFormatted": "3,662"
+            }
+          ]
+        },
+        {
+          "observationNumber": 31,
+          "values": [
+            {
+              "valueDouble": 18970,
+              "valueFormatted": "18,970"
+            },
+            {
+              "valueDouble": 4134,
+              "valueFormatted": "4,134"
+            }
+          ]
+        },
+        {
+          "observationNumber": 32,
+          "values": [
+            {
+              "valueDouble": 15820,
+              "valueFormatted": "15,820"
+            },
+            {
+              "valueDouble": 12710,
+              "valueFormatted": "12,710"
+            }
+          ]
+        },
+        {
+          "observationNumber": 33,
+          "values": [
+            {
+              "valueDouble": 23880,
+              "valueFormatted": "23,880"
+            },
+            {
+              "valueDouble": 17910,
+              "valueFormatted": "17,910"
+            }
+          ]
+        },
+        {
+          "observationNumber": 34,
+          "values": [
+            {
+              "valueDouble": 22080,
+              "valueFormatted": "22,080"
+            },
+            {
+              "valueDouble": 16430,
+              "valueFormatted": "16,430"
+            }
+          ]
+        },
+        {
+          "observationNumber": 35,
+          "values": [
+            {
+              "valueDouble": 22110,
+              "valueFormatted": "22,110"
+            },
+            {
+              "valueDouble": 17260,
+              "valueFormatted": "17,260"
+            }
+          ]
+        },
+        {
+          "observationNumber": 36,
+          "values": [
+            {
+              "valueDouble": 18540,
+              "valueFormatted": "18,540"
+            },
+            {
+              "valueDouble": 15080,
+              "valueFormatted": "15,080"
+            }
+          ]
+        }
+      ]
+    },
+    "auditTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": "0",
+      "regressionEstimate": 0,
+      "regressionEstimateFormatted": "0",
+      "residualTotal": 0,
+      "residualTotalFormatted": "0",
+      "totalExcessUnderstatement": 0,
+      "totalExcessOverstatement": 0,
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "endingBalanceTestModel": {
+      "recordedCollections": 0,
+      "recordedCollectionsFormatted": "0",
+      "estimatedCollections": 0,
+      "estimatedCollectionsFormatted": "0",
+      "residualComponentTotal": 0,
+      "residualComponentTotalFormatted": "0",
+      "recordedBalance": 0,
+      "recordedBalanceFormatted": "0",
+      "estimatedBalance": 0,
+      "estimatedBalanceFormatted": "0",
+      "residualBalance": 0,
+      "residualBalanceFormatted": "0",
+      "thresholdUnderstatement": 0,
+      "thresholdUnderstatementFormatted": "0",
+      "thresholdOverstatement": 0,
+      "thresholdOverstatementFormatted": "0",
+      "excessUnderstatement": 0,
+      "excessUnderstatementFormatted": "None",
+      "excessOverstatement": 0,
+      "excessOverstatementFormatted": "None",
+      "hasExcesses": false,
+      "excessTitle": "No excesses have been identified by the analytical procedure.",
+      "understatementHeading": null,
+      "overstatementHeading": null,
+      "excessMessage": null,
+      "auditMessage": " "
+    },
+    "regressionTestModel": {
+      "observations": [],
+      "recordedAmountTotal": 0,
+      "recordedAmountTotalFormatted": null,
+      "regressionEstimateTotal": 0,
+      "regressionEstimateTotalFormatted": null,
+      "residualTotal": 0,
+      "residualTotalFormatted": "0.0",
+      "precision": 0,
+      "precisionFormatted": "0.0",
+      "hasExcesses": false,
+      "totalExcesses": 0,
+      "totalExcessesFormatted": "0"
+    }
+  },
+  "workpaperDataId": "cf20ec7e-caf8-4715-8249-73f5ae4f2451",
+  "results": null,
+  "fileName": "No Significant Pred2.xlsx",
+  "userId": "3addd359-63fc-4329-bd70-b824a18c4701",
+  "alias": null,
+  "engagementId": "MAT-E152675-16"
+}

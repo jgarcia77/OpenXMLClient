@@ -71,6 +71,8 @@
     <Compile Include="Charts\SchemaColorOptions.cs" />
     <Compile Include="Charts\ValueAxisBuilder.cs" />
     <Compile Include="Charts\ValueAxisOptions.cs" />
+    <Compile Include="Common\Anchor.cs" />
+    <Compile Include="Excel\WorksheetBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

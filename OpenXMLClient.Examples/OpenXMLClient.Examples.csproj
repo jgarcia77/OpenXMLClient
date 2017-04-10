@@ -57,27 +57,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Includes\Json\AbnormalityResponse.json" />
-    <None Include="Includes\Json\AutoCorrelationResponse.json" />
-    <None Include="Includes\Json\CrossSectionalResponse.json" />
-    <None Include="Includes\Json\Discontinuity B P Response.json" />
-    <None Include="Includes\Json\Discontinuity B Response.json" />
-    <None Include="Includes\Json\EmptyArray.json" />
-    <None Include="Includes\Json\EmptyCalculationArray.json" />
-    <None Include="Includes\Json\EmptyObject.json" />
-    <None Include="Includes\Json\EndingBalanceResponse.json" />
-    <None Include="Includes\Json\ExcessesResponse.json" />
-    <None Include="Includes\Json\ExportAllResponse.json" />
-    <None Include="Includes\Json\HeteroscedasticityResponse.json" />
-    <None Include="Includes\Json\No Significant Pred1Response.json" />
-    <None Include="Includes\Json\No Significant Pred2Response.json" />
-    <None Include="Includes\Json\NoExcessesNoneResponse.json" />
-    <None Include="Includes\Json\NoExcessesRegressionResponse.json" />
-    <None Include="Includes\Json\NoExcessesResponse.json" />
-    <None Include="Includes\Json\NoSolutionFoundToRegressionFunctionResponse.json" />
-    <None Include="Includes\Json\ParadoxicalResponse.json" />
-    <None Include="Includes\Json\PartialEmptyCalculationArray.json" />
-    <None Include="Includes\Json\Perfect CorrelationResponse.json" />
+    <None Include="Includes\Json\AbnormalityResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\AutoCorrelationResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\CrossSectionalResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\Discontinuity B P Response.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\Discontinuity B Response.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\EmptyArray.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\EmptyCalculationArray.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\EmptyObject.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\EndingBalanceResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\ExcessesResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\ExportAllResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\HeteroscedasticityResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\No Significant Pred1Response.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\No Significant Pred2Response.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\NoExcessesNoneResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\NoExcessesRegressionResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\NoExcessesResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\NoSolutionFoundToRegressionFunctionResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\ParadoxicalResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\PartialEmptyCalculationArray.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Includes\Json\Perfect CorrelationResponse.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
